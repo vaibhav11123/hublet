@@ -346,7 +346,7 @@ export const AdminDashboard = ({
                                                 <td style={{ fontWeight: 500 }}>{b.name}{b.metadata?.coordinates?.lat && <div style={{ marginTop: 4 }}><a href={`https://www.openstreetmap.org/?mlat=${b.metadata.coordinates.lat}&mlon=${b.metadata.coordinates.lon}#map=16/${b.metadata.coordinates.lat}/${b.metadata.coordinates.lon}`} target="_blank" rel="noopener noreferrer" className="m3-text-primary md-body-small">Map</a></div>}</td>
                                                 <td className="md-body-small">{b.email}</td>
                                                 <td>{b.phone || 'N/A'}</td>
-                                                <td style={{ maxWidth: 200 }}>{Array.isArray(b.localities) ? b.localities.join(', ') : (b.localities || 'N/A')}</td>
+                                                <td style={{ maxWidth: 200 }}>{Array.isArray(b.metadata?.localities) ? b.metadata.localities.join(', ') : 'N/A'}</td>
                                                 <td>{b.bhk ? `${b.bhk} BHK` : 'N/A'}</td>
                                                 <td style={{ fontWeight: 600 }} className="m3-text-success">{b.budgetMin || b.budgetMax ? `${fmtPrice(b.budgetMin || 0)} – ${fmtPrice(b.budgetMax || 0)}` : 'N/A'}</td>
                                                 <td>{b.areaMin || b.areaMax ? `${b.areaMin || '?'} – ${b.areaMax || '?'} sqft` : 'N/A'}</td>
