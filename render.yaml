@@ -5,8 +5,8 @@ services:
     rootDir: src/backend
     buildCommand: |
       npm install
-      npx prisma generate
-      npx prisma migrate deploy
+      npm run build
+      npx prisma db push
       python3 -m venv .venv
       .venv/bin/pip install --upgrade pip
       .venv/bin/pip install -r scraper/requirements.txt
@@ -14,9 +14,11 @@ services:
     envVars:
       - key: NODE_ENV
         value: production
-      - key: DATABASE_URL
-        value: file:./dev.db
       - key: PYTHON_PATH
         value: python3
-      # Set these manually in the Render dashboard (secret values):
-      # APIFY_TOKEN, ZENROWS_API_KEY, MONGODB_URI, MONGODB_DB_NAME, CORS_ORIGIN, API_BASE_URL
+      # Set these manually in the Render dashboard (secret values) — see
+      # src/backend/.env.example for the full reference:
+      # DATABASE_URL (mongodb+srv://... — the schema's provider is "mongodb", NOT sqlite/file:),
+      # MONGODB_URI, MONGODB_DB_NAME, JWT_SECRET, ADMIN_EMAIL, ADMIN_PASSWORD, SUPER_PASSWORD,
+      # BASE_URL, CORS_ORIGIN, APIFY_TOKEN, APIFY_TOKEN_FB, ZENROWS_API_KEY, GROQ_API_KEY,
+      # EXA_API_KEY, API_BASE_URL
