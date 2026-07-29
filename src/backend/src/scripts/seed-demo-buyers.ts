@@ -195,6 +195,176 @@ const DEMO_BUYERS: DemoBuyerDef[] = [
         name: 'Shalini Iyer', email: 'shalini.chn@demo.com', phone: '9100000040', bhk: 2, budgetMin: 5000000, budgetMax: 8000000, areaMin: 800, areaMax: 1200, amenities: ['parking', 'gym'], city: 'Chennai',
         localityCoords: [{ name: 'Porur', lat: 13.0358, lon: 80.1577 }]
     },
+
+    // ═══════════════════ KOLKATA (8) ═══════════════════
+    {
+        name: 'Sourav Banerjee', email: 'sourav.kol@demo.com', phone: '9100000041', bhk: 2, budgetMin: 5000000, budgetMax: 8000000, areaMin: 900, areaMax: 1300, amenities: ['parking', 'gym'], city: 'Kolkata',
+        localityCoords: [{ name: 'Salt Lake Sector V', lat: 22.5745, lon: 88.4335 }]
+    },
+    {
+        name: 'Riya Chatterjee', email: 'riya.kol@demo.com', phone: '9100000042', bhk: 3, budgetMin: 8000000, budgetMax: 12000000, areaMin: 1300, areaMax: 1800, amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'], city: 'Kolkata',
+        localityCoords: [{ name: 'New Town', lat: 22.5809, lon: 88.4831 }]
+    },
+    {
+        name: 'Abhishek Das', email: 'abhishek.kol@demo.com', phone: '9100000043', bhk: 2, budgetMin: 6000000, budgetMax: 9000000, areaMin: 850, areaMax: 1200, amenities: ['lift', 'security'], city: 'Kolkata',
+        localityText: 'Ballygunge, Kolkata'
+    },
+    {
+        name: 'Sudipa Mukherjee', email: 'sudipa.kol@demo.com', phone: '9100000044', bhk: 3, budgetMin: 10000000, budgetMax: 14000000, areaMin: 1350, areaMax: 1900, amenities: ['parking', 'gym', 'security'], city: 'Kolkata',
+        localityText: 'Park Street, Kolkata'
+    },
+    {
+        name: 'Arindam Sen', email: 'arindam.kol@demo.com', phone: '9100000045', bhk: 2, budgetMin: 4000000, budgetMax: 6000000, areaMin: 900, areaMax: 1250, amenities: ['parking', 'lift', 'power backup'], city: 'Kolkata',
+        localityCoords: [{ name: 'Rajarhat', lat: 22.6160, lon: 88.4796 }]
+    },
+    {
+        name: 'Piyali Roy', email: 'piyali.kol@demo.com', phone: '9100000046', bhk: 2, budgetMin: 5000000, budgetMax: 7500000, areaMin: 950, areaMax: 1300, amenities: ['parking', 'gym', 'power backup'], city: 'Kolkata',
+        localityCoords: [{ name: 'Salt Lake Sector V', lat: 22.5745, lon: 88.4335 }]
+    },
+    {
+        name: 'Debjit Chakraborty', email: 'debjit.kol@demo.com', phone: '9100000047', bhk: 3, budgetMin: 8000000, budgetMax: 11000000, areaMin: 1300, areaMax: 1800, amenities: ['parking', 'gym', 'swimming pool'], city: 'Kolkata',
+        localityCoords: [{ name: 'New Town', lat: 22.5809, lon: 88.4831 }]
+    },
+    {
+        name: 'Moumita Ghosh', email: 'moumita.kol@demo.com', phone: '9100000048', bhk: 2, budgetMin: 4500000, budgetMax: 7000000, areaMin: 850, areaMax: 1200, amenities: ['lift', 'security', 'power backup'], city: 'Kolkata',
+        localityCoords: [{ name: 'Ballygunge', lat: 22.5301, lon: 88.3646 }]
+    },
+
+    // ═══════════════════ AHMEDABAD (8) ═══════════════════
+    {
+        name: 'Nikunj Shah', email: 'nikunj.amd@demo.com', phone: '9100000049', bhk: 3, budgetMin: 8000000, budgetMax: 11000000, areaMin: 1400, areaMax: 1900, amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'Satellite', lat: 23.0225, lon: 72.5150 }]
+    },
+    {
+        name: 'Foram Trivedi', email: 'foram.amd@demo.com', phone: '9100000050', bhk: 2, budgetMin: 5000000, budgetMax: 7500000, areaMin: 950, areaMax: 1350, amenities: ['parking', 'gym'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'SG Highway', lat: 23.0396, lon: 72.5066 }]
+    },
+    {
+        name: 'Jignesh Patel', email: 'jignesh.amd@demo.com', phone: '9100000051', bhk: 2, budgetMin: 5500000, budgetMax: 8000000, areaMin: 900, areaMax: 1300, amenities: ['parking', 'lift', 'security'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'Vastrapur', lat: 23.0367, lon: 72.5297 }]
+    },
+    {
+        name: 'Payal Desai', email: 'payal.amd@demo.com', phone: '9100000052', bhk: 3, budgetMin: 7000000, budgetMax: 10000000, areaMin: 1400, areaMax: 1900, amenities: ['parking', 'gym', 'garden'], city: 'Ahmedabad',
+        localityText: 'Bopal, Ahmedabad'
+    },
+    {
+        name: 'Mitul Joshi', email: 'mitul.amd@demo.com', phone: '9100000053', bhk: 2, budgetMin: 6000000, budgetMax: 9000000, areaMin: 950, areaMax: 1350, amenities: ['parking', 'gym', 'swimming pool'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'Prahlad Nagar', lat: 23.0126, lon: 72.5075 }]
+    },
+    {
+        name: 'Hardik Mehta', email: 'hardik.amd@demo.com', phone: '9100000054', bhk: 3, budgetMin: 8500000, budgetMax: 12000000, areaMin: 1450, areaMax: 2000, amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'Satellite', lat: 23.0225, lon: 72.5150 }]
+    },
+    {
+        name: 'Bhavna Shah', email: 'bhavna.amd@demo.com', phone: '9100000055', bhk: 2, budgetMin: 4500000, budgetMax: 7000000, areaMin: 900, areaMax: 1250, amenities: ['parking', 'lift'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'SG Highway', lat: 23.0396, lon: 72.5066 }]
+    },
+    {
+        name: 'Ketan Solanki', email: 'ketan.amd@demo.com', phone: '9100000056', bhk: 2, budgetMin: 5000000, budgetMax: 7500000, areaMin: 950, areaMax: 1300, amenities: ['parking', 'gym', 'swimming pool'], city: 'Ahmedabad',
+        localityCoords: [{ name: 'Prahlad Nagar', lat: 23.0126, lon: 72.5075 }]
+    },
+
+    // ═══════════════════ JAIPUR (8) ═══════════════════
+    {
+        name: 'Rohit Agarwal', email: 'rohit.jai@demo.com', phone: '9100000057', bhk: 2, budgetMin: 4000000, budgetMax: 6000000, areaMin: 900, areaMax: 1250, amenities: ['parking', 'gym', 'power backup'], city: 'Jaipur',
+        localityCoords: [{ name: 'Vaishali Nagar', lat: 26.9123, lon: 75.7373 }]
+    },
+    {
+        name: 'Neha Gupta', email: 'neha.jai@demo.com', phone: '9100000058', bhk: 3, budgetMin: 6500000, budgetMax: 9500000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'], city: 'Jaipur',
+        localityCoords: [{ name: 'Jagatpura', lat: 26.8206, lon: 75.8280 }]
+    },
+    {
+        name: 'Manish Sharma', email: 'manish.jai@demo.com', phone: '9100000059', bhk: 2, budgetMin: 4500000, budgetMax: 6500000, areaMin: 850, areaMax: 1200, amenities: ['parking', 'lift', 'security'], city: 'Jaipur',
+        localityCoords: [{ name: 'Malviya Nagar', lat: 26.8535, lon: 75.8072 }]
+    },
+    {
+        name: 'Sunita Rathore', email: 'sunita.jai@demo.com', phone: '9100000060', bhk: 3, budgetMin: 9000000, budgetMax: 13000000, areaMin: 1500, areaMax: 2000, amenities: ['parking', 'gym', 'security'], city: 'Jaipur',
+        localityText: 'C-Scheme, Jaipur'
+    },
+    {
+        name: 'Vikas Choudhary', email: 'vikas.jai@demo.com', phone: '9100000061', bhk: 2, budgetMin: 3500000, budgetMax: 5000000, areaMin: 750, areaMax: 1050, amenities: ['lift', 'power backup', 'security'], city: 'Jaipur',
+        localityCoords: [{ name: 'Mansarovar', lat: 26.8505, lon: 75.7590 }]
+    },
+    {
+        name: 'Pooja Sharma JAI', email: 'pooja.jai@demo.com', phone: '9100000062', bhk: 2, budgetMin: 4000000, budgetMax: 6000000, areaMin: 900, areaMax: 1250, amenities: ['parking', 'gym', 'power backup'], city: 'Jaipur',
+        localityCoords: [{ name: 'Vaishali Nagar', lat: 26.9123, lon: 75.7373 }]
+    },
+    {
+        name: 'Anil Jain', email: 'anil.jai@demo.com', phone: '9100000063', bhk: 3, budgetMin: 7000000, budgetMax: 10000000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'clubhouse'], city: 'Jaipur',
+        localityCoords: [{ name: 'Jagatpura', lat: 26.8206, lon: 75.8280 }]
+    },
+    {
+        name: 'Kavita Meena', email: 'kavita.jai@demo.com', phone: '9100000064', bhk: 2, budgetMin: 4000000, budgetMax: 6000000, areaMin: 800, areaMax: 1100, amenities: ['lift', 'power backup'], city: 'Jaipur',
+        localityCoords: [{ name: 'Mansarovar', lat: 26.8505, lon: 75.7590 }]
+    },
+
+    // ═══════════════════ KOCHI (8) ═══════════════════
+    {
+        name: 'Anoop Nair', email: 'anoop.koc@demo.com', phone: '9100000065', bhk: 2, budgetMin: 5000000, budgetMax: 7500000, areaMin: 950, areaMax: 1300, amenities: ['parking', 'gym', 'power backup'], city: 'Kochi',
+        localityCoords: [{ name: 'Kakkanad', lat: 10.0159, lon: 76.3419 }]
+    },
+    {
+        name: 'Sreelakshmi Menon', email: 'sreelakshmi.koc@demo.com', phone: '9100000066', bhk: 3, budgetMin: 8000000, budgetMax: 11000000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'], city: 'Kochi',
+        localityCoords: [{ name: 'Edappally', lat: 10.0258, lon: 76.3086 }]
+    },
+    {
+        name: 'Jose Thomas', email: 'jose.koc@demo.com', phone: '9100000067', bhk: 3, budgetMin: 10000000, budgetMax: 14000000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'security', 'garden'], city: 'Kochi',
+        localityCoords: [{ name: 'Panampilly Nagar', lat: 9.9658, lon: 76.2894 }]
+    },
+    {
+        name: 'Anjali Pillai', email: 'anjali.koc@demo.com', phone: '9100000068', bhk: 2, budgetMin: 7000000, budgetMax: 9500000, areaMin: 900, areaMax: 1250, amenities: ['parking', 'security', 'lift'], city: 'Kochi',
+        localityText: 'Marine Drive, Kochi'
+    },
+    {
+        name: 'Bibin Varghese', email: 'bibin.koc@demo.com', phone: '9100000069', bhk: 2, budgetMin: 3500000, budgetMax: 5500000, areaMin: 800, areaMax: 1100, amenities: ['lift', 'power backup'], city: 'Kochi',
+        localityCoords: [{ name: 'Vyttila', lat: 9.9668, lon: 76.3186 }]
+    },
+    {
+        name: 'Divya Krishnan KOC', email: 'divyak.koc@demo.com', phone: '9100000070', bhk: 2, budgetMin: 5000000, budgetMax: 7500000, areaMin: 950, areaMax: 1300, amenities: ['parking', 'gym', 'power backup'], city: 'Kochi',
+        localityCoords: [{ name: 'Kakkanad', lat: 10.0159, lon: 76.3419 }]
+    },
+    {
+        name: 'Renjith Kumar', email: 'renjith.koc@demo.com', phone: '9100000071', bhk: 3, budgetMin: 8000000, budgetMax: 11000000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'swimming pool'], city: 'Kochi',
+        localityCoords: [{ name: 'Edappally', lat: 10.0258, lon: 76.3086 }]
+    },
+    {
+        name: 'Athira Suresh', email: 'athira.koc@demo.com', phone: '9100000072', bhk: 2, budgetMin: 4000000, budgetMax: 6000000, areaMin: 800, areaMax: 1100, amenities: ['lift', 'power backup'], city: 'Kochi',
+        localityCoords: [{ name: 'Vyttila', lat: 9.9668, lon: 76.3186 }]
+    },
+
+    // ═══════════════════ LUCKNOW (8) ═══════════════════
+    {
+        name: 'Abhinav Srivastava', email: 'abhinav.lko@demo.com', phone: '9100000073', bhk: 3, budgetMin: 7000000, budgetMax: 10000000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'], city: 'Lucknow',
+        localityCoords: [{ name: 'Gomti Nagar', lat: 26.8467, lon: 80.9986 }]
+    },
+    {
+        name: 'Shreya Tiwari', email: 'shreya.lko@demo.com', phone: '9100000074', bhk: 2, budgetMin: 4500000, budgetMax: 6500000, areaMin: 900, areaMax: 1300, amenities: ['parking', 'gym'], city: 'Lucknow',
+        localityCoords: [{ name: 'Vibhuti Khand', lat: 26.8598, lon: 80.9982 }]
+    },
+    {
+        name: 'Rahul Mishra', email: 'rahul.lko@demo.com', phone: '9100000075', bhk: 2, budgetMin: 3500000, budgetMax: 5500000, areaMin: 850, areaMax: 1200, amenities: ['parking', 'lift', 'security'], city: 'Lucknow',
+        localityCoords: [{ name: 'Indira Nagar', lat: 26.8770, lon: 80.9740 }]
+    },
+    {
+        name: 'Anjali Verma LKO', email: 'anjali.lko@demo.com', phone: '9100000076', bhk: 3, budgetMin: 8000000, budgetMax: 11000000, areaMin: 1300, areaMax: 1800, amenities: ['parking', 'security', 'power backup'], city: 'Lucknow',
+        localityText: 'Hazratganj, Lucknow'
+    },
+    {
+        name: 'Sanjay Pandey', email: 'sanjay.lko@demo.com', phone: '9100000077', bhk: 2, budgetMin: 3000000, budgetMax: 4500000, areaMin: 750, areaMax: 1000, amenities: ['lift', 'power backup'], city: 'Lucknow',
+        localityCoords: [{ name: 'Alambagh', lat: 26.8028, lon: 80.9077 }]
+    },
+    {
+        name: 'Priyanka Dubey', email: 'priyanka.lko@demo.com', phone: '9100000078', bhk: 3, budgetMin: 7000000, budgetMax: 10000000, areaMin: 1350, areaMax: 1850, amenities: ['parking', 'gym', 'swimming pool'], city: 'Lucknow',
+        localityCoords: [{ name: 'Gomti Nagar', lat: 26.8467, lon: 80.9986 }]
+    },
+    {
+        name: 'Ashish Tripathi', email: 'ashish.lko@demo.com', phone: '9100000079', bhk: 2, budgetMin: 4000000, budgetMax: 6000000, areaMin: 900, areaMax: 1300, amenities: ['parking', 'gym'], city: 'Lucknow',
+        localityCoords: [{ name: 'Vibhuti Khand', lat: 26.8598, lon: 80.9982 }]
+    },
+    {
+        name: 'Neelam Singh', email: 'neelam.lko@demo.com', phone: '9100000080', bhk: 2, budgetMin: 3000000, budgetMax: 4500000, areaMin: 750, areaMax: 1000, amenities: ['lift', 'power backup'], city: 'Lucknow',
+        localityCoords: [{ name: 'Alambagh', lat: 26.8028, lon: 80.9077 }]
+    },
 ];
 
 export async function seedDemoBuyers(prisma: PrismaClient): Promise<{

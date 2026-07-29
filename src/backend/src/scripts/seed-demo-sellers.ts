@@ -222,6 +222,196 @@ const DEMO_SELLERS: DemoSellerDef[] = [
             },
         ],
     },
+
+    // ═══════════════════ KOLKATA (3 sellers, 5 properties) ═══════════════════
+    {
+        name: 'Merlin Group KOL', email: 'merlin.kol@demo.com', phone: '9300000001',
+        sellerType: 'builder', city: 'Kolkata',
+        properties: [
+            {
+                title: 'Merlin Rise 2BHK Salt Lake', locality: 'Salt Lake Sector V, Kolkata', bhk: 2, area: 1050, price: 6200000, propertyType: 'apartment', amenities: ['parking', 'gym', 'power backup', 'lift'],
+                coordinates: { lat: 22.5745, lon: 88.4335 }
+            },
+            {
+                title: 'Merlin Greens 3BHK New Town', locality: 'New Town, Kolkata', bhk: 3, area: 1450, price: 9800000, propertyType: 'apartment', amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'],
+                coordinates: { lat: 22.5809, lon: 88.4831 }
+            },
+        ],
+    },
+    {
+        name: 'Debashish Ghosh (Owner)', email: 'debashish.kol@demo.com', phone: '9300000002',
+        sellerType: 'owner', city: 'Kolkata',
+        properties: [
+            {
+                title: 'Charming 2BHK Ballygunge', locality: 'Ballygunge, Kolkata', bhk: 2, area: 950, price: 7500000, propertyType: 'apartment', amenities: ['lift', 'security', 'power backup'],
+                coordinates: { lat: 22.5301, lon: 88.3646 }
+            },
+        ],
+    },
+    {
+        name: 'Kolkata Realty Partners', email: 'kolkatarealty.kol@demo.com', phone: '9300000003',
+        sellerType: 'agent', city: 'Kolkata',
+        properties: [
+            // TEXT-ONLY locality — will be geocoded
+            { title: 'Elegant 3BHK Park Street', locality: 'Park Street, Kolkata', bhk: 3, area: 1400, price: 12500000, propertyType: 'apartment', amenities: ['parking', 'gym', 'security'] },
+            {
+                title: 'Modern 2BHK Rajarhat', locality: 'Rajarhat, Kolkata', bhk: 2, area: 1000, price: 4800000, propertyType: 'apartment', amenities: ['parking', 'lift', 'power backup'],
+                coordinates: { lat: 22.6160, lon: 88.4796 }
+            },
+        ],
+    },
+
+    // ═══════════════════ AHMEDABAD (3 sellers, 5 properties) ═══════════════════
+    {
+        name: 'Adani Realty AMD', email: 'adani.amd@demo.com', phone: '9300000004',
+        sellerType: 'builder', city: 'Ahmedabad',
+        properties: [
+            {
+                title: 'Adani Shantigram 3BHK Satellite', locality: 'Satellite, Ahmedabad', bhk: 3, area: 1550, price: 9200000, propertyType: 'apartment', amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'],
+                coordinates: { lat: 23.0225, lon: 72.5150 }
+            },
+            {
+                title: 'Adani Elysium 2BHK SG Highway', locality: 'SG Highway, Ahmedabad', bhk: 2, area: 1100, price: 5800000, propertyType: 'apartment', amenities: ['parking', 'gym', 'lift'],
+                coordinates: { lat: 23.0396, lon: 72.5066 }
+            },
+        ],
+    },
+    {
+        name: 'Kiran Patel (Owner)', email: 'kiran.amd@demo.com', phone: '9300000005',
+        sellerType: 'owner', city: 'Ahmedabad',
+        properties: [
+            {
+                title: 'Spacious 2BHK Vastrapur', locality: 'Vastrapur, Ahmedabad', bhk: 2, area: 1000, price: 6500000, propertyType: 'apartment', amenities: ['parking', 'lift', 'security'],
+                coordinates: { lat: 23.0367, lon: 72.5297 }
+            },
+        ],
+    },
+    {
+        name: 'Ahmedabad Property Hub', email: 'aphub.amd@demo.com', phone: '9300000006',
+        sellerType: 'agent', city: 'Ahmedabad',
+        properties: [
+            // TEXT-ONLY
+            { title: 'Premium 3BHK Bopal', locality: 'Bopal, Ahmedabad', bhk: 3, area: 1600, price: 8200000, propertyType: 'apartment', amenities: ['parking', 'gym', 'garden'] },
+            {
+                title: 'Modern 2BHK Prahlad Nagar', locality: 'Prahlad Nagar, Ahmedabad', bhk: 2, area: 1050, price: 6900000, propertyType: 'apartment', amenities: ['parking', 'gym', 'swimming pool'],
+                coordinates: { lat: 23.0126, lon: 72.5075 }
+            },
+        ],
+    },
+
+    // ═══════════════════ JAIPUR (3 sellers, 5 properties) ═══════════════════
+    {
+        name: 'Mahima Group JAI', email: 'mahima.jai@demo.com', phone: '9300000007',
+        sellerType: 'builder', city: 'Jaipur',
+        properties: [
+            {
+                title: 'Mahima Heights 2BHK Vaishali Nagar', locality: 'Vaishali Nagar, Jaipur', bhk: 2, area: 1000, price: 4500000, propertyType: 'apartment', amenities: ['parking', 'gym', 'power backup'],
+                coordinates: { lat: 26.9123, lon: 75.7373 }
+            },
+            {
+                title: 'Mahima Panorama 3BHK Jagatpura', locality: 'Jagatpura, Jaipur', bhk: 3, area: 1500, price: 7200000, propertyType: 'apartment', amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'],
+                coordinates: { lat: 26.8206, lon: 75.8280 }
+            },
+        ],
+    },
+    {
+        name: 'Rajesh Sharma (Owner)', email: 'rajesh.jai@demo.com', phone: '9300000008',
+        sellerType: 'owner', city: 'Jaipur',
+        properties: [
+            {
+                title: 'Cozy 2BHK Malviya Nagar', locality: 'Malviya Nagar, Jaipur', bhk: 2, area: 950, price: 5200000, propertyType: 'apartment', amenities: ['parking', 'lift', 'security'],
+                coordinates: { lat: 26.8535, lon: 75.8072 }
+            },
+        ],
+    },
+    {
+        name: 'Pink City Realtors', email: 'pinkcity.jai@demo.com', phone: '9300000009',
+        sellerType: 'agent', city: 'Jaipur',
+        properties: [
+            // TEXT-ONLY
+            { title: 'Heritage 3BHK C-Scheme', locality: 'C-Scheme, Jaipur', bhk: 3, area: 1650, price: 10500000, propertyType: 'apartment', amenities: ['parking', 'gym', 'security'] },
+            {
+                title: 'Affordable 2BHK Mansarovar', locality: 'Mansarovar, Jaipur', bhk: 2, area: 900, price: 3800000, propertyType: 'apartment', amenities: ['lift', 'power backup', 'security'],
+                coordinates: { lat: 26.8505, lon: 75.7590 }
+            },
+        ],
+    },
+
+    // ═══════════════════ KOCHI (3 sellers, 5 properties) ═══════════════════
+    {
+        name: 'Confident Group KOC', email: 'confident.koc@demo.com', phone: '9300000010',
+        sellerType: 'builder', city: 'Kochi',
+        properties: [
+            {
+                title: 'Confident Sunshine 2BHK Kakkanad', locality: 'Kakkanad, Kochi', bhk: 2, area: 1050, price: 5500000, propertyType: 'apartment', amenities: ['parking', 'gym', 'power backup'],
+                coordinates: { lat: 10.0159, lon: 76.3419 }
+            },
+            {
+                title: 'Confident Gardenia 3BHK Edappally', locality: 'Edappally, Kochi', bhk: 3, area: 1500, price: 9000000, propertyType: 'apartment', amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'],
+                coordinates: { lat: 10.0258, lon: 76.3086 }
+            },
+        ],
+    },
+    {
+        name: 'Thomas Varghese (Owner)', email: 'thomas.koc@demo.com', phone: '9300000011',
+        sellerType: 'owner', city: 'Kochi',
+        properties: [
+            {
+                title: 'Elegant 3BHK Panampilly Nagar', locality: 'Panampilly Nagar, Kochi', bhk: 3, area: 1450, price: 12000000, propertyType: 'apartment', amenities: ['parking', 'gym', 'security', 'garden'],
+                coordinates: { lat: 9.9658, lon: 76.2894 }
+            },
+        ],
+    },
+    {
+        name: 'Kochi Estates', email: 'kochiestates.koc@demo.com', phone: '9300000012',
+        sellerType: 'agent', city: 'Kochi',
+        properties: [
+            // TEXT-ONLY
+            { title: 'Waterfront 2BHK Marine Drive', locality: 'Marine Drive, Kochi', bhk: 2, area: 1000, price: 8500000, propertyType: 'apartment', amenities: ['parking', 'security', 'lift'] },
+            {
+                title: 'Compact 2BHK Vyttila', locality: 'Vyttila, Kochi', bhk: 2, area: 900, price: 4200000, propertyType: 'apartment', amenities: ['lift', 'power backup'],
+                coordinates: { lat: 9.9668, lon: 76.3186 }
+            },
+        ],
+    },
+
+    // ═══════════════════ LUCKNOW (3 sellers, 5 properties) ═══════════════════
+    {
+        name: 'Omaxe Lucknow', email: 'omaxe.lko@demo.com', phone: '9300000013',
+        sellerType: 'builder', city: 'Lucknow',
+        properties: [
+            {
+                title: 'Omaxe Forest 3BHK Gomti Nagar', locality: 'Gomti Nagar, Lucknow', bhk: 3, area: 1500, price: 7800000, propertyType: 'apartment', amenities: ['parking', 'gym', 'swimming pool', 'clubhouse'],
+                coordinates: { lat: 26.8467, lon: 80.9986 }
+            },
+            {
+                title: 'Omaxe Silver 2BHK Vibhuti Khand', locality: 'Vibhuti Khand, Lucknow', bhk: 2, area: 1050, price: 4800000, propertyType: 'apartment', amenities: ['parking', 'gym', 'lift'],
+                coordinates: { lat: 26.8598, lon: 80.9982 }
+            },
+        ],
+    },
+    {
+        name: 'Anil Verma (Owner)', email: 'anil.lko@demo.com', phone: '9300000014',
+        sellerType: 'owner', city: 'Lucknow',
+        properties: [
+            {
+                title: 'Comfortable 2BHK Indira Nagar', locality: 'Indira Nagar, Lucknow', bhk: 2, area: 950, price: 4200000, propertyType: 'apartment', amenities: ['parking', 'lift', 'security'],
+                coordinates: { lat: 26.8770, lon: 80.9740 }
+            },
+        ],
+    },
+    {
+        name: 'Lucknow Homes', email: 'lucknowhomes.lko@demo.com', phone: '9300000015',
+        sellerType: 'agent', city: 'Lucknow',
+        properties: [
+            // TEXT-ONLY
+            { title: 'Heritage 3BHK Hazratganj', locality: 'Hazratganj, Lucknow', bhk: 3, area: 1400, price: 8800000, propertyType: 'apartment', amenities: ['parking', 'security', 'power backup'] },
+            {
+                title: 'Budget 2BHK Alambagh', locality: 'Alambagh, Lucknow', bhk: 2, area: 850, price: 3200000, propertyType: 'apartment', amenities: ['lift', 'power backup'],
+                coordinates: { lat: 26.8028, lon: 80.9077 }
+            },
+        ],
+    },
 ];
 
 export async function seedDemoSellers(prisma: PrismaClient): Promise<{
