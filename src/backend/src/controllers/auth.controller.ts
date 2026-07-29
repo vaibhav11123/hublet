@@ -95,6 +95,16 @@ export class AuthController {
             const parsedIntent = rawPreferences ? intentParser.parse(rawPreferences) : null;
             const passwordHash = await bcrypt.hash(password, SALT_ROUNDS);
 
+            // Preserve locality signal (explicit or free-text-derived) into metadata —
+            // this is what feeds ensureGeocodedMetadata's geocoding and the admin/analytics reads.
+            const localitiesList: string[] = Array.isArray(localities)
+                ? localities
+                : (localities ? [localities] : (parsedIntent?.localities || []));
+            const baseMetadata = metadata || {};
+            const mergedMetadata = localitiesList.length > 0
+                ? { ...baseMetadata, localities: localitiesList, localityText: baseMetadata.localityText || localitiesList[0] }
+                : baseMetadata;
+
             const createdBuyer = await BuyerService.createBuyer({
                 name,
                 email,
@@ -109,7 +119,7 @@ export class AuthController {
                     ? toStringArray(amenities)
                     : parsedIntent?.amenities || [],
                 rawPreferences,
-                metadata: Object.keys(metadata || {}).length > 0 ? metadata : undefined,
+                metadata: Object.keys(mergedMetadata).length > 0 ? mergedMetadata : undefined,
             });
 
             // Log credential for audit

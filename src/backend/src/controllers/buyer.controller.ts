@@ -33,6 +33,15 @@ export class BuyerController {
                 parsedIntent = intentParser.parse(rawPreferences);
             }
 
+            // Preserve locality signal (explicit or free-text-derived) into metadata —
+            // this is what feeds ensureGeocodedMetadata's geocoding and the admin/analytics reads.
+            const localitiesList: string[] = Array.isArray(localities)
+                ? localities
+                : (localities ? [localities] : (parsedIntent?.localities || []));
+            const mergedMetadata = localitiesList.length > 0
+                ? { ...(metadata || {}), localities: localitiesList, localityText: (metadata && metadata.localityText) || localitiesList[0] }
+                : metadata;
+
             const buyer = await BuyerService.createBuyer({
                 name,
                 email,
@@ -44,7 +53,7 @@ export class BuyerController {
                 budgetMax: budgetMax ?? maxBudget ?? parsedIntent?.budgetMax,
                 amenities: amenities || parsedIntent?.amenities || [],
                 rawPreferences,
-                metadata,
+                metadata: mergedMetadata,
             });
 
             res.status(201).json(buyer);
