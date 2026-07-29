@@ -11,6 +11,7 @@ import prisma from '../db/prisma';
 import { seedDemoBuyers } from '../scripts/seed-demo-buyers';
 import { seedDemoSellers } from '../scripts/seed-demo-sellers';
 import { seedDemoLeads } from '../scripts/seed-demo-leads';
+import { backfillBuyerLocalities } from '../scripts/backfill-buyer-localities';
 import { resetSellerTrust } from '../scripts/reset-seller-trust';
 import { resetDatabase } from '../scripts/reset-database';
 import { getCredentials, logCredential, logCredentials, clearCredentials, removeCredentialByEmail } from '../utils/credential-logger';
@@ -153,6 +154,22 @@ router.post('/demo-leads', requireRoles('admin'), async (req: Request, res: Resp
         });
     } catch (error: any) {
         console.error('[seed/demo-leads] Error:', error);
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+// ── Backfill Buyer Localities ───────────────────────────────────────────────
+router.post('/backfill-buyer-localities', requireRoles('admin'), async (req: Request, res: Response) => {
+    try {
+        const result = await backfillBuyerLocalities(prisma);
+        res.json({
+            success: true,
+            message: `Backfilled localities for ${result.updated} buyers (${result.skipped} already had it or no coords)`,
+            updated: result.updated,
+            skipped: result.skipped,
+        });
+    } catch (error: any) {
+        console.error('[seed/backfill-buyer-localities] Error:', error);
         res.status(500).json({ success: false, error: error.message });
     }
 });

@@ -408,6 +408,13 @@ export async function seedDemoBuyers(prisma: PrismaClient): Promise<{
             }
         }
 
+        // Populate the display-facing `localities` array too — matching.service.ts only
+        // needs localityCoords, but the admin buyer table and analytics.service.ts read
+        // metadata.localities, so both must be set for full consistency.
+        if (metadata.localityCoords && metadata.localityCoords.length > 0) {
+            metadata.localities = metadata.localityCoords.map((c: { name: string }) => c.name);
+        }
+
         await prisma.buyer.create({
             data: {
                 name: def.name, email: def.email, phone: def.phone, passwordHash,
