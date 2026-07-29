@@ -1,0 +1,200 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\title{\textbf{Project Plan Document}\\
+\vspace{0.3cm}
+Hublet – ALPS\\
+\vspace{0.2cm}
+\large Architecting a Scalable Market Intelligence System}
+\date{11 February 2026}
+
+\begin{document}
+
+\maketitle
+
+\section*{Project Details}
+
+\textbf{Project Number:} 46 \\[4pt]
+\textbf{Client:} Vaibhav Singh, IIT Delhi \\[4pt]
+\textbf{Mentor Email:} vaibhavsinghiitd28@gmail.com \\[6pt]
+
+\textbf{Team Members:}
+\begin{itemize}[noitemsep]
+    \item Rachit Mehta – Backend System Developer
+    \item Arijeet Paul – Backend \& Database Architecture
+    \item Rakshit Agarwal – Data Engineering \& Database Management
+    \item Jenik Gajera – Frontend \& QA Engineer
+    \item Abhinav PV – DevOps Engineer
+\end{itemize}
+
+\section*{Problem Statement}
+
+The Hublet project focuses on designing and implementing a scalable backend architecture for a real-estate market intelligence and lead-matching system.
+
+Unlike traditional listing platforms, Hublet operates as a structured “black-box” matching engine that:
+
+\begin{itemize}
+    \item Ingests heterogeneous property data from web portals and APIs
+    \item Parses unstructured buyer enquiries into structured intents
+    \item Applies deterministic rule-based scoring for property matching
+    \item Maintains a lead lifecycle state machine
+\end{itemize}
+
+The system emphasizes backend architecture, workflow orchestration, database design, and reliability. AI/ML-based valuation models are considered optional stretch components.
+
+\section*{Technology Stack}
+
+\subsection*{Backend}
+\begin{itemize}
+    \item Node.js with Express.js
+    \item Prisma ORM
+    \item SQLite (Development) → Supabase (Production)
+    \item JWT Authentication
+\end{itemize}
+
+\subsection*{Frontend}
+\begin{itemize}
+    \item React 18+ with TypeScript
+    \item Vite
+    \item Axios
+\end{itemize}
+
+\subsection*{DevOps \& Tools}
+\begin{itemize}
+    \item Git \& GitHub
+    \item GitHub Actions
+    \item Docker \& Docker Compose
+    \item Postman / Thunder Client
+    \item Prisma Studio
+\end{itemize}
+
+\section*{Development Methodology}
+
+The team follows a weekly milestone-driven development model with:
+
+\begin{itemize}
+    \item WhatsApp for daily coordination
+    \item Google Meet for weekly review meetings
+    \item GitHub for version control and CI/CD
+    \item Markdown-based technical documentation
+\end{itemize}
+
+\newpage
+\newpage
+\section*{Milestone Schedule}
+
+\renewcommand{\arraystretch}{1.4}
+
+\subsection*{Release 1 (R1): Core Backend System}
+
+\begin{center}
+\begin{tabular}{|c|p{8cm}|c|c|}
+\hline
+\textbf{\#} & \textbf{Milestone} & \textbf{Date} & \textbf{Status} \\
+\hline
+1 & Team formation, client kickoff, and requirement gathering & 25/01/26 & Completed \\
+\hline
+2 & System architecture design and technology stack finalization & 29/01/26 & Completed \\
+\hline
+3 & Development environment setup and repository initialization & 30/01/26 & Completed \\
+\hline
+4 & Database schema design and Prisma configuration & 01/02/26 & Completed \\
+\hline
+5 & CRUD API implementation (Buyer, Seller, Property) & 02/02/26 & Completed \\
+\hline
+6 & Keyword-based intent parsing module implementation & 04/02/26 & Completed \\
+\hline
+7 & Web scraping pipeline setup and cron scheduler integration & 10/02/26 & Completed \\
+\hline
+8 & Admin, Buyer, and Seller dashboard (basic views) & 08/02/26 & Completed \\
+\hline
+9 & Rule-based weighted matching engine implementation & 12/02/26 & In Progress \\
+\hline
+10 & Lead lifecycle state machine implementation & 12/02/26 & In Progress \\
+\hline
+11 & JWT authentication and protected route middleware & 13/02/26 & Pending \\
+\hline
+12 & \textbf{R1 Deliverable: Requirements Document Submission} & 14/02/26 & Completed \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{1cm}
+
+\subsection*{Release 2 (R2): Scalability, Security \& Deployment}
+
+\begin{center}
+\begin{tabular}{|c|p{8cm}|c|c|}
+\hline
+\textbf{\#} & \textbf{Milestone} & \textbf{Date} & \textbf{Status} \\
+\hline
+13 & Input validation (Zod) and scraped data normalization & 20/02/26 & Pending \\
+\hline
+14 & Role-Based Access Control and security middleware integration & 22/02/26 & Pending \\
+\hline
+15 & API documentation using Swagger / OpenAPI & 23/02/26 & Pending \\
+\hline
+16 & Unit and integration testing (60\%+ coverage) & 25/02/26 & Pending \\
+\hline
+17 & Docker setup and containerized local environment & 27/02/26 & Pending \\
+\hline
+18 & Asynchronous job queue integration (BullMQ) & 03/03/26 & Pending \\
+\hline
+19 & Email notification system and workflow alerts & 05/03/26 & Pending \\
+\hline
+20 & Advanced filtering, deduplication, and analytics dashboard & 08/03/26 & Pending \\
+\hline
+21 & Monitoring, logging, and performance optimization & 12/03/26 & Pending \\
+\hline
+22 & CI/CD setup and production deployment configuration & 18/03/26 & Pending \\
+\hline
+23 & Final QA, security audit, and system integration testing & 22/03/26 & Pending \\
+\hline
+24 & \textbf{R2 Deliverable: Final Demo and Deployment Documentation} & 25/03/26 & Pending \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\section*{Stretch Goals (Post R2)}
+
+\begin{itemize}
+    \item ML-based property valuation (Scikit-learn)
+    \item Collaborative filtering for matching
+    \item A/B testing: ML vs Rule-based engine
+    \item Deploy ML microservice (Flask/FastAPI)
+\end{itemize}
+
+\section*{Risk Assessment}
+
+\begin{itemize}
+    \item Web scraping reliability issues
+    \item Data inconsistency across portals
+    \item Authentication security vulnerabilities
+    \item Performance degradation with scale
+\end{itemize}
+
+Mitigation strategies include input validation, indexing, logging, CI/CD testing, and modular service separation.
+
+\section*{Conclusion}
+
+This project plan outlines the structured development of Hublet as a scalable backend system for real estate intelligence and deterministic lead matching. The focus remains on backend engineering, workflow orchestration, and system reliability, with AI-based components treated as optional extensions.
+
+\vfill
+\begin{center}
+\textbf{Submitted on: 12 February 2026}
+\end{center}
+
+\end{document}

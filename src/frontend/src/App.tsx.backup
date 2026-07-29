@@ -1,0 +1,178 @@
+import { useState } from 'react';
+import './App.css';
+import { AdminDashboard } from './components/AdminDashboard';
+import { BuyerDashboard } from './components/BuyerDashboard';
+import { SellerDashboard } from './components/SellerDashboard';
+import { AuthPage } from './components/AuthPage';
+
+type UserRole = 'admin' | 'buyer' | 'seller' | 'guest' | null;
+
+function App() {
+  const [userRole, setUserRole] = useState<UserRole>(null);
+  const [userId, setUserId] = useState<string>('');
+  const [userName, setUserName] = useState<string>('');
+  const [selectedAuthType, setSelectedAuthType] = useState<'buyer' | 'seller' | null>(null);
+
+  // Handle authentication success
+  const handleAuthSuccess = (id: string, name: string) => {
+    setUserId(id);
+    setUserName(name);
+    if (selectedAuthType === 'buyer') {
+      setUserRole('buyer');
+    } else if (selectedAuthType === 'seller') {
+      setUserRole('seller');
+    }
+  };
+
+  // Mock admin login handler
+  const handleAdminLogin = () => {
+    setUserRole('admin');
+    setUserId('admin-1');
+    setUserName('Admin User');
+  };
+
+  // Logout handler
+  const handleLogout = () => {
+    setUserRole(null);
+    setUserId('');
+    setUserName('');
+    setSelectedAuthType(null);
+  };
+
+  // Show auth page if user selected buyer or seller
+  if (selectedAuthType && !userRole) {
+    return <AuthPage userType={selectedAuthType} onAuthSuccess={handleAuthSuccess} onBack={() => setSelectedAuthType(null)} />;
+  }
+
+  // Login Screen
+  if (userRole === null || userRole === 'guest') {
+    return (
+      <div style={{
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      }}>
+        <div style={{
+          background: 'white',
+          padding: '40px',
+          borderRadius: '12px',
+          boxShadow: '0 10px 40px rgba(0,0,0,0.2)',
+          maxWidth: '400px',
+          width: '100%',
+        }}>
+          <h1 style={{ textAlign: 'center', marginBottom: '10px' }}>🏠 Hublet</h1>
+          <p style={{ textAlign: 'center', color: '#666', marginBottom: '30px' }}>
+            Real Estate Lead Matching Platform
+          </p>
+
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+            <button
+              onClick={handleAdminLogin}
+              style={{
+                padding: '16px 24px',
+                background: '#4CAF50',
+                color: 'white',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                cursor: 'pointer',
+              }}
+            >
+              🔐 Login as Admin
+            </button>
+
+            <button
+              onClick={() => setSelectedAuthType('buyer')}
+              style={{
+                padding: '16px 24px',
+                background: '#2196F3',
+                color: 'white',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                cursor: 'pointer',
+              }}
+            >
+              🏠 Login as Buyer
+            </button>
+
+            <button
+              onClick={() => setSelectedAuthType('seller')}
+              style={{
+                padding: '16px 24px',
+                background: '#ff9800',
+                color: 'white',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                cursor: 'pointer',
+              }}
+            >
+              🏢 Login as Seller
+            </button>
+          </div>
+
+          <div style={{
+            marginTop: '30px',
+            padding: '15px',
+            background: '#f5f5f5',
+            borderRadius: '8px',
+            fontSize: '13px',
+          }}>
+            <strong>Demo Mode:</strong> Click any role to explore the platform features.
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Dashboard Views with Role-Based Access
+  return (
+    <div style={{ minHeight: '100vh', background: '#f5f5f5' }}>
+      {/* Header */}
+      <div style={{
+        background: 'white',
+        padding: '15px 30px',
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      }}>
+        <div>
+          <h2 style={{ margin: 0 }}>🏠 Hublet</h2>
+          <p style={{ margin: '5px 0 0 0', fontSize: '14px', color: '#666' }}>
+            {userRole === 'admin' && 'Admin Dashboard'}
+            {userRole === 'buyer' && `Buyer Portal - ${userName}`}
+            {userRole === 'seller' && `Seller Portal - ${userName}`}
+          </p>
+        </div>
+        <button
+          onClick={handleLogout}
+          style={{
+            padding: '10px 20px',
+            background: '#f44336',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer',
+            fontWeight: 'bold',
+          }}
+        >
+          Logout
+        </button>
+      </div>
+
+      {/* Content based on role */}
+      {userRole === 'admin' && <AdminDashboard />}
+      {userRole === 'buyer' && <BuyerDashboard buyerId={userId} buyerName={userName} />}
+      {userRole === 'seller' && <SellerDashboard sellerId={userId} sellerName={userName} />}
+    </div>
+  );
+}
+
+export default App;

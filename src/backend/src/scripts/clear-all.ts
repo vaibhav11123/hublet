@@ -1,0 +1,1 @@
+import prisma from '../db/prisma'; async function main() { await prisma.workflowEvent.deleteMany({}); await prisma.lead.deleteMany({}); await prisma.match.deleteMany({}); await prisma.property.deleteMany({}); await prisma.notification.deleteMany({}); const d = await prisma.seller.deleteMany({}); console.log('Wiped:', d); } main().finally(() => prisma.$disconnect());

@@ -1,0 +1,1 @@
+import prisma from './src/db/prisma'; async function run() { try { const s = await prisma.seller.findFirst(); if (s) { console.log(s.id); await prisma.property.deleteMany({where: {sellerId: s.id}}); await prisma.seller.delete({where: {id: s.id}}); console.log('success'); } } catch (e) { console.error(e); } finally { await prisma.\(); } } run();

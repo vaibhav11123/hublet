@@ -1,0 +1,120 @@
+====================================================================================================
+  SCRAPER COMPARISON REPORT
+  Generated: 2026-04-16 20:33:32
+  City: mumbai  |  Limit: 1
+====================================================================================================
+
+┌─────────────────────────┬──────────┬───────────┬────────────────────────────────┐
+│ Scraper                 │ Listings │ Time (s)  │ Status                         │
+├─────────────────────────┼──────────┼───────────┼────────────────────────────────┤
+│ magicbricks-direct      │        1 │      1.0s │ ✓ OK                           │
+│ magicbricks-apify       │        0 │      1.4s │ 403 Client Error: Forbidden fo... │
+│ 99acres-direct          │        0 │      0.5s │ 99acres blocked the request (H... │
+│ 99acres-apify           │        1 │     27.8s │ ✓ OK                           │
+│ 99acres-zenrows         │        0 │      6.9s │ OK (0 results)                 │
+└─────────────────────────┴──────────┴───────────┴────────────────────────────────┘
+
+
+====================================================================================================
+  FIELD COVERAGE MATRIX
+  ✓ = has data  |  ✗ = missing/empty/default  |  - = scraper failed
+====================================================================================================
+
+  Field            │ MB-Dir  │ MB-Api  │ 99a-Dir │ 99a-Api │ 99a-Zen
+  ────────────────────────┼─────────┼─────────┼─────────┼──────────
+  title            │    ✓    │    -    │    -    │    ✓    │    -   
+  price            │    ✓    │    -    │    -    │    ✓    │    -   
+  area             │    ✓    │    -    │    -    │    ✓    │    -   
+  locality         │    ✓    │    -    │    -    │    ✓    │    -   
+  city             │    ✓    │    -    │    -    │    ✓    │    -   
+  description      │    ✓    │    -    │    -    │    ✓    │    -   
+  sourceUrl        │    ✓    │    -    │    -    │    ✓    │    -   
+  externalId       │    ✓    │    -    │    -    │    ✓    │    -   
+  source           │    ✓    │    -    │    -    │    ✓    │    -   
+  bhk              │    ✗    │    -    │    -    │    ✓    │    -   
+  amenities        │    ✓    │    -    │    -    │    ✓    │    -   
+  propertyType     │    ✓    │    -    │    -    │    ✓    │    -   
+  sellerName       │    ✗    │    -    │    -    │    ✓    │    -   
+  sellerType       │    ✓    │    -    │    -    │    ✓    │    -   
+  ownerName        │    ✗    │    -    │    -    │    ✗    │    -   
+  companyName      │    ✗    │    -    │    -    │    ✓    │    -   
+  imageUrl         │    ✗    │    -    │    -    │    ✓    │    -   
+  landmark         │    ✗    │    -    │    -    │    ✗    │    -   
+  postedDate       │    ✗    │    -    │    -    │    ✓    │    -   
+
+
+====================================================================================================
+  SCRAPER: magicbricks-direct
+  Duration: 1.0s  |  Results: 1
+====================================================================================================
+
+  ── Listing 1 ────────────────────────────────────────────────
+
+    title            : Office Space for Sale in Swaroop Aditya Avenue, Andheri East Mumbai
+    price            : ₹1.11 Cr
+    area             : 309
+    locality         : Swaroop Aditya Avenue, Andheri East Mumbai
+    city             : mumbai
+    description      : Commercial Office Space for Sale in Andheri East, Mumbai. Covered area is 309  S...
+    sourceUrl        : https://www.magicbricks.com/swaroop-aditya-avenue-andheri-east-mumbai-pdpid-4d42...
+    externalId       : https://www.magicbricks.com/swaroop-aditya-avenue-andheri-east-mumbai-pdpid-4d42...
+    source           : MagicBricks
+    bhk              : (empty)  ◄ N/A
+    amenities        : Air Conditioning
+    propertyType     : commercial
+    sellerName       : Unknown  ◄ N/A
+    sellerType       : Agent
+    ownerName        : (empty)  ◄ N/A
+    companyName      : (empty)  ◄ N/A
+    imageUrl         : (empty)  ◄ N/A
+    landmark         : (empty)  ◄ N/A
+    postedDate       : (empty)  ◄ N/A
+
+====================================================================================================
+  SCRAPER: magicbricks-apify
+  Duration: 1.4s  |  Results: 0
+====================================================================================================
+  ❌ ERROR: 403 Client Error: Forbidden for url: https://api.apify.com/v2/acts/ecomscrape~magicbricks-property-search-scraper/runs
+
+====================================================================================================
+  SCRAPER: 99acres-direct
+  Duration: 0.5s  |  Results: 0
+====================================================================================================
+  ❌ ERROR: 99acres blocked the request (HTTP 403/429). Use Apify or ZenRows mode for this environment.
+
+====================================================================================================
+  SCRAPER: 99acres-apify
+  Duration: 27.8s  |  Results: 1
+====================================================================================================
+
+  ── Listing 1 ────────────────────────────────────────────────
+
+    title            : 4 BHK Flat in Viman Nagar, Pune
+    price            : ₹2.61 Cr
+    area             : 1611
+    locality         : Viman Nagar, Pune
+    city             : Pune East
+    description      : The project offers 4 BHK apartments in Viman Nagar, Pune East. These apartments ...
+    sourceUrl        : https://www.99acres.com//4-bhk-bedroom-apartment-flat-for-sale-in-shubh-nirvana-...
+    externalId       : 86173450
+    source           : 99acres-Apify
+    bhk              : 4
+    amenities        : 13, 2, 4, 36
+    propertyType     : Residential Apartment
+    sellerName       : VIMAN NAGAR SHUBH VENTURES LLP
+    sellerType       : Builder
+    ownerName        : (empty)  ◄ N/A
+    companyName      : VIMAN NAGAR SHUBH VENTURES LLP
+    imageUrl         : https://imagecdn.99acres.com/media1/33260/8/665208121T-1766763821073.jpg
+    landmark         : (empty)  ◄ N/A
+    postedDate       : 29th Oct, 2025
+
+====================================================================================================
+  SCRAPER: 99acres-zenrows
+  Duration: 6.9s  |  Results: 0
+====================================================================================================
+  ⚠ No listings returned (page may have changed or blocked request).
+
+====================================================================================================
+  End of report. File: /home/rachitmehta/workspace/coursework/sem4/DASS/dass-proj-test/project-monorepo-team-46/src/backend/scraper/scraper_test_results.txt
+====================================================================================================

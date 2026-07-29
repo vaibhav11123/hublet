@@ -1,0 +1,201 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Buyer {
+  id        String   @id @default(uuid()) @map("_id")
+  name      String
+  email     String   @unique
+  phone     String?
+  passwordHash String?
+  
+  // Structured intent (stored as JSON strings for SQLite)
+  areaMin        Int?     // in sq ft
+  areaMax        Int?     // in sq ft
+  bhk            Int?     // number of bedrooms
+  budgetMin      Float?
+  budgetMax      Float?
+  amenities      String   // JSON array of required amenities
+  
+  // Raw unstructured input
+  rawPreferences String?
+  
+  // JSON for flexible attributes
+  metadata       String?  // JSON string
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  leads         Lead[]
+  matches       Match[]
+  notifications Notification[]
+  
+  @@index([bhk])
+}
+
+model Seller {
+  id             String   @id @default(uuid()) @map("_id")
+  name           String
+  email          String   @unique
+  phone          String?
+  passwordHash   String?
+  sellerType     String   @default("owner") // owner, broker, agent
+  
+  // Reputation
+  rating         Float    @default(0)
+  ratingCount    Int      @default(0)
+  completedDeals Int      @default(0)
+  trustScore     Float    @default(0)
+  
+  // JSON for flexible attributes
+  metadata       String?  // JSON string
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  properties    Property[]
+  notifications Notification[]
+  
+  @@index([rating])
+  @@index([trustScore])
+}
+
+model Property {
+  id          String   @id @default(uuid()) @map("_id")
+  sellerId    String
+  seller      Seller?  @relation(fields: [sellerId], references: [id], onDelete: Cascade)
+  
+  // Core attributes
+  title       String
+  description String?
+  locality    String
+  address     String?
+  area        Int      // in sq ft
+  bhk         Int      // number of bedrooms
+  price       Float
+  amenities   String   // JSON array of amenities
+  
+  // Property type
+  propertyType String  @default("apartment") // apartment, house, villa, plot
+  
+  // Contact info
+  contact     String?  // contact phone/name for the listing
+  
+  // Status
+  isActive    Boolean  @default(true)
+  
+  // JSON for flexible attributes
+  metadata    String?  // JSON string
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  leads     Lead[]
+  matches   Match[]
+  
+  @@index([locality])
+  @@index([bhk])
+  @@index([price])
+  @@index([isActive])
+  @@index([sellerId])
+}
+
+model Lead {
+  id         String    @id @default(uuid()) @map("_id")
+  buyerId    String
+  buyer      Buyer?    @relation(fields: [buyerId], references: [id], onDelete: Cascade)
+  propertyId String
+  property   Property? @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  
+  // State machine (string instead of enum for SQLite)
+  // Valid values: NEW, ENRICHED, QUALIFIED, NOTIFIED, CONTACTED, CLOSED
+  state      String    @default("NEW")
+  
+  // Scoring
+  matchScore Float?
+  
+  // JSON for flexible attributes
+  metadata   String?  // JSON string
+  
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  
+  events     WorkflowEvent[]
+  
+  @@index([state])
+  @@index([buyerId])
+  @@index([propertyId])
+  @@index([matchScore])
+}
+
+model Match {
+  id         String   @id @default(uuid()) @map("_id")
+  buyerId    String
+  buyer      Buyer?   @relation(fields: [buyerId], references: [id], onDelete: Cascade)
+  propertyId String
+  property   Property? @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  
+  // Match score breakdown
+  matchScore      Float
+  locationScore   Float?
+  budgetScore     Float?
+  sizeScore       Float?
+  amenitiesScore  Float?
+  
+  // JSON for flexible attributes
+  metadata   String?  // JSON string
+  
+  createdAt  DateTime @default(now())
+  
+  @@unique([buyerId, propertyId])
+  @@index([buyerId])
+  @@index([propertyId])
+  @@index([matchScore])
+}
+
+model WorkflowEvent {
+  id          String    @id @default(uuid()) @map("_id")
+  leadId      String?
+  lead        Lead?     @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  
+  // Valid values: LEAD_CREATED, STATE_TRANSITION, MATCH_GENERATED, ERROR, INVALID_TRANSITION
+  eventType   String
+  fromState   String?
+  toState     String?
+  
+  description String?
+  metadata    String?  // JSON string
+  
+  createdAt   DateTime  @default(now())
+  
+  @@index([leadId])
+  @@index([eventType])
+  @@index([createdAt])
+}
+
+model Notification {
+  id        String   @id @default(uuid()) @map("_id")
+  buyerId   String?
+  buyer     Buyer?   @relation(fields: [buyerId], references: [id], onDelete: Cascade)
+  sellerId  String?
+  seller    Seller?  @relation(fields: [sellerId], references: [id], onDelete: Cascade)
+  
+  title     String
+  message   String
+  isRead    Boolean  @default(false)
+  
+  createdAt DateTime @default(now())
+  
+  @@index([buyerId])
+  @@index([sellerId])
+  @@index([isRead])
+}
+

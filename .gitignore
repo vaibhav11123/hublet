@@ -1,0 +1,52 @@
+# --- Excel / Office Temp Files ---
+~$*.doc*
+~$*.xls*
+*.tmp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Local documentation output ---
+context/
+
+# --- Node / Dependencies ---
+node_modules/
+dist/
+dist-tsc/
+build/
+.npm/
+
+# --- Logs / Debug ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+error.log
+
+# --- Environment & Credentials ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+credentials-log.json
+
+# --- Database ---
+*.db
+*.sqlite
+*.sqlite3
+prisma/dev.db
+prisma/dev.db-journal
+
+# --- Local generation files ---
+users_list.md
+src/backend/26.0.1
+src/backend/.venv/
+
