@@ -10,6 +10,7 @@ import { requireRoles } from '../middleware/auth.middleware';
 import prisma from '../db/prisma';
 import { seedDemoBuyers } from '../scripts/seed-demo-buyers';
 import { seedDemoSellers } from '../scripts/seed-demo-sellers';
+import { seedDemoLeads } from '../scripts/seed-demo-leads';
 import { resetSellerTrust } from '../scripts/reset-seller-trust';
 import { resetDatabase } from '../scripts/reset-database';
 import { getCredentials, logCredential, logCredentials, clearCredentials, removeCredentialByEmail } from '../utils/credential-logger';
@@ -139,6 +140,23 @@ router.post('/delete-all-sellers', requireRoles('admin'), async (req: Request, r
     }
 });
 
+// ── Seed Demo Leads ─────────────────────────────────────────────────────────
+router.post('/demo-leads', requireRoles('admin'), async (req: Request, res: Response) => {
+    try {
+        const result = await seedDemoLeads(prisma);
+        res.json({
+            success: true,
+            message: `Created ${result.created} demo leads (${result.skipped} already existed)`,
+            created: result.created,
+            skipped: result.skipped,
+            distribution: result.distribution,
+        });
+    } catch (error: any) {
+        console.error('[seed/demo-leads] Error:', error);
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
 // ── Reset Seller Trust ──────────────────────────────────────────────────────
 router.post('/reset-seller-trust', requireRoles('admin'), async (req: Request, res: Response) => {
     try {
@@ -208,15 +226,17 @@ router.post('/seed-all', requireRoles('admin'), async (req: Request, res: Respon
             }))
         );
 
+        // Matches must exist before leads can be derived from them.
+        await refreshAllMatches();
+        const leadResult = await seedDemoLeads(prisma);
+
         res.json({
             success: true,
-            message: `Seeded ${buyerResult.created} buyers + ${sellerResult.created} sellers`,
+            message: `Seeded ${buyerResult.created} buyers + ${sellerResult.created} sellers + ${leadResult.created} leads`,
             buyers: { created: buyerResult.created, skipped: buyerResult.skipped },
             sellers: { created: sellerResult.created, skipped: sellerResult.skipped },
+            leads: { created: leadResult.created, skipped: leadResult.skipped, distribution: leadResult.distribution },
         });
-
-        // Fire-and-forget: refresh matches now that all data is seeded
-        refreshAllMatches().catch(e => console.error('[seed/seed-all] Match refresh error:', e.message));
     } catch (error: any) {
         console.error('[seed/seed-all] Error:', error);
         res.status(500).json({ success: false, error: error.message });
