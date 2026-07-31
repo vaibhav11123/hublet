@@ -61,10 +61,10 @@ function AuthPageWrapper() {
 
     const handleAuthSuccess = (userId: string, _userName: string) => {
         if (userType === 'admin') {
-            navigate('/admin');
+            navigate('/admin', { replace: true });
             return;
         }
-        navigate(`/${userType}/${userId}`);
+        navigate(`/${userType}/${userId}`, { replace: true });
     };
 
     return (
@@ -86,7 +86,7 @@ function AdminDashboardWrapper() {
 
     const handleLogout = () => {
         clearAuthSession();
-        navigate('/');
+        navigate('/', { replace: true });
     };
 
     return (
@@ -123,7 +123,7 @@ function BuyerDashboardWrapper() {
 
     const handleLogout = () => {
         clearAuthSession();
-        navigate('/');
+        navigate('/', { replace: true });
     };
 
     return (
@@ -162,7 +162,7 @@ function SellerDashboardWrapper() {
 
     const handleLogout = () => {
         clearAuthSession();
-        navigate('/');
+        navigate('/', { replace: true });
     };
 
     return (
