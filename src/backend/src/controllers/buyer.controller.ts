@@ -104,7 +104,7 @@ export class BuyerController {
     static async updateBuyer(req: Request, res: Response) {
         try {
             const { id } = req.params;
-            const { rawPreferences } = req.body;
+            const { rawPreferences, localities } = req.body;
 
             let updateData = { ...req.body } as Record<string, any>;
             if (updateData.minBudget !== undefined && updateData.budgetMin === undefined) {
@@ -117,8 +117,9 @@ export class BuyerController {
             delete updateData.maxBudget;
 
             // If raw preferences are updated, re-parse them
+            let parsedIntent;
             if (rawPreferences) {
-                const parsedIntent = intentParser.parse(rawPreferences);
+                parsedIntent = intentParser.parse(rawPreferences);
 
                 // Replace all parsed fields from the new intent (always overwrite)
                 // This ensures that parameters NOT mentioned in the current query (like BHK or amenities)
@@ -135,6 +136,21 @@ export class BuyerController {
 
                 // Clean up undefineds to avoid overwriting existing data with nulls if we don't want to
                 // But here we want to update.
+            }
+
+            // Preserve locality signal (explicit or free-text-derived) into metadata,
+            // mirroring createBuyer's merge — otherwise this update path silently drops
+            // it, metadata.localityCoords never gets (re)geocoded, and the matcher's
+            // hard location-score gate zeroes out every match for this buyer.
+            const localitiesList: string[] = Array.isArray(localities)
+                ? localities
+                : (localities ? [localities] : (parsedIntent?.localities || []));
+            if (localitiesList.length > 0) {
+                updateData.metadata = {
+                    ...(updateData.metadata || {}),
+                    localities: localitiesList,
+                    localityText: (updateData.metadata && updateData.metadata.localityText) || localitiesList[0],
+                };
             }
 
             const buyer = await BuyerService.updateBuyer(id, updateData);
