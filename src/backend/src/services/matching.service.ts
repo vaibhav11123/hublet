@@ -132,11 +132,14 @@ export class MatchingService {
             .slice(0, limit);
 
         let newMatchesCount = 0;
-        
-        // Store matches in database
+
+        // Store matches in database. Uses an atomic upsert (rather than a
+        // findUnique-then-create/update sequence) because concurrent calls for
+        // the same buyer/property pair would otherwise both see "no existing
+        // match" and race to create(), tripping the buyerId_propertyId unique
+        // constraint.
         const storedMatches = await Promise.all(
             matches.map(async match => {
-                // Check if match already exists
                 const existing = await prisma.match.findUnique({
                     where: {
                         buyerId_propertyId: {
@@ -145,40 +148,23 @@ export class MatchingService {
                         },
                     },
                 });
+                if (!existing) newMatchesCount++;
 
-                if (existing) {
-                    // Update existing match
-                    const updated = await prisma.match.update({
-                        where: { id: existing.id },
-                        data: {
-                            matchScore: match.matchResult.totalScore,
-                            locationScore: match.matchResult.locationScore,
-                            budgetScore: match.matchResult.budgetScore,
-                            sizeScore: match.matchResult.sizeScore,
-                            amenitiesScore: match.matchResult.amenitiesScore,
+                const upserted = await prisma.match.upsert({
+                    where: {
+                        buyerId_propertyId: {
+                            buyerId,
+                            propertyId: match.property.id,
                         },
-                        include: {
-                            property: {
-                                include: { seller: true },
-                            },
-                        },
-                    });
-
-                    return {
-                        ...updated,
-                        property: updated.property ? {
-                            ...updated.property,
-                            amenities: updated.property.amenities && updated.property.amenities !== 'null' ? safeParseJson(updated.property.amenities) : [],
-                            metadata: updated.property.metadata ? safeParseJson(updated.property.metadata) : null,
-                        } : null,
-                        metadata: updated.metadata && updated.metadata !== 'null' ? safeParseJson(updated.metadata) : null,
-                    };
-                }
-
-                // Create new match
-                newMatchesCount++;
-                const created = await prisma.match.create({
-                    data: {
+                    },
+                    update: {
+                        matchScore: match.matchResult.totalScore,
+                        locationScore: match.matchResult.locationScore,
+                        budgetScore: match.matchResult.budgetScore,
+                        sizeScore: match.matchResult.sizeScore,
+                        amenitiesScore: match.matchResult.amenitiesScore,
+                    },
+                    create: {
                         buyerId,
                         propertyId: match.property.id,
                         matchScore: match.matchResult.totalScore,
@@ -195,13 +181,13 @@ export class MatchingService {
                 });
 
                 return {
-                    ...created,
-                    property: created.property ? {
-                        ...created.property,
-                        amenities: created.property.amenities && created.property.amenities !== 'null' ? safeParseJson(created.property.amenities) : [],
-                        metadata: created.property.metadata ? safeParseJson(created.property.metadata) : null,
+                    ...upserted,
+                    property: upserted.property ? {
+                        ...upserted.property,
+                        amenities: upserted.property.amenities && upserted.property.amenities !== 'null' ? safeParseJson(upserted.property.amenities) : [],
+                        metadata: upserted.property.metadata ? safeParseJson(upserted.property.metadata) : null,
                     } : null,
-                    metadata: created.metadata && created.metadata !== 'null' ? safeParseJson(created.metadata) : null,
+                    metadata: upserted.metadata && upserted.metadata !== 'null' ? safeParseJson(upserted.metadata) : null,
                 };
             })
         );
@@ -312,10 +298,11 @@ export class MatchingService {
 
         let newMatchesCount = 0;
 
-        // Store matches in database
+        // Store matches in database. Atomic upsert for the same reason as
+        // findMatchesForBuyer above — avoids the buyerId_propertyId unique
+        // constraint race under concurrent calls.
         const storedMatches = await Promise.all(
             matches.map(async match => {
-                // Check if match already exists
                 const existing = await prisma.match.findUnique({
                     where: {
                         buyerId_propertyId: {
@@ -324,15 +311,23 @@ export class MatchingService {
                         },
                     },
                 });
+                if (!existing) newMatchesCount++;
 
-                if (existing) {
-                    return existing;
-                }
-
-                newMatchesCount++;
-                // Create new match
-                return await prisma.match.create({
-                    data: {
+                return await prisma.match.upsert({
+                    where: {
+                        buyerId_propertyId: {
+                            buyerId: match.buyer.id,
+                            propertyId,
+                        },
+                    },
+                    update: {
+                        matchScore: match.matchResult.totalScore,
+                        locationScore: match.matchResult.locationScore,
+                        budgetScore: match.matchResult.budgetScore,
+                        sizeScore: match.matchResult.sizeScore,
+                        amenitiesScore: match.matchResult.amenitiesScore,
+                    },
+                    create: {
                         buyerId: match.buyer.id,
                         propertyId,
                         matchScore: match.matchResult.totalScore,
