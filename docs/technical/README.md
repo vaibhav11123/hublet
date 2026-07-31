@@ -24,4 +24,4 @@ The exact matching-score formulas and weights are documented separately in [`doc
 Each file above is self-contained and cross-links to the others where relevant — start with whichever topic you need, not necessarily top-to-bottom. Every file ends with a "last verified against commit" line; if the current `git log` has moved well past that commit, treat the file as a starting point to re-verify rather than an absolute source of truth.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

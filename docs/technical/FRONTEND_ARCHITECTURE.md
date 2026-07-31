@@ -22,7 +22,7 @@ Within `AdminDashboard`, the many sub-views (Buyers/Sellers/Properties/Leads/Mat
 | `SellerDashboard.tsx` | seller | Listing management + matched-buyer viewing |
 | `PropertyForm.tsx` | seller/admin | Create/edit a property, embeds `LocationPicker`, auto-fetches nearby places |
 | `AdminDashboard.tsx` | admin | The largest component (~750 lines) — sidebar SPA covering data management, scraper tools, and both map tabs |
-| `LocationPicker.tsx` | shared | Reusable Leaflet map picker (single or multi-marker), geocodes through the backend |
+| `LocationPicker.tsx` | shared | Reusable Leaflet map picker (single or multi-marker), geocodes through the backend, shows a visible error banner on search/reverse-geocode failure |
 | `MapSearchBar.tsx` | shared | Debounced location search box, queries public Nominatim directly, pans a passed-in map instance |
 | `NotificationBell.tsx` | buyer/seller | Polls notifications every 30s |
 | `AdminAnalyticsPage.tsx` | admin | Admin analytics dashboards (KPIs, charts, drilldowns) |
@@ -58,4 +58,4 @@ A genuine, single-sourced Material Design 3 implementation in `src/m3-design-sys
 One inconsistency worth knowing: the two analytics pages use a **separate** stylesheet, `src/components/analytics/analytics.css`, with its own `analytics-*`-prefixed classes not integrated into the `m3-` system.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

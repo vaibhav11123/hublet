@@ -55,4 +55,4 @@ flowchart TD
 Properties don't only come from sellers filling out a form — the scraper pipeline (`src/backend/scraper/`) pulls real listings from external sites and feeds them into step 3 above via `ScrapingService`, which creates a placeholder `Seller` per scraped seller name and a `Property` via the same `PropertyService.createProperty` path, then immediately runs matching for that property. See [ARCHITECTURE.md](./ARCHITECTURE.md) for the scraper subsystem overview.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

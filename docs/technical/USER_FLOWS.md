@@ -85,4 +85,4 @@ sequenceDiagram
 Admin sub-view navigation (Buyers vs. Sellers vs. Properties, etc.) is local component state, not routing — see [FRONTEND_ARCHITECTURE.md](./FRONTEND_ARCHITECTURE.md) for why that means these views aren't individually linkable.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

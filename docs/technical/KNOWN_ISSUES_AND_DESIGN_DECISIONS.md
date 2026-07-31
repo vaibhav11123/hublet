@@ -30,8 +30,13 @@ A candid, verified list of deliberate tradeoffs and unresolved issues in the cur
 
 ## Deferred / open work
 
-- **99acres Apify scraper's city-to-URL mapping is unreliable.** Live testing (documented in this project's development history) showed the hardcoded numeric city IDs return data for the wrong city, or malformed near-empty listings, depending on the exact URL format. 99acres' own city-ID scheme appears to have changed multiple times and is inconsistent across sources, including the scraping actor's own bundled example. This is open, deferred work.
+- **99acres Apify scraper's city IDs for Mumbai and Chennai were fixed** (commit `9d12598`, 2026-07-31) after live testing showed they returned data for entirely the wrong city (Pune and Faridabad respectively). Bangalore's ID was left as-is since it already returns correct data. IDs for any *other* city in `CITY_URL_MAP` (Hyderabad, Pune, Delhi) have not been independently re-verified — 99acres' own city-ID scheme has changed multiple times historically, so treat any of those as worth a live spot-check before depending on them, not as guaranteed-correct just because they weren't flagged.
 - The matching algorithm (`RuleBasedMatcher`) is explicitly commented in its own source as "a placeholder that can be replaced with ML-based matching later" — a deliberate, simple first implementation rather than an oversight. See [MATCHING_AND_DATA_FLOW.md](./MATCHING_AND_DATA_FLOW.md).
+
+## Fixed this round, worth knowing the shape of (2026-07-31)
+
+- **Scraper parsers used to fabricate placeholder listings** (`ninetyninacres_apify.py`/`ninetyninacres_direct.py`, fixed in `ce81d04`) instead of skipping malformed source data — a missing title/locality degenerated into a literal `"Property in "` with `price: 0`, and a dict-shaped `description` field (99acres' Apify actor sometimes returns `{'truncationvalue': N, 'text': '...'}` instead of a plain string) got blindly stringified into Python-repr garbage. Both parsers now return `None` (skip) when no real title/price can be extracted, and `schema.py`'s string coercer treats any dict/list value as missing data rather than stringifying it - defense-in-depth against a future parser repeating the same mistake.
+- **Admin (or any role) sessions could get bounced to a different role's login page mid-use** — none of `App.tsx`'s login-success or logout `navigate()` calls used `{ replace: true }`, so every role transition pushed a new browser-history entry instead of replacing it. Once a tab had visited a role-scoped route (e.g. `/buyer/:userId`), that entry stayed reachable via the browser's Back button even after logging in as a completely different role; landing back on it tripped that route's guard, which looked like an unrelated session getting yanked to the wrong login page even though `localStorage` was untouched. Fixed (`16d1a6b`) by adding `replace: true` to the 5 relevant navigations, matching the pattern the guards themselves already used. Worth remembering if a similar "why did my session change routes" report ever recurs — check for a missing `replace` before assuming an auth/token bug.
 
 ## Design decisions worth understanding (not bugs)
 
@@ -40,4 +45,4 @@ A candid, verified list of deliberate tradeoffs and unresolved issues in the cur
 - **MongoDB modeling avoids native enums and arrays** in favor of `String` fields with documented valid values and JSON-serialized strings, respectively — a deliberate simplicity/portability tradeoff carried over from this project's earlier SQLite phase, kept after the move to MongoDB. See [DATA_MODEL.md](./DATA_MODEL.md).
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

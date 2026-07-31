@@ -72,4 +72,4 @@ Full deploy steps, `render.yaml` build command, and the complete environment var
 The matching algorithm is explicitly documented in its own source comment as "a placeholder that can be replaced with ML-based matching later" — the rule-based approach is a deliberate, simple, deterministic first implementation, not an oversight.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

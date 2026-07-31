@@ -37,6 +37,8 @@ Standard Vite project, no special build configuration needed beyond one environm
 
 The backend's `CORS_ORIGIN` env var must in turn include the deployed frontend's origin (supports exact matches, comma-separated lists, and `*.domain` glob patterns — see `src/backend/src/index.ts`'s CORS setup) or the browser will block every request with a CORS error regardless of how correct `VITE_API_BASE_URL` is.
 
+This project's Vercel project is **not Git-connected** — it's deployed by running `vercel --prod` from `src/frontend` directly, not by pushing to `main`. Pushing frontend changes to GitHub does **not** redeploy the live site; a fresh `vercel --prod` run is required. `src/frontend/vercel.json` adds a catch-all rewrite (`/(.*)` → `/index.html`) so that direct loads of client-side routes (e.g. `/auth/admin`, `/buyer/:id`) don't 404 against Vercel's static file server — without it, only the root path loads and everything else needs a client-side navigation to have already happened first.
+
 ## Environment variables (complete reference)
 
 | Variable | Required? | Purpose |
@@ -68,7 +70,7 @@ The backend's `CORS_ORIGIN` env var must in turn include the deployed frontend's
 5. Once the frontend is live, update the backend's `CORS_ORIGIN` to include the frontend's URL, and redeploy the backend (env var changes on Render require a fresh deploy to take effect — a plain restart does not reliably pick up new values).
 
 ## CI/CD
-There is no automated build/test/deploy pipeline for the application itself. Render and Vercel both deploy automatically on push to `main` via their own Git integration, reading `render.yaml`/Vercel's own project settings respectively — there's no GitHub Actions workflow driving deployment.
+There is no automated build/test/deploy pipeline for the application itself. Render auto-deploys on push to `main` via its own Git integration, reading `render.yaml`. Vercel does **not** — see the Git-connection note above; frontend deploys are a manual `vercel --prod`. `.github/workflows/` does exist, but for unrelated purposes: `snapshot-integrity.yml`/`weekly-snapshot.yml` (course-submission tooling) and `demo-keepalive.yml` (a scheduled `/health` ping every 10 minutes during a specific demo window, added to work around Render's free-tier cold-start after 15 minutes idle — self-limiting via an in-job date check, safe to delete once the demo window has passed). None of these drive an actual deploy.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

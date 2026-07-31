@@ -116,7 +116,7 @@ Relations: `properties Property[]`, `notifications Notification[]`.
 | `propertyType` | String, default `"apartment"` | valid values: `apartment`, `house`, `villa`, `plot` |
 | `contact` | String? | |
 | `isActive` | Boolean, default true | indexed; set false by "mark sold" |
-| `metadata` | String? | JSON-encoded — holds `coordinates`, `nearbyPlaces`, `marketIntel`, `marketIntelFailed`, `geocodeFailed`, `source` |
+| `metadata` | String? | JSON-encoded — holds `coordinates`, `nearbyPlaces`, `city`, `marketIntel`, `marketIntelFailed`, `geocodeFailed`, `source`, `sourceUrl` |
 
 Relations: `leads Lead[]`, `matches Match[]`.
 
@@ -157,4 +157,4 @@ This schema is written for `provider = "mongodb"` (`schema.prisma:9`), and sever
 These comments in the schema file itself ("stored as JSON strings for SQLite", "string instead of enum for SQLite") are leftover from an earlier SQLite phase of the project and are now stale relative to the actual MongoDB provider — the JSON-string pattern was kept when the project moved to Mongo, but the reasoning noted in those comments no longer applies.
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*

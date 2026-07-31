@@ -124,4 +124,4 @@ These three carry no `requireRoles`/ownership check beyond the global JWT requir
 The three Facebook-scraper routes are under `/api/admin/*` but — unlike every other admin route in this document — carry no `requireRoles('admin')` check; any authenticated user (buyer or seller) can call them. Flagged in [KNOWN_ISSUES_AND_DESIGN_DECISIONS.md](./KNOWN_ISSUES_AND_DESIGN_DECISIONS.md).
 
 ---
-*Last verified against commit `b5d6462`.*
+*Last verified against commit `ce81d04`.*
