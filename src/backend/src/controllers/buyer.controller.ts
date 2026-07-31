@@ -146,7 +146,18 @@ export class BuyerController {
                 ? localities
                 : (localities ? [localities] : (parsedIntent?.localities || []));
             if (localitiesList.length > 0) {
+                // Merge onto the buyer's EXISTING stored metadata, not just
+                // req.body.metadata (which is empty on a rawPreferences-only
+                // update) — BuyerService.updateBuyer fully overwrites the
+                // metadata column, so without this fetch, fields already on
+                // the buyer (e.g. metadata.city) would be silently wiped by
+                // every locality update. Found via live re-test: a buyer's
+                // metadata.city disappeared after a rawPreferences-only
+                // update, breaking city-based analytics for that buyer.
+                const existingBuyer = await BuyerService.getBuyerById(id);
+                const existingMetadata = existingBuyer?.metadata || {};
                 updateData.metadata = {
+                    ...existingMetadata,
                     ...(updateData.metadata || {}),
                     localities: localitiesList,
                     localityText: (updateData.metadata && updateData.metadata.localityText) || localitiesList[0],
