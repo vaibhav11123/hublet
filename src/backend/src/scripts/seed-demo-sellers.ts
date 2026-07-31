@@ -35,7 +35,7 @@ interface DemoSellerDef {
 const DEMO_SELLERS: DemoSellerDef[] = [
     // ═══════════════════ HYDERABAD (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Srinivas Builders', email: 'srinivas.hyd@demo.com', phone: '9200000001',
+        name: 'Srinivas Builders', email: 'srinivas.hyd@gmail.com', phone: '9200000001',
         sellerType: 'builder', city: 'Hyderabad',
         properties: [
             {
@@ -49,7 +49,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Rajesh Kumar (Owner)', email: 'rajesh.hyd@demo.com', phone: '9200000002',
+        name: 'Rajesh Kumar (Owner)', email: 'rajesh.hyd@gmail.com', phone: '9200000002',
         sellerType: 'owner', city: 'Hyderabad',
         properties: [
             {
@@ -59,7 +59,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Sai Realtors', email: 'sai.hyd@demo.com', phone: '9200000003',
+        name: 'Sai Realtors', email: 'sai.hyd@gmail.com', phone: '9200000003',
         sellerType: 'agent', city: 'Hyderabad',
         properties: [
             // TEXT-ONLY locality — will be geocoded
@@ -73,7 +73,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ BANGALORE (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Prestige Group BLR', email: 'prestige.blr@demo.com', phone: '9200000004',
+        name: 'Prestige Group BLR', email: 'prestige.blr@gmail.com', phone: '9200000004',
         sellerType: 'builder', city: 'Bangalore',
         properties: [
             {
@@ -87,7 +87,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Anand Murthy (Owner)', email: 'anand.blr@demo.com', phone: '9200000005',
+        name: 'Anand Murthy (Owner)', email: 'anand.blr@gmail.com', phone: '9200000005',
         sellerType: 'owner', city: 'Bangalore',
         properties: [
             {
@@ -97,7 +97,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Brigade Realty', email: 'brigade.blr@demo.com', phone: '9200000006',
+        name: 'Brigade Realty', email: 'brigade.blr@gmail.com', phone: '9200000006',
         sellerType: 'agent', city: 'Bangalore',
         properties: [
             // TEXT-ONLY
@@ -111,7 +111,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ MUMBAI (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Lodha Group MUM', email: 'lodha.mum@demo.com', phone: '9200000007',
+        name: 'Lodha Group MUM', email: 'lodha.mum@gmail.com', phone: '9200000007',
         sellerType: 'builder', city: 'Mumbai',
         properties: [
             {
@@ -125,7 +125,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Sunita Verma (Owner)', email: 'sunita.mum@demo.com', phone: '9200000008',
+        name: 'Sunita Verma (Owner)', email: 'sunita.mum@gmail.com', phone: '9200000008',
         sellerType: 'owner', city: 'Mumbai',
         properties: [
             // TEXT-ONLY
@@ -133,7 +133,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Hiranandani Agents', email: 'hiranandani.mum@demo.com', phone: '9200000009',
+        name: 'Hiranandani Agents', email: 'hiranandani.mum@gmail.com', phone: '9200000009',
         sellerType: 'agent', city: 'Mumbai',
         properties: [
             {
@@ -149,7 +149,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ PUNE (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Kolte Patil Developers', email: 'kolte.pun@demo.com', phone: '9200000010',
+        name: 'Kolte Patil Developers', email: 'kolte.pun@gmail.com', phone: '9200000010',
         sellerType: 'builder', city: 'Pune',
         properties: [
             {
@@ -163,7 +163,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Amit Shah (Owner)', email: 'amit.pun@demo.com', phone: '9200000011',
+        name: 'Amit Shah (Owner)', email: 'amit.pun@gmail.com', phone: '9200000011',
         sellerType: 'owner', city: 'Pune',
         properties: [
             {
@@ -173,7 +173,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Kumar Properties Pune', email: 'kumar.pun@demo.com', phone: '9200000012',
+        name: 'Kumar Properties Pune', email: 'kumar.pun@gmail.com', phone: '9200000012',
         sellerType: 'agent', city: 'Pune',
         properties: [
             // TEXT-ONLY
@@ -187,7 +187,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ CHENNAI (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Casagrand Group', email: 'casagrand.chn@demo.com', phone: '9200000013',
+        name: 'Casagrand Group', email: 'casagrand.chn@gmail.com', phone: '9200000013',
         sellerType: 'builder', city: 'Chennai',
         properties: [
             {
@@ -201,7 +201,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Ramesh Iyer (Owner)', email: 'ramesh.chn@demo.com', phone: '9200000014',
+        name: 'Ramesh Iyer (Owner)', email: 'ramesh.chn@gmail.com', phone: '9200000014',
         sellerType: 'owner', city: 'Chennai',
         properties: [
             {
@@ -211,7 +211,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Alliance Realtors CHN', email: 'alliance.chn@demo.com', phone: '9200000015',
+        name: 'Alliance Realtors CHN', email: 'alliance.chn@gmail.com', phone: '9200000015',
         sellerType: 'agent', city: 'Chennai',
         properties: [
             // TEXT-ONLY
@@ -225,7 +225,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ KOLKATA (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Merlin Group KOL', email: 'merlin.kol@demo.com', phone: '9300000001',
+        name: 'Merlin Group KOL', email: 'merlin.kol@gmail.com', phone: '9300000001',
         sellerType: 'builder', city: 'Kolkata',
         properties: [
             {
@@ -239,7 +239,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Debashish Ghosh (Owner)', email: 'debashish.kol@demo.com', phone: '9300000002',
+        name: 'Debashish Ghosh (Owner)', email: 'debashish.kol@gmail.com', phone: '9300000002',
         sellerType: 'owner', city: 'Kolkata',
         properties: [
             {
@@ -249,7 +249,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Kolkata Realty Partners', email: 'kolkatarealty.kol@demo.com', phone: '9300000003',
+        name: 'Kolkata Realty Partners', email: 'kolkatarealty.kol@gmail.com', phone: '9300000003',
         sellerType: 'agent', city: 'Kolkata',
         properties: [
             // TEXT-ONLY locality — will be geocoded
@@ -263,7 +263,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ AHMEDABAD (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Adani Realty AMD', email: 'adani.amd@demo.com', phone: '9300000004',
+        name: 'Adani Realty AMD', email: 'adani.amd@gmail.com', phone: '9300000004',
         sellerType: 'builder', city: 'Ahmedabad',
         properties: [
             {
@@ -277,7 +277,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Kiran Patel (Owner)', email: 'kiran.amd@demo.com', phone: '9300000005',
+        name: 'Kiran Patel (Owner)', email: 'kiran.amd@gmail.com', phone: '9300000005',
         sellerType: 'owner', city: 'Ahmedabad',
         properties: [
             {
@@ -287,7 +287,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Ahmedabad Property Hub', email: 'aphub.amd@demo.com', phone: '9300000006',
+        name: 'Ahmedabad Property Hub', email: 'aphub.amd@gmail.com', phone: '9300000006',
         sellerType: 'agent', city: 'Ahmedabad',
         properties: [
             // TEXT-ONLY
@@ -301,7 +301,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ JAIPUR (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Mahima Group JAI', email: 'mahima.jai@demo.com', phone: '9300000007',
+        name: 'Mahima Group JAI', email: 'mahima.jai@gmail.com', phone: '9300000007',
         sellerType: 'builder', city: 'Jaipur',
         properties: [
             {
@@ -315,7 +315,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Rajesh Sharma (Owner)', email: 'rajesh.jai@demo.com', phone: '9300000008',
+        name: 'Rajesh Sharma (Owner)', email: 'rajesh.jai@gmail.com', phone: '9300000008',
         sellerType: 'owner', city: 'Jaipur',
         properties: [
             {
@@ -325,7 +325,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Pink City Realtors', email: 'pinkcity.jai@demo.com', phone: '9300000009',
+        name: 'Pink City Realtors', email: 'pinkcity.jai@gmail.com', phone: '9300000009',
         sellerType: 'agent', city: 'Jaipur',
         properties: [
             // TEXT-ONLY
@@ -339,7 +339,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ KOCHI (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Confident Group KOC', email: 'confident.koc@demo.com', phone: '9300000010',
+        name: 'Confident Group KOC', email: 'confident.koc@gmail.com', phone: '9300000010',
         sellerType: 'builder', city: 'Kochi',
         properties: [
             {
@@ -353,7 +353,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Thomas Varghese (Owner)', email: 'thomas.koc@demo.com', phone: '9300000011',
+        name: 'Thomas Varghese (Owner)', email: 'thomas.koc@gmail.com', phone: '9300000011',
         sellerType: 'owner', city: 'Kochi',
         properties: [
             {
@@ -363,7 +363,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Kochi Estates', email: 'kochiestates.koc@demo.com', phone: '9300000012',
+        name: 'Kochi Estates', email: 'kochiestates.koc@gmail.com', phone: '9300000012',
         sellerType: 'agent', city: 'Kochi',
         properties: [
             // TEXT-ONLY
@@ -377,7 +377,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
 
     // ═══════════════════ LUCKNOW (3 sellers, 5 properties) ═══════════════════
     {
-        name: 'Omaxe Lucknow', email: 'omaxe.lko@demo.com', phone: '9300000013',
+        name: 'Omaxe Lucknow', email: 'omaxe.lko@gmail.com', phone: '9300000013',
         sellerType: 'builder', city: 'Lucknow',
         properties: [
             {
@@ -391,7 +391,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Anil Verma (Owner)', email: 'anil.lko@demo.com', phone: '9300000014',
+        name: 'Anil Verma (Owner)', email: 'anil.lko@gmail.com', phone: '9300000014',
         sellerType: 'owner', city: 'Lucknow',
         properties: [
             {
@@ -401,7 +401,7 @@ const DEMO_SELLERS: DemoSellerDef[] = [
         ],
     },
     {
-        name: 'Lucknow Homes', email: 'lucknowhomes.lko@demo.com', phone: '9300000015',
+        name: 'Lucknow Homes', email: 'lucknowhomes.lko@gmail.com', phone: '9300000015',
         sellerType: 'agent', city: 'Lucknow',
         properties: [
             // TEXT-ONLY

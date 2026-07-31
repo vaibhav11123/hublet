@@ -12,6 +12,7 @@ import { seedDemoBuyers } from '../scripts/seed-demo-buyers';
 import { seedDemoSellers } from '../scripts/seed-demo-sellers';
 import { seedDemoLeads } from '../scripts/seed-demo-leads';
 import { backfillBuyerLocalities } from '../scripts/backfill-buyer-localities';
+import { migrateDemoEmails } from '../scripts/migrate-demo-emails';
 import { resetSellerTrust } from '../scripts/reset-seller-trust';
 import { resetDatabase } from '../scripts/reset-database';
 import { getCredentials, logCredential, logCredentials, clearCredentials, removeCredentialByEmail } from '../utils/credential-logger';
@@ -170,6 +171,22 @@ router.post('/backfill-buyer-localities', requireRoles('admin'), async (req: Req
         });
     } catch (error: any) {
         console.error('[seed/backfill-buyer-localities] Error:', error);
+        res.status(500).json({ success: false, error: error.message });
+    }
+});
+
+// ── Migrate Demo Emails (@demo.com -> @gmail.com) ───────────────────────────
+router.post('/migrate-demo-emails', requireRoles('admin'), async (req: Request, res: Response) => {
+    try {
+        const result = await migrateDemoEmails(prisma);
+        res.json({
+            success: true,
+            message: `Migrated ${result.buyersUpdated} buyers and ${result.sellersUpdated} sellers from @demo.com to @gmail.com`,
+            buyersUpdated: result.buyersUpdated,
+            sellersUpdated: result.sellersUpdated,
+        });
+    } catch (error: any) {
+        console.error('[seed/migrate-demo-emails] Error:', error);
         res.status(500).json({ success: false, error: error.message });
     }
 });

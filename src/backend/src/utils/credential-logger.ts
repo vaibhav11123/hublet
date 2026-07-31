@@ -86,6 +86,20 @@ export function clearCredentials(): void {
 }
 
 /**
+ * Update the email on all credential entries matching an old email
+ * (e.g. after a bulk domain migration).
+ */
+export function updateCredentialEmail(oldEmail: string, newEmail: string): void {
+    try {
+        const entries = readLog();
+        const updated = entries.map((e) => (e.email === oldEmail ? { ...e, email: newEmail } : e));
+        fs.writeFileSync(LOG_FILE, JSON.stringify(updated, null, 2), 'utf-8');
+    } catch (err) {
+        console.error('[CredentialLogger] Failed to update credential email:', err);
+    }
+}
+
+/**
  * Remove all credential entries matching a specific email.
  */
 export function removeCredentialByEmail(email: string): void {
