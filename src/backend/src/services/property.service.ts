@@ -3,6 +3,7 @@ import { Prisma } from '@prisma/client';
 import { forwardGeocode } from '../utils/geocoder';
 import { fetchNearbyPlaces } from '../utils/nearby-places';
 import { GeocodeService } from './geocode.service';
+import { deriveCityFromLocality } from '../utils/locality-city';
 
 export class PropertyService {
     /**
@@ -66,6 +67,25 @@ export class PropertyService {
                 );
             } catch (err) {
                 console.error('[PropertyService] Nearby places lookup failed (non-blocking):', err);
+            }
+        }
+
+        // Derive and persist a real city on the property itself, so
+        // analytics.service.ts's getCityForProperty has a direct source
+        // instead of relying entirely on the seller's metadata.
+        if (!mergedMetadata.city) {
+            let cityResult = deriveCityFromLocality(data.locality, mergedMetadata.sourceUrl);
+            if (!cityResult.city) {
+                // Last resort: the seller's own known city (lazy lookup - only
+                // queried when locality/sourceUrl don't already resolve it).
+                const seller = await prisma.seller.findUnique({ where: { id: data.sellerId } });
+                const sellerMeta = seller?.metadata ? JSON.parse(seller.metadata) : null;
+                cityResult = deriveCityFromLocality(data.locality, mergedMetadata.sourceUrl, sellerMeta?.city);
+            }
+            if (cityResult.city) {
+                mergedMetadata.city = cityResult.city;
+            } else {
+                console.warn(`[PropertyService] Could not derive a city for new property (locality="${data.locality}") - metadata.city left unset`);
             }
         }
 

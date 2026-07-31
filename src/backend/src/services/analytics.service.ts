@@ -59,6 +59,19 @@ function normalizeText(value: unknown): string {
   return String(value || '').trim().toLowerCase();
 }
 
+// property.metadata and property.seller.metadata come back from Prisma as raw
+// JSON strings (MongoDB modeling avoids native JSON columns), not parsed
+// objects - reading `.city` directly off the string silently returns
+// undefined instead of throwing, so this was easy to miss.
+function parseMetadata(raw: unknown): Record<string, any> {
+  if (!raw || typeof raw !== 'string') return {};
+  try {
+    return JSON.parse(raw) || {};
+  } catch {
+    return {};
+  }
+}
+
 function average(values: number[]): number {
   if (!values.length) return 0;
   return values.reduce((sum, current) => sum + current, 0) / values.length;
@@ -116,8 +129,8 @@ function matchFilter(filters: AnalyticsFilters, property: PropertyRow | null | u
 
   if (!property) return true;
 
-  if (filters.city && normalizeText((property.metadata as any)?.city || '') !== normalizeText(filters.city)) {
-    const fallbackCity = normalizeText((property.seller as any)?.metadata?.city || '');
+  if (filters.city && normalizeText(parseMetadata(property.metadata).city) !== normalizeText(filters.city)) {
+    const fallbackCity = normalizeText(parseMetadata(property.seller?.metadata).city);
     if (fallbackCity !== normalizeText(filters.city)) {
       return false;
     }
@@ -188,10 +201,10 @@ async function loadDataset(filters: AnalyticsFilters): Promise<DatasetWithWarnin
 }
 
 function getCityForProperty(property: PropertyRow | null | undefined): string {
-  const fromMetadata = normalizeText((property?.metadata as any)?.city);
+  const fromMetadata = normalizeText(parseMetadata(property?.metadata).city);
   if (fromMetadata) return fromMetadata;
 
-  const fallbackSellerCity = normalizeText((property?.seller?.metadata as any)?.city);
+  const fallbackSellerCity = normalizeText(parseMetadata(property?.seller?.metadata).city);
   if (fallbackSellerCity) return fallbackSellerCity;
 
   return 'unknown';

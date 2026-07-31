@@ -1,0 +1,1788 @@
+{
+  "apply": true,
+  "updated": 71,
+  "alreadySet": 0,
+  "unresolved": 0,
+  "rows": [
+    {
+      "id": "45b1bff7-a77b-4367-b1ba-b9456aa4c8e8",
+      "title": "Srinivas Heights 3BHK Gachibowli",
+      "locality": "Gachibowli, Hyderabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 17.441,
+          "lon": 78.3495
+        },
+        "marketIntel": "Gachibowli remains a premium real estate hub with average asking prices around ₹12,450 per sq. ft., showing consistent quarterly growth driven by strong employment demand in the IT and Financial District corridors [1][2]. Connectivity is anchored by the Outer Ring Road, providing 35-40 minute airport access, while future mobility will be significantly bolstered by the proposed Hyderabad Metro Phase 2 expansion [1][3]. Ongoing infrastructure investments, including new flyovers and IT cluster developments, continue to support long-term capital appreciation for the locality [1][3]."
+      },
+      "derivedCity": "Hyderabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "4c1ee621-4b6f-4cb3-afea-900048285e45",
+      "title": "Srinivas Towers 2BHK Kondapur",
+      "locality": "Kondapur, Hyderabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 17.46,
+          "lon": 78.3575
+        },
+        "marketIntel": "Kondapur property prices currently range from approximately ₹6,500 to ₹12,500 per sq ft, reflecting steady annual appreciation driven by high demand from the nearby IT corridor [1][2][3]. Key infrastructure projects, including the ORR-Kondapur flyover, Shilpa Layout Phase 2, and upcoming Metro Phase 2 extensions, are expected to further enhance connectivity and property values [2][3][4]. Residents benefit from strong accessibility to HITEC City and Gachibowli via the existing Raidurg Metro station and Outer Ring Road, supported by well-established schools, hospitals, and shopping centers [1][5][3]."
+      },
+      "derivedCity": "Hyderabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "a57f1f1a-ca1d-4f24-abc6-dcc589776573",
+      "title": "Premium 3BHK Madhapur",
+      "locality": "Madhapur, Hyderabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 17.449,
+          "lon": 78.3915
+        },
+        "marketIntel": "As of mid-2026, property prices in Madhapur average approximately ₹10,665 to ₹13,900 per square foot, with premium projects commanding higher rates. The locality remains a top-tier IT hub with excellent connectivity via the Hyderabad Metro Blue Line, the Outer Ring Road, and the Durgam Cheruvu Cable Bridge. Future infrastructure focuses on traffic mitigation, including new flyovers, underpasses at major junctions, and planned Metro Phase II expansions to enhance transit efficiency and support long-term capital stability."
+      },
+      "derivedCity": "Hyderabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "f2dfbf35-b150-4628-9798-25808b457f93",
+      "title": "Spacious 2BHK Kukatpally",
+      "locality": "Kukatpally, Hyderabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 17.4930841,
+          "lon": 78.4054408
+        },
+        "marketIntel": "As of mid-2026, Kukatpally property prices are appreciating at a healthy annual rate of 9% to 15%, with premium gated communities now ranging from ₹8,500 to ₹14,000 per sq. ft. [1][2][3] Ongoing infrastructure improvements, including major flyover constructions at Y Junction and road widening projects, are designed to ease traffic congestion and further bolster property values [4][5]. The locality remains highly attractive due to its mature social infrastructure and excellent connectivity via the Hyderabad Metro Red Line, providing a reliable, traffic-free commute to key IT hubs like HITEC City and Gachibowli [5][1][3]."
+      },
+      "derivedCity": "Hyderabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "27b44ae0-90e5-437e-81fb-f0a7cd19cd4d",
+      "title": "Luxury Villa Jubilee Hills",
+      "locality": "Jubilee Hills, Hyderabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 17.433,
+          "lon": 78.4078
+        },
+        "marketIntel": "Jubilee Hills remains a premium, high-demand market with property prices averaging between ₹12,000 and ₹14,000 per square foot, showing consistent long-term capital appreciation driven by its status as an elite residential hub. Connectivity is excellent via the Blue Line metro stations at Peddamma Gudi and Jubilee Hills Check Post, complemented by the Durgam Cheruvu Cable Bridge which provides rapid access to IT corridors like HITEC City and the Financial District. Ongoing infrastructure focus includes government-sanctioned improvements to stormwater drainage, sewerage pipelines, and flyover enhancements aimed at easing traffic congestion at major arterial junctions."
+      },
+      "derivedCity": "Hyderabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "c6cfead0-9cdb-45be-b597-721b45b2111a",
+      "title": "Prestige Lakeside 2BHK Whitefield",
+      "locality": "Whitefield, Bangalore",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.9705,
+          "lon": 77.751
+        },
+        "marketIntel": "Whitefield is a mature, self-contained IT corridor where apartment prices currently average between Rs 11,500 and Rs 14,050 per square foot, with premium gated communities often exceeding Rs 15,000. Connectivity is anchored by the fully operational Namma Metro Purple Line, which significantly reduces commute times to the city center, though peak-hour road congestion remains a challenge. Key infrastructure projects on the horizon include the Bengaluru Business Corridor and upcoming suburban rail corridors, which are expected to further bolster the area’s long-term stability and residential appeal."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "d81a0342-6e26-4714-bf6c-d658bbff3f6e",
+      "title": "Prestige Ozone 3BHK Whitefield",
+      "locality": "Whitefield, Bangalore",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.969,
+          "lon": 77.7485
+        },
+        "marketIntel": "Whitefield's real estate market has matured into a stable, high-demand corridor with average apartment prices currently ranging from Rs 11,500 to Rs 14,050 per square foot, though premium gated communities often exceed Rs 15,000 [1][2][3][4]. Connectivity is anchored by the fully operational Namma Metro Purple Line, which significantly reduces travel time to the central business district, complemented by upcoming infrastructure like the Peripheral Ring Road and suburban rail extensions [1][5][3][6]. While the area offers a self-contained ecosystem of schools, hospitals, and tech parks, buyers should prioritize proximity to metro stations and verify individual project water supply arrangements due to historical scarcity in some pockets [5][7][3][4]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "d6f5d6c4-0bf8-476d-8ffa-f48075a8ec74",
+      "title": "Cozy 2BHK HSR Layout",
+      "locality": "HSR Layout, Bangalore",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.912,
+          "lon": 77.6395
+        },
+        "marketIntel": "HSR Layout remains a premium real estate destination with average prices around Rs 12,450 per square foot, though rates vary significantly by sector and building age. While the locality currently benefits from the operational Yellow Line on its western edge, a dedicated Blue Line metro station is under construction with a target completion in late 2026. For buyers, the area offers high livability and strong rental demand, but given that prices are already at the top of the local band, experts advise prioritizing long-term residency over speculative short-term gains."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "2d17071c-2c79-4086-a17e-b530609430b2",
+      "title": "Modern 3BHK Koramangala",
+      "locality": "Koramangala, Bangalore",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.9357366,
+          "lon": 77.624081
+        },
+        "marketIntel": "Koramangala is a premium real estate market where average apartment prices generally range from ₹14,700 to ₹19,450 per square foot, reflecting long-term appreciation despite recent short-term market fluctuations [1][2]. Connectivity is a major highlight, provided by proximity to Hosur Road, the Outer Ring Road, and several upcoming metro projects, including the Yellow Line and a planned link to Sarjapur [3][2]. The area remains highly desirable due to its central location, established social infrastructure, and consistent demand from professionals and investors alike [3][4]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "2345ad15-930d-45f0-8784-512210928806",
+      "title": "Budget 2BHK Electronic City",
+      "locality": "Electronic City, Bangalore",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.8399,
+          "lon": 77.677
+        },
+        "marketIntel": "Electronic City property prices currently range between ₹5,450 and ₹10,250 per square foot, with an overall average near ₹7,400 to ₹9,000 per square foot depending on the phase and project. The operational Namma Metro Yellow Line has significantly improved connectivity, providing a rail link to the city that complements the existing elevated expressway and reduces commute friction. Future infrastructure, including the approved 117-km Bengaluru Business Corridor and the Peripheral Ring Road, is planned to further improve regional accessibility, though buyers should factor in potential construction delays common in major public projects."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "b04f0512-0e95-4b03-acc0-73f7da0359ff",
+      "title": "Lodha Luxuria 2BHK Andheri West",
+      "locality": "Andheri West, Mumbai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 19.137,
+          "lon": 72.83
+        },
+        "marketIntel": "Andheri West remains a premium residential market with property prices generally ranging from ₹32,000 to ₹55,000 per sq. ft., depending on the specific micro-market and amenities. Connectivity is a key strength, anchored by Metro Lines 1 and 2A, the Western Express Highway, and proximity to the international airport. Future growth will be driven by the upcoming Versova-Bandra Sea Link and Metro Line 6, which are expected to further reduce commute times and enhance long-term property value."
+      },
+      "derivedCity": "Mumbai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "8834ce74-b90c-4152-893a-79032718f996",
+      "title": "Lodha Supremus 3BHK Powai",
+      "locality": "Powai, Mumbai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 19.118,
+          "lon": 72.9065
+        },
+        "marketIntel": "Powai is a premium real estate market with property prices currently averaging between 25,000 and 52,000 rupees per square foot, reflecting a steady upward trend driven by high demand and limited land supply [1][2][3]. The area's connectivity is set for a significant upgrade with the upcoming Mumbai Metro Line 6 (Pink Line), expected to be operational by mid-2026, which will provide direct east-west transit and alleviate heavy traffic on the Jogeshwari-Vikhroli Link Road (JVLR) [2][4]. Combined with its established social infrastructure and proximity to major business hubs, Powai remains a top choice for those seeking a mix of luxury and convenience [5][2][6]."
+      },
+      "derivedCity": "Mumbai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "275b3fa3-bfc3-4c73-a24a-ecb5b5ba07de",
+      "title": "Compact 1BHK Thane West",
+      "locality": "Thane West, Mumbai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 19.2596635,
+          "lon": 72.9690861
+        },
+        "marketIntel": "Thane West residential prices generally range from 15,000 to 45,000 rupees per square foot, with steady demand for 2BHK units in gated townships [1][2][3]. Major infrastructure, including the 2026 roll-out of Metro Lines 4 and 5 and the ongoing construction of the Thane-Borivali Twin Tunnel (targeted for 2028), is significantly improving connectivity to both eastern business corridors and the western suburbs [1][4][5][6]. Buyers should focus on metro-proximate micro-markets like Kolshet, Manpada, and Majiwada, while leveraging high unsold inventory for potential 3 to 5 percent price negotiations [1][4][7]."
+      },
+      "derivedCity": "Mumbai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "84954fcf-2d39-4e4f-82cc-e51dc59be199",
+      "title": "Elegant 2BHK Goregaon East",
+      "locality": "Goregaon East, Mumbai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 19.164,
+          "lon": 72.85
+        },
+        "marketIntel": "Property prices in Goregaon East currently range from approximately ₹30,550 to ₹38,000 per square foot, with prices reflecting a steady upward trend driven by its status as a mature residential and commercial hub [1][2]. The area’s connectivity is a major asset, featuring immediate access to the Western Express Highway, Goregaon Railway Station, and the operational Metro Line 7, which significantly improves north-south transit [1][3][4]. Upcoming infrastructure is headlined by the Goregaon-Mulund Link Road (GMLR), a major project involving twin tunnels that will drastically cut east-west travel time to the central suburbs upon its full completion [1][5][2]."
+      },
+      "derivedCity": "Mumbai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "58c75703-1376-4fe8-beeb-a33539a7ed8c",
+      "title": "Premium 3BHK Worli Sea Face",
+      "locality": "Worli, Mumbai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 19.018,
+          "lon": 72.818
+        },
+        "marketIntel": "Worli is currently Mumbai’s fastest-appreciating luxury micro-market, with average prices ranging from ₹70,000 to over ₹1,20,000 per square foot. The area has transitioned into a commute-competitive hub, largely driven by the operational Metro Line 3 and the phase 1 completion of the Mumbai Coastal Road, which has significantly reduced travel times to South Mumbai and the financial districts. Looking ahead, the upcoming Coastal Road Phase 2 and ongoing BDD Chawl redevelopment are expected to provide continued structural support, particularly for properties near Worli Naka and the Century Mills corridor where entry pricing remains competitive."
+      },
+      "derivedCity": "Mumbai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "51c67f14-c35e-4f1c-8afc-c62e70643f19",
+      "title": "Life Republic 2BHK Hinjewadi",
+      "locality": "Hinjewadi, Pune",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 18.5918,
+          "lon": 73.7395
+        },
+        "marketIntel": "Hinjewadi real estate prices currently range from approximately ₹7,100 to ₹12,000 per sq. ft., depending on the specific phase and project luxury level, with annual growth rates reaching up to 15%. To improve connectivity, Pune Metro Line 3 is set for a phased public launch beginning in late July or early August 2026, which is expected to reduce commute times to central Pune to under 30 minutes. Additionally, the PMRDA is developing a network of six priority roads and various flyovers to address chronic traffic bottlenecks, while the Pune Ring Road is progressing toward completion by 2027."
+      },
+      "derivedCity": "Pune",
+      "rule": "comma-match"
+    },
+    {
+      "id": "0970544a-b5d2-434a-aae4-3d0f740dbfe2",
+      "title": "Ivy Estate 3BHK Wagholi",
+      "locality": "Wagholi, Pune",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 18.5815,
+          "lon": 73.9728
+        },
+        "marketIntel": "Wagholi currently features property prices ranging from approximately 6,000 to 10,500 rupees per square foot, reflecting steady appreciation driven by its role as an affordable, high-demand residential corridor for East Pune professionals [1][2][3]. Future connectivity is set to transform through the approved Pune Metro Phase 2 extension (Ramwadi to Wagholi), which aims to provide direct rail access to Kharadi and central Pune by 2029–2031 [2][4][5]. Additionally, the upcoming Pune Ring Road and planned arterial road upgrades are expected to significantly enhance regional accessibility and long-term property value [1][4][3]."
+      },
+      "derivedCity": "Pune",
+      "rule": "comma-match"
+    },
+    {
+      "id": "f59d98b7-45e4-475d-b3e7-33f9b8e8e9bb",
+      "title": "Sunny 2BHK Kharadi",
+      "locality": "Kharadi, Pune",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 18.5515,
+          "lon": 73.941
+        },
+        "marketIntel": "Kharadi’s property market is currently mature and premium, with average prices around ₹13,500 per sq. ft. and annual capital appreciation trends ranging from 5% to 12%. Future value is anchored by the approved Pune Metro Line 4, which will provide direct connectivity to the city, alongside ongoing road-widening projects and an integrated flyover designed to ease peak-hour traffic. While the area offers strong rental yields of 4% to 6% due to its proximity to major IT hubs, buyers should prioritize RERA-compliant projects and carefully assess specific micro-locations to mitigate risks like traffic congestion and seasonal water supply variability."
+      },
+      "derivedCity": "Pune",
+      "rule": "comma-match"
+    },
+    {
+      "id": "05e4542f-1ecd-4092-a0bb-d6a87a9781fd",
+      "title": "Modern 3BHK Baner",
+      "locality": "Baner, Pune",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 18.5589937,
+          "lon": 73.7845232
+        },
+        "marketIntel": "As of 2026, Baner is a mature, premium micro-market with property prices typically ranging from ₹12,000 to ₹18,000 per square foot, reflecting an annual appreciation of 7–9% [1][2]. The locality’s connectivity is significantly enhanced by the newly operational Pune Metro Line 3, which provides a direct transit link between Hinjewadi and Shivajinagar, while ongoing road infrastructure projects like the Baner-Pashan link and highway maintenance further ease traffic congestion [1][3][2]. Buyers should prioritize metro-adjacent properties, which command a 10–15% premium and are expected to outperform the broader market as transit integration reaches full maturity [1][2][4]."
+      },
+      "derivedCity": "Pune",
+      "rule": "comma-match"
+    },
+    {
+      "id": "d59a0bf8-ad28-4eb6-ab34-0a2652ec01ac",
+      "title": "Budget 2BHK Hadapsar",
+      "locality": "Hadapsar, Pune",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 18.5089,
+          "lon": 73.926
+        },
+        "marketIntel": "Property prices in Hadapsar are currently ranging from ₹7,500 to ₹15,000 per sq ft, reflecting strong year-on-year appreciation driven by high demand from nearby IT corridors like Magarpatta and EON IT Park [1][2]. The area is set for significant connectivity improvements, including the upcoming Pune Metro Line 5 extension and the Hadapsar–Yavat elevated corridor, both aimed at reducing traffic congestion [1][3][4]. These infrastructure projects, combined with existing highway access and proximity to major employment hubs, make the locality a high-growth destination for both end-users and investors [1][2][5]."
+      },
+      "derivedCity": "Pune",
+      "rule": "comma-match"
+    },
+    {
+      "id": "26b66436-62c4-4573-8537-75530539a97b",
+      "title": "Casagrand First City 3BHK OMR",
+      "locality": "OMR Perungudi, Chennai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.963,
+          "lon": 80.2418
+        },
+        "marketIntel": "Perungudi is a premium OMR market with property values ranging from ₹9,500 to ₹14,500 per square foot, offering stability and strong rental demand from its proximity to major IT parks like Tidel Park. Infrastructure connectivity is a key driver, featuring the existing MRTS rail station and ongoing construction of the Chennai Metro Phase 2 (Corridor 3), which is expected to enhance value and reduce commute times upon its 2028 completion. While capital appreciation has been steady, buyers should note that high entry prices currently result in more moderate rental yields compared to mid-OMR localities."
+      },
+      "derivedCity": "Chennai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "c9b4b115-86fa-472e-a9ca-6879e7903b9d",
+      "title": "Casagrand Aristo 2BHK OMR",
+      "locality": "Sholinganallur, Chennai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.9015,
+          "lon": 80.2285
+        },
+        "marketIntel": "Sholinganallur is a mature IT corridor hub experiencing consistent price appreciation of approximately 7.4% to 12.4% annually, with current market rates ranging from ₹6,000 to ₹10,141 per square foot. The area’s growth is anchored by its status as the exclusive, high-impact interchange for the upcoming Chennai Metro Phase 2, which is expected to begin operations between 2026 and 2028. While property values are high, the locality offers strong rental yields of 4% to 6%, though buyers should account for peak-hour traffic congestion and conduct due diligence on water supply and flood history."
+      },
+      "derivedCity": "Chennai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "d8743d56-856f-418f-af9e-9d6a52d483b2",
+      "title": "Charming 2BHK Velachery",
+      "locality": "Velachery, Chennai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 12.982,
+          "lon": 80.2185
+        },
+        "marketIntel": "Velachery is a mature, well-connected residential hub in south-central Chennai where apartment prices currently average between ₹9,400 and ₹9,500 per sq ft. Buyers can expect consistent demand supported by established social infrastructure, including proximity to major IT corridors, top schools, and retail centers like Phoenix Marketcity.\n\nInfrastructure development is centered on the Chennai Metro Phase 2, with a new station under construction expected to further enhance connectivity alongside the existing MRTS and bus terminal. Prospective buyers should prioritize vetting project elevation to mitigate risks associated with seasonal waterlogging, which remains the area's primary challenge."
+      },
+      "derivedCity": "Chennai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "a1e1ce2d-91e1-4434-80f8-dc3a4d4e315d",
+      "title": "Spacious 2BHK Anna Nagar",
+      "locality": "Anna Nagar, Chennai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 13.0872004,
+          "lon": 80.2164421
+        },
+        "marketIntel": "Anna Nagar remains a premium, high-demand market with property prices typically ranging from ₹10,000 to ₹19,500 per square foot, reflecting its status as a mature, well-planned township [1][2][3][4]. The area benefits from existing Green Line metro stations and is further supported by the ongoing Chennai Metro Phase 2 expansion, which will enhance connectivity to central business districts and IT corridors [1][3][4]. While the locality is largely built-out, future growth is driven by redevelopment and infrastructure upgrades rather than new land supply, ensuring steady long-term appreciation and high rental demand [1][5][3][6]."
+      },
+      "derivedCity": "Chennai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "43766794-5329-44a6-ac9d-892df319afc0",
+      "title": "Premium 3BHK Adyar",
+      "locality": "Adyar, Chennai",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 13.007,
+          "lon": 80.255
+        },
+        "marketIntel": "Adyar remains a premium, high-demand residential market where property prices typically range from ₹14,000 to over ₹20,000 per square foot, consistently yielding 5-7% annual appreciation [1][2][3]. The area is set to benefit from significant infrastructure upgrades, notably the upcoming Chennai Metro Phase II extension and the Adyar River restoration project, which are expected to further boost long-term value [1][4]. Connectivity is currently anchored by major arterial roads like LB Road and Sardar Patel Road, existing suburban rail, and proximity to IT corridors, providing residents with strong access to key business hubs [1][5][3]."
+      },
+      "derivedCity": "Chennai",
+      "rule": "comma-match"
+    },
+    {
+      "id": "5738c97b-76d0-4a95-97cf-863dd010a798",
+      "title": "4 BHK Flat in Akurdi, Pune",
+      "locality": "Akurdi, Pune",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//4-bhk-bedroom-apartment-flat-for-sale-in-akurdi-pune-west-2413-sqft-spid-H92730718",
+        "externalId": "92730718",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Baron Landmarks",
+        "imageUrl": "https://imagecdn.99acres.com/media1/40056/8/801128505T-1784832242686.jpg",
+        "landmark": "",
+        "postedDate": "24th Jul, 2026",
+        "scrapedAt": "2026-07-29T18:30:43.879Z",
+        "coordinates": {
+          "lat": 18.6486418,
+          "lon": 73.7647081
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-29T18:30:44.680Z",
+          "airport": {
+            "name": "Pune Airport",
+            "distanceKm": 17.8,
+            "lat": 18.5848515,
+            "lon": 73.9196126,
+            "osmUrl": "https://www.openstreetmap.org/node/13640070190",
+            "type": "airport"
+          },
+          "hospital": {
+            "name": "Anand Hospital",
+            "distanceKm": 0.6,
+            "lat": 18.6539354,
+            "lon": 73.7646919,
+            "osmUrl": "https://www.openstreetmap.org/node/1072235063",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "VRL Logistics Akurdi",
+            "distanceKm": 0.1,
+            "lat": 18.6494138,
+            "lon": 73.7651056,
+            "osmUrl": "https://www.openstreetmap.org/way/814138922",
+            "type": "bus"
+          },
+          "trainStation": {
+            "name": "Akurdi",
+            "distanceKm": 0,
+            "lat": 18.6486364,
+            "lon": 73.764716,
+            "osmUrl": "https://www.openstreetmap.org/node/2432308802",
+            "type": "train"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Akurdi is a stable, maturing residential hub with property prices currently averaging between 7,650 and 8,600 rupees per square foot [1][2][3]. The area benefits from strong connectivity via the Old Mumbai-Pune Highway and Akurdi Railway Station, with ongoing infrastructure improvements including road upgrades and planned metro extensions [4][5][3]. Buyers are drawn to its established social infrastructure, proximity to major industrial and IT hubs, and consistent, low-risk capital appreciation [3][6]."
+      },
+      "derivedCity": "Pune",
+      "rule": "comma-match"
+    },
+    {
+      "id": "ab3d88fc-d5e0-40df-b22b-d2d5a491926c",
+      "title": "Merlin Rise 2BHK Salt Lake",
+      "locality": "Salt Lake Sector V, Kolkata",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 22.5745,
+          "lon": 88.4335
+        },
+        "marketIntel": "Salt Lake Sector V maintains a strong upward price trend with average property rates currently around ₹10,200 per sq ft, reflecting steady 6 to 8 percent annual appreciation [1][2]. The market is highly driven by IT-sector demand, delivering superior rental yields of approximately 7 to 9 percent [2][3][4]. Key infrastructure includes the fully operational Green Line metro and the highly anticipated Orange Line integration at Sector V, which is targeted for completion in December 2026 to provide seamless city-wide connectivity [1][5][6]. Additionally, local road accessibility is being improved by a new Bailey bridge to address peak-hour congestion [1][5]."
+      },
+      "derivedCity": "Kolkata",
+      "rule": "comma-match"
+    },
+    {
+      "id": "75d74286-5f73-4283-9d16-9b020f60c623",
+      "title": "Merlin Greens 3BHK New Town",
+      "locality": "New Town, Kolkata",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 22.5809,
+          "lon": 88.4831
+        },
+        "marketIntel": "New Town property prices are rising steadily, with Action Area 1 and 2 seeing year-over-year growth of approximately 13% and 23% respectively, driven by robust IT sector demand [1][2][3]. The highly anticipated Orange Line Metro is expected to reach full operational status by late 2026, significantly improving airport and city-wide access, while the upcoming ₹900 crore Chingrighata-New Town elevated corridor will further reduce travel times [1][4][3][5]. Overall, connectivity is improving through these transit projects and existing arterial road networks, solidifying the area's position as a premium, well-planned residential and commercial hub [1][6][7]."
+      },
+      "derivedCity": "Kolkata",
+      "rule": "comma-match"
+    },
+    {
+      "id": "85258a6f-217b-474a-840a-2954ce96afb6",
+      "title": "Charming 2BHK Ballygunge",
+      "locality": "Ballygunge, Kolkata",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 22.5301,
+          "lon": 88.3646
+        },
+        "marketIntel": "Ballygunge remains a prestigious, high-value real estate market with average prices typically ranging between ₹11,000 and ₹14,500 per square foot, though premium developments can exceed ₹18,000 per square foot. While the market is mature and established, it continues to show long-term appreciation potential driven by its status as an elite South Kolkata address.\n\nConnectivity is a primary advantage, featuring proximity to the Ballygunge Junction railway station and existing metro stations like Jatin Das Park and Netaji Bhavan. Future connectivity will be further bolstered by the ongoing Orange Line Metro extension, which is expected to include a dedicated station in the area, enhancing access to commercial hubs and the airport."
+      },
+      "derivedCity": "Kolkata",
+      "rule": "comma-match"
+    },
+    {
+      "id": "10a769e3-690b-42e3-961e-8ea3b129d578",
+      "title": "Elegant 3BHK Park Street",
+      "locality": "Park Street, Kolkata",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 22.5551591,
+          "lon": 88.3501171
+        },
+        "marketIntel": "Park Street’s residential market is currently experiencing a correction, with average apartment prices at ₹8,000 per sq ft following a 13.25% downward adjustment [1][2]. While no specific new infrastructure projects are planned directly for the street, the ongoing Purple Line metro extension to Esplanade is expected to further enhance connectivity to this central hub upon its completion [3][4]. Buyers benefit from excellent existing metro access and a mature urban ecosystem, though they should account for potential challenges like traffic congestion and seasonal waterlogging [2][3]."
+      },
+      "derivedCity": "Kolkata",
+      "rule": "comma-match"
+    },
+    {
+      "id": "28636820-f788-405a-a865-b0948e615e21",
+      "title": "Modern 2BHK Rajarhat",
+      "locality": "Rajarhat, Kolkata",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 22.616,
+          "lon": 88.4796
+        },
+        "marketIntel": "Property prices in Rajarhat New Town currently range from approximately ₹4,000 to ₹10,000 per sq ft, depending on the specific micro-market, with core New Town areas commanding a premium over peripheral locations. Significant infrastructure developments are underway, most notably the Orange Line Metro (Line 6), which is targeted for full operation by late 2026 and will provide essential connectivity to the airport and Salt Lake IT hubs. While the area already benefits from the operational Green Line and major arterial roads, residents currently rely heavily on private vehicles and app-based cabs for last-mile connectivity."
+      },
+      "derivedCity": "Kolkata",
+      "rule": "comma-match"
+    },
+    {
+      "id": "a5e8c7b6-962f-4064-8752-33e99474b954",
+      "title": "Adani Shantigram 3BHK Satellite",
+      "locality": "Satellite, Ahmedabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 23.0225,
+          "lon": 72.515
+        },
+        "marketIntel": "Satellite is a premium, mature residential area with property prices currently ranging from ₹8,500 to ₹12,000 per sq. ft. due to limited land availability and high luxury demand [1][2][3]. The locality offers excellent connectivity via the 132 Feet Ring Road and SG Highway, with nearby metro access at Thaltej and Doordarshan Kendra [1][4]. Future appreciation is supported by the city's broader infrastructure upgrades related to the 2036 Olympic host designation and ongoing Metro Phase 2 expansions, which are expected to continue driving value in western corridors [3]."
+      },
+      "derivedCity": "Ahmedabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "8f942401-ae8a-4f90-8959-4e655ba9a55b",
+      "title": "Adani Elysium 2BHK SG Highway",
+      "locality": "SG Highway, Ahmedabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 23.0396,
+          "lon": 72.5066
+        },
+        "marketIntel": "SG Highway is Ahmedabad’s premier premium corridor, with property prices typically ranging from ₹8,000 to ₹10,500 per sq. ft. and luxury projects often exceeding ₹11,000 per sq. ft. The market is currently experiencing steady annual appreciation of 15% to 22% as it matures into a high-value residential and corporate spine.\n\nTo address persistent peak-hour congestion, ongoing infrastructure projects include a 7.5 km elevated corridor from ISKCON Circle to Sola and additional flyovers near Pakwan and Sola. These upgrades, combined with existing access to the Ahmedabad Metro’s East-West corridor, continue to strengthen the highway's connectivity to Gandhinagar, GIFT City, and major business hubs."
+      },
+      "derivedCity": "Ahmedabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "de867492-ddac-4f57-9d34-8ca6100e600c",
+      "title": "Spacious 2BHK Vastrapur",
+      "locality": "Vastrapur, Ahmedabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 23.0367,
+          "lon": 72.5297
+        },
+        "marketIntel": "Vastrapur is a mature, premium micro-market in West Ahmedabad currently experiencing steady price appreciation, with average rates around ₹8,600 to ₹8,900 per sq. ft. for established residential properties. The area benefits from excellent social infrastructure and proximity to major commercial hubs along the SG Highway, though it faces localized traffic congestion near key retail centers. Upcoming infrastructure, including the expansion of the Ahmedabad Metro network and broader road-widening initiatives, continues to strengthen its connectivity and long-term investment appeal for those seeking an established, high-demand residential address [1][2][3][4]."
+      },
+      "derivedCity": "Ahmedabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "d6f0202e-8087-40d8-bc79-bb22aa46a036",
+      "title": "Premium 3BHK Bopal",
+      "locality": "Bopal, Ahmedabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 23.0385802,
+          "lon": 72.4587752
+        },
+        "marketIntel": "Bopal and South Bopal are popular mid-segment residential hubs with property prices typically ranging from 4,500 to 7,500 rupees per square foot, showing steady annual appreciation of 10 to 14 percent [1][2][3]. Connectivity is currently anchored by the Sardar Patel Ring Road and SG Highway, with significant future improvement coming from the proposed 19.5-kilometer Ahmedabad Metro Phase 3-B project, which will include stations in Bopal and Shela [4][5][1]. While urban infrastructure is still maturing, the area benefits from a growing density of schools, hospitals, and retail hubs, making it a preferred choice for families and professionals [4][1][2]."
+      },
+      "derivedCity": "Ahmedabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "a40e079e-3bf4-4af9-8f71-fd4efe8cf610",
+      "title": "Modern 2BHK Prahlad Nagar",
+      "locality": "Prahlad Nagar, Ahmedabad",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 23.0126,
+          "lon": 72.5075
+        },
+        "marketIntel": "Prahlad Nagar remains a premium, high-demand market with average property prices typically ranging from ₹8,000 to ₹10,000 per square foot, reflecting consistent long-term appreciation. Upcoming infrastructure, such as the nearly complete SG Highway elevated corridor and proposed metro connectivity, is expected to further enhance accessibility and support property values. The area features excellent connectivity through major arterials like the 100-Feet Road and SG Highway, complemented by a mature social ecosystem of top-tier schools, hospitals, and corporate hubs."
+      },
+      "derivedCity": "Ahmedabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "8db60e30-7cad-467c-b510-d218a58da085",
+      "title": "Mahima Heights 2BHK Vaishali Nagar",
+      "locality": "Vaishali Nagar, Jaipur",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.9123,
+          "lon": 75.7373
+        },
+        "marketIntel": "Vaishali Nagar is an established, high-demand residential hub with property prices averaging ₹5,500 to ₹6,500 per square foot and consistent annual appreciation of 8 to 25 percent. The locality offers excellent connectivity via the Jaipur-Ajmer Expressway, proximity to the Jaipur Junction railway station, and existing access to the Jaipur Metro Pink Line at New Aatish Market. Future connectivity will be further bolstered by the approved Jaipur Metro Phase 2, which aims to integrate the area more effectively into the city's wider transit network and employment corridors."
+      },
+      "derivedCity": "Jaipur",
+      "rule": "comma-match"
+    },
+    {
+      "id": "0c39b841-2f83-4771-ad45-adc8ae28b312",
+      "title": "Mahima Panorama 3BHK Jagatpura",
+      "locality": "Jagatpura, Jaipur",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8206,
+          "lon": 75.828
+        },
+        "marketIntel": "Jagatpura property prices typically range between 3,750 and 5,700 rupees per square foot, with premium projects commanding higher rates and older inventory pulling the average lower. The area is currently a major growth corridor driven by the upcoming Jaipur Metro Phase 2, which will directly connect the locality to the airport, Sitapura Industrial Area, and central Jaipur. Strategic proximity to these employment hubs and educational institutions continues to fuel strong rental demand and long-term appreciation, making it a competitive middle-ground for both end-users and investors."
+      },
+      "derivedCity": "Jaipur",
+      "rule": "comma-match"
+    },
+    {
+      "id": "92968a9b-13c9-4b94-a07b-09a4f4586610",
+      "title": "Cozy 2BHK Malviya Nagar",
+      "locality": "Malviya Nagar, Jaipur",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8535,
+          "lon": 75.8072
+        },
+        "marketIntel": "Malviya Nagar remains a premium residential destination in Jaipur with stable market performance, where apartment prices average approximately ₹7,800 per sq ft and luxury villas command significantly higher rates. While there is no direct metro connectivity within the area, residents rely on excellent road networks, proximity to the Jaipur International Airport, and frequent bus and cab services for daily commuting. Future growth is supported by ongoing investments in high-end integrated residential projects and general infrastructure improvements, though potential buyers should monitor local traffic congestion and the evolving status of planned metro expansions."
+      },
+      "derivedCity": "Jaipur",
+      "rule": "comma-match"
+    },
+    {
+      "id": "97cc6c05-886b-4cb3-ad30-f760d1a96aa3",
+      "title": "Heritage 3BHK C-Scheme",
+      "locality": "C-Scheme, Jaipur",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.9720704,
+          "lon": 75.7629849
+        },
+        "marketIntel": "C-Scheme currently maintains premium status with average property prices around ₹13,065 per sq ft, though the market has experienced a modest downward price adjustment over recent quarters [1]. The locality benefits from exceptional connectivity, including proximity to the Jaipur Junction railway station, Jaipur International Airport, and the existing Pink Line metro [2]. Future infrastructure is bolstered by the recently launched Jaipur Metro Phase II, which will include an interchange station at Khasa Kothi and further improve accessibility across the city’s residential and commercial corridors [3]."
+      },
+      "derivedCity": "Jaipur",
+      "rule": "comma-match"
+    },
+    {
+      "id": "7904c655-32c9-42c0-aa7a-f667fa9c0546",
+      "title": "Affordable 2BHK Mansarovar",
+      "locality": "Mansarovar, Jaipur",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8505,
+          "lon": 75.759
+        },
+        "marketIntel": "As of 2026, real estate prices in Mansarovar range from ₹5,500 to ₹6,500 per sq. ft., reflecting steady annual appreciation driven by high demand and rising construction costs. The area maintains excellent connectivity via the existing Jaipur Metro Pink Line and proximity to major arterial roads like Ajmer Road and Tonk Road. Looking ahead, the approved Jaipur Metro Phase 2 project, along with ongoing civic enhancements like the recently opened Maharani Farm Bridge, further bolsters long-term growth potential by improving transit links to Sitapura and other key commercial hubs."
+      },
+      "derivedCity": "Jaipur",
+      "rule": "comma-match"
+    },
+    {
+      "id": "e6b6df72-e2d7-4bb9-a202-a26048a53cf7",
+      "title": "Confident Sunshine 2BHK Kakkanad",
+      "locality": "Kakkanad, Kochi",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 10.0159,
+          "lon": 76.3419
+        },
+        "marketIntel": "Kakkanad is currently a high-demand residential hub with average property prices around 6,150 rupees per square foot, reflecting consistent annual growth driven by its proximity to Infopark and SmartCity Kochi. The primary infrastructure development is the Kochi Metro Phase II (Pink Line), which will connect the JLN Stadium to Infopark and is expected to be operational by 2027–2028. While currently reliant on road networks like the Seaport-Airport Road, this upcoming metro connectivity is set to further enhance commute efficiency and sustain long-term property appreciation for investors and home buyers."
+      },
+      "derivedCity": "Kochi",
+      "rule": "comma-match"
+    },
+    {
+      "id": "fbddce77-a332-4ae0-84f4-9707171bee42",
+      "title": "Confident Gardenia 3BHK Edappally",
+      "locality": "Edappally, Kochi",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 10.0258,
+          "lon": 76.3086
+        },
+        "marketIntel": "Property prices in Edappally have experienced a minor recent correction, with average rates currently at ₹6,750 per sq ft for apartments and ₹6,600 per sq ft for villas. Infrastructure is significantly improving through the ongoing six-lane expansion of the NH-66 corridor, which includes a new three-lane railway overbridge set to open by September 2026. The area maintains excellent connectivity via the Kochi Metro Blue Line, extensive bus networks, and strategic access to major arterial roads, solidifying its status as a high-demand hub for both residents and investors."
+      },
+      "derivedCity": "Kochi",
+      "rule": "comma-match"
+    },
+    {
+      "id": "c8e0b10b-c41c-44d6-bcb1-5f28a1fb9a17",
+      "title": "Elegant 3BHK Panampilly Nagar",
+      "locality": "Panampilly Nagar, Kochi",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 9.9658,
+          "lon": 76.2894
+        },
+        "marketIntel": "Panampilly Nagar is a premium, established residential and commercial hub with current apartment prices averaging between ₹8,594 and ₹8,900 per square foot [1][2]. The area maintains high status due to its central location, established urban infrastructure, and excellent connectivity, primarily supported by proximity to the Kadavanthra metro station [3][4]. While the broader Kochi market is seeing significant growth tied to the upcoming Pink Line metro extension—which connects the city core to the Kakkanad IT corridor—Panampilly Nagar continues to be a stable, high-demand choice for those prioritizing a central, luxury lifestyle [3][5][6]."
+      },
+      "derivedCity": "Kochi",
+      "rule": "comma-match"
+    },
+    {
+      "id": "57a83916-fa13-49bf-8b10-c14e99d5e54e",
+      "title": "Waterfront 2BHK Marine Drive",
+      "locality": "Marine Drive, Kochi",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "geocodeFailed": true,
+        "marketIntel": "Marine Drive currently commands a premium average price of approximately ₹13,300 per square foot, reflecting consistent annual appreciation and strong demand for luxury waterfront inventory. The locality is anchored by the upcoming Marine Eco City project, a large-scale mixed-use development that will introduce significant new residential and commercial capacity in phases. Connectivity remains a primary strength, offering central access to Kochi's metro, rail, and road networks, further supported by the city's expanding water metro and the anticipated completion of the Kochi Metro Phase II line connecting the core to eastern employment hubs."
+      },
+      "derivedCity": "Kochi",
+      "rule": "comma-match"
+    },
+    {
+      "id": "e45d1761-7e60-4f35-a794-34c67ca7f551",
+      "title": "Compact 2BHK Vyttila",
+      "locality": "Vyttila, Kochi",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 9.9668,
+          "lon": 76.3186
+        },
+        "marketIntel": "Vyttila’s real estate market remains strong, with average apartment prices currently ranging from ₹7,950 to ₹8,550 per sq ft and reflecting a steady long-term appreciation. The area is a key mobility hub providing rare tri-modal connectivity via the Kochi Metro, Water Metro, and national highway access, which continues to drive demand despite heavy junction traffic. Ongoing infrastructure improvements, including a new link road to decongest the junction, the expansion of the mobility hub, and the city’s first Local Area Development Plan, are designed to enhance future accessibility and urban living."
+      },
+      "derivedCity": "Kochi",
+      "rule": "comma-match"
+    },
+    {
+      "id": "99574e36-a9e4-4819-9edb-7a53e7e66dee",
+      "title": "Omaxe Forest 3BHK Gomti Nagar",
+      "locality": "Gomti Nagar, Lucknow",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8467,
+          "lon": 80.9986
+        },
+        "marketIntel": "Gomti Nagar's real estate market is currently stabilizing with average apartment prices around ₹7,250 per sq ft, reflecting a period of consolidation after minor recent corrections. Infrastructure remains a key strength, anchored by the operational Kisan Path (Outer Ring Road) and the Amar Shaheed Path expressway, alongside the existing Red Line metro services. While upcoming major infrastructure projects like the Green Corridor and metro expansions are primarily concentrated in other parts of the city, the area remains well-connected via its dedicated railway station and established arterial road network."
+      },
+      "derivedCity": "Lucknow",
+      "rule": "comma-match"
+    },
+    {
+      "id": "a6da5e11-40e2-4ee4-a833-f0805a5ebbdf",
+      "title": "Omaxe Silver 2BHK Vibhuti Khand",
+      "locality": "Vibhuti Khand, Lucknow",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8598,
+          "lon": 80.9982
+        },
+        "marketIntel": "Vibhuti Khand is a mature, high-demand commercial and residential hub in Lucknow where property values are currently appreciating. You benefit from superior connectivity via the Amar Shaheed Path expressway and the nearby Lucknow Metro Red Line, with the upcoming Phase 1B expansion further enhancing accessibility. While the area is largely built out, which limits new supply and supports long-term value, prospective buyers should carefully verify land titles and infrastructure status, as some parts of the locality experience challenges with civic maintenance."
+      },
+      "derivedCity": "Lucknow",
+      "rule": "comma-match"
+    },
+    {
+      "id": "c47ee199-ecc6-4934-8990-ec8645f1ce94",
+      "title": "Comfortable 2BHK Indira Nagar",
+      "locality": "Indira Nagar, Lucknow",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.877,
+          "lon": 80.974
+        },
+        "marketIntel": "Indira Nagar maintains stable, resilient property values with recent rates averaging ₹4,300 to ₹5,650 per square foot, catering to a wide range of budgets from ₹45 lakh to over ₹1 crore. The locality is undergoing significant infrastructure improvements, most notably the Khurram Nagar Flyover, which is designed to reduce commute times to major IT hubs and boost long-term property appreciation. Connectivity is a key strength, anchored by existing metro stations at Bhootnath and Munshi Pulia, alongside ongoing urban renewal projects aimed at modernizing the area's commercial infrastructure."
+      },
+      "derivedCity": "Lucknow",
+      "rule": "comma-match"
+    },
+    {
+      "id": "8be1c565-b8f0-4d65-af29-78b7d18237ca",
+      "title": "Heritage 3BHK Hazratganj",
+      "locality": "Hazratganj, Lucknow",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8475285,
+          "lon": 80.9432003
+        },
+        "marketIntel": "Hazratganj is a premier, high-end real estate market where property values currently range from approximately ₹10,000 to ₹18,000 per square foot, catering to those seeking heritage prestige and luxury living [1]. Connectivity remains a primary strength, anchored by the Hazratganj Metro Station on Line 1 and supported by well-maintained arterial roads that ensure seamless access to the airport and Charbagh Railway Station [2][3][4]. Ongoing infrastructure improvements focus on smart city initiatives, including road widening, enhanced public space beautification, and broader city-wide metro expansions that indirectly reinforce the area's long-term desirability and property appreciation [2][3][1]."
+      },
+      "derivedCity": "Lucknow",
+      "rule": "comma-match"
+    },
+    {
+      "id": "899f2f33-6015-4737-8261-e672d1ecbc6f",
+      "title": "Budget 2BHK Alambagh",
+      "locality": "Alambagh, Lucknow",
+      "priorMetadata": {
+        "source": "demo-seeder",
+        "coordinates": {
+          "lat": 26.8028,
+          "lon": 80.9077
+        },
+        "marketIntel": "Alambagh’s real estate market has seen significant growth, with property prices rising to approximately 6,200 rupees per square foot as the area becomes a popular hub for working professionals [1]. Infrastructure remains a key strength, supported by its established connectivity to the Lucknow Metro Red Line, major highways like NH-27, and proximity to the airport and railway station [2][3]. Future prospects are bolstered by planned metro expansions, Outer Ring Road upgrades, and new commercial developments, which continue to drive demand for both residential and investment properties in this well-connected corridor [2][4]."
+      },
+      "derivedCity": "Lucknow",
+      "rule": "comma-match"
+    },
+    {
+      "id": "82a31967-9586-4f8e-bb8e-483448b2460d",
+      "title": "3 BHK Flat in Ahinsa Khand 1, Ghaziabad",
+      "locality": "Ahinsa Khand 1, Ghaziabad",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-jaipurias-sunrise-greens-ahinsa-khand-1-ghaziabad-1593-sqft-spid-Q92350232",
+        "externalId": "92350232",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "STARLIKE INVESTORS",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39350/7/787007202T-1782989241564.jpg",
+        "landmark": "",
+        "postedDate": "06th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:30:56.295Z",
+        "coordinates": {
+          "lat": 28.6393065,
+          "lon": 77.3605586
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:30:57.408Z",
+          "trainStation": {
+            "name": "Noida Electronic City",
+            "distanceKm": 1.9,
+            "lat": 28.6282627,
+            "lon": 77.3750033,
+            "osmUrl": "https://www.openstreetmap.org/node/6539894868",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Eternity Hospital",
+            "distanceKm": 0.3,
+            "lat": 28.6415217,
+            "lon": 77.3622827,
+            "osmUrl": "https://www.openstreetmap.org/node/7035396480",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Mayur Vihar Phase - 3, Bus Stand",
+            "distanceKm": 3.6,
+            "lat": 28.6140388,
+            "lon": 77.3373832,
+            "osmUrl": "https://www.openstreetmap.org/node/12593961705",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "Hindon Airport",
+            "distanceKm": 7.2,
+            "lat": 28.704336,
+            "lon": 77.3616691,
+            "osmUrl": "https://www.openstreetmap.org/way/265984430",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Ahinsa Khand 1 features a dynamic residential market with average asking prices around ₹15,086 per sq ft, though recent trends show slight quarterly softening that may offer negotiation opportunities for buyers. The area benefits from strong connectivity via the Delhi-Meerut Expressway and proximity to the Noida Electronic City metro station, with future potential tied to proposed metro extensions like the Noida Sector 62-Sahibabad line. Residents enjoy established social infrastructure, including proximity to various schools, hospitals, and shopping centers, making it a stable, end-user-driven location within the Indirapuram sub-market."
+      },
+      "derivedCity": "Ghaziabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "0986b756-d53a-42f9-8b1f-055039a58976",
+      "title": "2 BHK Flat in Sector 1 Vaishali, Ghaziabad",
+      "locality": "Sector 1 Vaishali, Ghaziabad",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-rishabh-cloud-9-towers-sector-1-vaishali-ghaziabad-930-sqft-r1-spid-L85927912",
+        "externalId": "85927912",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Shree Homes",
+        "imageUrl": "https://imagecdn.99acres.com/media1/38437/1/768741434T-1780146127616.jpg",
+        "landmark": "",
+        "postedDate": "28th Jun, 2026",
+        "scrapedAt": "2026-07-31T06:31:33.854Z",
+        "coordinates": {
+          "lat": 28.6471629,
+          "lon": 77.3346949
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:31:34.203Z",
+          "trainStation": {
+            "name": "Vaishali",
+            "distanceKm": 0.6,
+            "lat": 28.6496701,
+            "lon": 77.339575,
+            "osmUrl": "https://www.openstreetmap.org/node/10314380322",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Sarvodaya Hospital and Trauma Centre",
+            "distanceKm": 0.5,
+            "lat": 28.6449508,
+            "lon": 77.3391154,
+            "osmUrl": "https://www.openstreetmap.org/node/7027932255",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Kaushambi Bus Stand",
+            "distanceKm": 1.6,
+            "lat": 28.6464711,
+            "lon": 77.3184508,
+            "osmUrl": "https://www.openstreetmap.org/way/196483129",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "Hindon Airport",
+            "distanceKm": 6.9,
+            "lat": 28.704336,
+            "lon": 77.3616691,
+            "osmUrl": "https://www.openstreetmap.org/way/265984430",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Property prices in Sector 1 Vaishali have trended upward, with current average asking rates reaching approximately ₹8,800 to ₹9,450 per square foot as of mid-2026. The area benefits from direct connectivity to the Delhi Metro Blue Line and proximity to the Delhi-Meerut Expressway, with proposed extensions to link Vaishali with Mohan Nagar and the Hindon Terminal. Recent infrastructure efforts include the Ghaziabad Development Authority's planned intersection revamps and broad municipal urban beautification projects to further enhance local connectivity and living standards."
+      },
+      "derivedCity": "Ghaziabad",
+      "rule": "comma-match"
+    },
+    {
+      "id": "e8aa9073-5ed0-460b-a417-1729d8889b17",
+      "title": "Property in ",
+      "locality": "new-delhi",
+      "priorMetadata": {
+        "sourceUrl": "",
+        "externalId": "",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "",
+        "imageUrl": "",
+        "landmark": "",
+        "postedDate": "",
+        "scrapedAt": "2026-07-31T06:31:46.958Z",
+        "coordinates": {
+          "lat": 28.6138954,
+          "lon": 77.2090057
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:31:47.374Z",
+          "trainStation": {
+            "name": "Central Secretariat",
+            "distanceKm": 0.4,
+            "lat": 28.6158794,
+            "lon": 77.2122822,
+            "osmUrl": "https://www.openstreetmap.org/node/5453646586",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Guru Harkrishan Polyclinic Bangla Sahib",
+            "distanceKm": 1.4,
+            "lat": 28.6267693,
+            "lon": 77.2092035,
+            "osmUrl": "https://www.openstreetmap.org/node/10945664767",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Western Court Bus Terminus",
+            "distanceKm": 1.4,
+            "lat": 28.6233298,
+            "lon": 77.2184168,
+            "osmUrl": "https://www.openstreetmap.org/node/5690505425",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "Safdarjung Airport",
+            "distanceKm": 3.2,
+            "lat": 28.5850257,
+            "lon": 77.2059075,
+            "osmUrl": "https://www.openstreetmap.org/way/44193643",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Residential property prices in Delhi-NCR rose by 17.6% year-on-year in early 2026, driven primarily by strong demand for premium, amenity-rich housing [1][2]. Connectivity is significantly improving through major projects including the Dwarka Expressway, the upcoming Noida International Airport, expanded metro networks, and the Regional Rapid Transit System (RRTS) [1][2][3]. While these infrastructure developments continue to support long-term capital appreciation in emerging corridors, buyers should note that rising prices have outpaced affordable supply, making it essential to prioritize projects with clear titles, proven developer records, and proximity to operational transit [4][2][5]."
+      },
+      "derivedCity": "New Delhi",
+      "rule": "no-comma-slug"
+    },
+    {
+      "id": "b02c54bc-92ce-46cf-9f3d-0a59207576e6",
+      "title": "Property in ",
+      "locality": "hyderabad",
+      "priorMetadata": {
+        "sourceUrl": "",
+        "externalId": "",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "",
+        "imageUrl": "",
+        "landmark": "",
+        "postedDate": "",
+        "scrapedAt": "2026-07-31T06:33:37.120Z",
+        "coordinates": {
+          "lat": 17.360589,
+          "lon": 78.4740613
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:33:38.385Z",
+          "trainStation": {
+            "name": "Charminar (u/c)",
+            "distanceKm": 0.6,
+            "lat": 17.3619252,
+            "lon": 78.4799909,
+            "osmUrl": "https://www.openstreetmap.org/node/1118754600",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Nizamia Government General Hospital",
+            "distanceKm": 0.1,
+            "lat": 17.360376,
+            "lon": 78.4750511,
+            "osmUrl": "https://www.openstreetmap.org/way/238194521",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Charminar Bus Station",
+            "distanceKm": 0.2,
+            "lat": 17.3591404,
+            "lon": 78.4738478,
+            "osmUrl": "https://www.openstreetmap.org/way/238188556",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "Begumpet Airport",
+            "distanceKm": 10.4,
+            "lat": 17.4540907,
+            "lon": 78.4683198,
+            "osmUrl": "https://www.openstreetmap.org/way/32431627",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Hyderabad’s real estate market maintains strong value growth with average prices reaching approximately Rs 8,250 per square foot in 2026, driven by sustained demand in IT-centric western corridors like Kokapet, Gachibowli, and the Financial District [1][2][3]. Infrastructure development is a primary catalyst, with ongoing expansion of Metro Phase II, the Regional Ring Road (RRR), and Outer Ring Road (ORR) service upgrades improving connectivity to emerging suburbs like Tellapur, Miyapur, and Shamshabad [4][5][6]. While premium properties continue to see steady appreciation, buyers should note that affordability is a challenge, and experts advise prioritizing projects in well-connected areas with clear titles over speculative investments [1][7][8]."
+      },
+      "derivedCity": "Hyderabad",
+      "rule": "no-comma-slug"
+    },
+    {
+      "id": "9ead5df2-e178-4c58-ac7e-4b040e0fa276",
+      "title": "3 BHK Flat in Infantry Road, Bangalore",
+      "locality": "Infantry Road, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-infantry-road-bangalore-central-1958-sqft-spid-H90168198",
+        "externalId": "90168198",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Anugraha",
+        "imageUrl": "https://imagecdn.99acres.com/media1/36986/7/739727070T-1775633514445.jpg",
+        "landmark": "",
+        "postedDate": "28th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:33:50.692Z",
+        "coordinates": {
+          "lat": 12.9800074,
+          "lon": 77.6050137
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:33:51.362Z",
+          "trainStation": {
+            "name": "Mahatma Gandhi Road",
+            "distanceKm": 0.5,
+            "lat": 12.9755264,
+            "lon": 77.6067902,
+            "osmUrl": "https://www.openstreetmap.org/node/6400857554",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Bowring and Lady Curzon Hospitals",
+            "distanceKm": 0.3,
+            "lat": 12.9830115,
+            "lon": 77.6047116,
+            "osmUrl": "https://www.openstreetmap.org/way/45444044",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Shivajinagar Bus Station",
+            "distanceKm": 0.4,
+            "lat": 12.9832087,
+            "lon": 77.6030764,
+            "osmUrl": "https://www.openstreetmap.org/way/208748260",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.7,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Infantry Road, a central business district hub, offers diverse residential options with recent property prices averaging around ₹12,940 per square foot, though market trends show significant volatility. The area features excellent connectivity, including proximity to the Cubbon Park and M.G. Road metro stations, as well as the Bengaluru Cantonment railway station. Ongoing development in the vicinity continues to enhance the locality's infrastructure, maintaining its appeal for both residential and commercial investment despite periodic fluctuations in price."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "bc2d9891-8847-4e1c-a274-65f188a27c21",
+      "title": "Residential land / Plot in Shivaji Nagar, MG Road",
+      "locality": "Shivaji Nagar, MG Road",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//residential-land-plot-for-sale-in-aftab-residency-shivaji-nagar-bangalore-central-84-sqyd-spid-Y92829006",
+        "externalId": "92829006",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Residenture Pvt Ltd.",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39904/13/798093003T-1784520343376.jpg",
+        "landmark": "",
+        "postedDate": "20th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:33:57.044Z",
+        "geocodeFailed": true,
+        "marketIntel": "In Pune, Shivaji Nagar is a premium, high-growth area with property prices currently averaging around ₹17,982 per square foot, showing steady appreciation driven by the upcoming Hinjewadi–Shivaji Nagar Metro (Line 3) and riverfront development [1][2][3]. Shivaji Nagar in Bangalore remains a well-connected central hub near MG Road, offering diverse price ranges and consistent rental demand, though it faces challenges with peak-hour traffic congestion [4][5]. Both areas offer strong investment potential due to their central locations, though buyers should factor in proximity to transit hubs to maximize long-term value [1][4][3][5]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "sourceUrl-fallback"
+    },
+    {
+      "id": "ec743b08-d941-4a86-804b-d87bc52eab9b",
+      "title": "3 BHK Flat in Frazer Town, Bangalore Central",
+      "locality": "Frazer Town, Bangalore Central",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-frazertown-bangalore-central-1429-sqft-spid-Q92699156",
+        "externalId": "92699156",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "LIV IN OUT LIO PRIVATE LIMITED",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39779/6/795586971T-1784185481400.jpg",
+        "landmark": "",
+        "postedDate": "22nd Jul, 2026",
+        "scrapedAt": "2026-07-31T06:33:58.818Z",
+        "coordinates": {
+          "lat": 12.9957008,
+          "lon": 77.6169041
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:33:59.458Z",
+          "trainStation": {
+            "name": "Bengaluru East",
+            "distanceKm": 0.6,
+            "lat": 13.0011462,
+            "lon": 77.6183453,
+            "osmUrl": "https://www.openstreetmap.org/node/253454039",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Aspire Hospital",
+            "distanceKm": 0.3,
+            "lat": 12.9971683,
+            "lon": 77.6145878,
+            "osmUrl": "https://www.openstreetmap.org/node/11853321328",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Shivajinagar Bus Station",
+            "distanceKm": 2,
+            "lat": 12.9832087,
+            "lon": 77.6030764,
+            "osmUrl": "https://www.openstreetmap.org/way/208748260",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.5,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Frazer Town features a robust and premium real estate market, with average property prices reaching approximately ₹16,950 per sq ft following significant year-on-year appreciation. Connectivity is a key advantage, provided by the nearby Purple Line metro stations, Bangalore East and Cantonment railway stations, and arterial roads like Wheeler and Mosque Road. Upcoming infrastructure includes ongoing BBMP initiatives for road white-topping, utility pipeline upgrades, and broader Namma Metro expansion plans designed to further enhance accessibility to city-wide business districts."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "sourceUrl-fallback"
+    },
+    {
+      "id": "445bd2ec-ea93-4940-a05c-dc373f9c22ae",
+      "title": "5 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "locality": "Pulikeshi Nagar, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//5-bhk-bedroom-apartment-flat-for-sale-in-canopy-cologne-pulikeshi-nagar-bangalore-central-2750-sqft-spid-F91747674",
+        "externalId": "91747674",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Nesta Realtors",
+        "imageUrl": "https://imagecdn.99acres.com/media1/38691/4/773824304T-1780920051613.jpg",
+        "landmark": "",
+        "postedDate": "09th Jun, 2026",
+        "scrapedAt": "2026-07-31T06:34:03.510Z",
+        "geocodeFailed": true,
+        "marketIntel": "Pulikeshi Nagar currently shows a robust upward price trend, with average asking prices reaching approximately ₹16,950 per sq ft as of March 2026. The locality benefits from established connectivity via local trains, bus services, and the nearby Purple Line Metro, further supported by the Bangalore Smart City plan for infrastructure enhancements. While traffic congestion can occur, the area remains a popular choice for its central location, blend of luxury and residential options, and proximity to major business hubs and essential services."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "925606fd-c944-4a56-a497-560ef15dd868",
+      "title": "Residential land / Plot in Richmond Town, Bangalore",
+      "locality": "Richmond Town, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//residential-land-plot-for-sale-in-richmond-town-bangalore-central-556-sqyd-spid-B93013014",
+        "externalId": "93013014",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Prago Consultancy",
+        "imageUrl": "",
+        "landmark": "",
+        "postedDate": "26th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:34:05.373Z",
+        "coordinates": {
+          "lat": 12.963555,
+          "lon": 77.6015856
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:34:06.223Z",
+          "trainStation": {
+            "name": "Mahatma Gandhi Road",
+            "distanceKm": 1.4,
+            "lat": 12.9755264,
+            "lon": 77.6067902,
+            "osmUrl": "https://www.openstreetmap.org/node/6400857554",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Gleneagles Global Hospitals",
+            "distanceKm": 0.3,
+            "lat": 12.9654497,
+            "lon": 77.5999044,
+            "osmUrl": "https://www.openstreetmap.org/node/7576958106",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Neelasandra",
+            "distanceKm": 1.5,
+            "lat": 12.9576398,
+            "lon": 77.6141529,
+            "osmUrl": "https://www.openstreetmap.org/way/401993921",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.5,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Richmond Town features a premium, competitive real estate market with average asking prices reaching approximately ₹19,759 per sq ft as of March 2026, reflecting a long-term upward appreciation trend [1]. Connectivity is bolstered by existing metro access and proximity to major arteries like MG Road and Hosur Road, with future infrastructure set to improve further via the upcoming Namma Metro Phase 3A line [2][3][4]. While the area offers high-end residential living and strong rental yields, prospective buyers should account for peak-hour traffic congestion and limited parking availability common in this central locality [3][5][6]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "cba9fdfc-1d4f-4ee0-bfcf-96af3de01f6f",
+      "title": "3 BHK Flat in Cooke Town, Bangalore",
+      "locality": "Cooke Town, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-cooke-town-bangalore-central-1105-sqft-spid-V92703686",
+        "externalId": "92703686",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "LIV IN OUT LIO PRIVATE LIMITED",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39780/7/795607077T-1784186805121.jpg",
+        "landmark": "",
+        "postedDate": "22nd Jul, 2026",
+        "scrapedAt": "2026-07-31T06:34:10.409Z",
+        "coordinates": {
+          "lat": 13.0021998,
+          "lon": 77.6251814
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:34:11.473Z",
+          "trainStation": {
+            "name": "Banaswadi",
+            "distanceKm": 0.5,
+            "lat": 13.0058357,
+            "lon": 77.6281321,
+            "osmUrl": "https://www.openstreetmap.org/node/443807288",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Government Maternity Home",
+            "distanceKm": 0.7,
+            "lat": 12.9983402,
+            "lon": 77.6200927,
+            "osmUrl": "https://www.openstreetmap.org/node/4577045761",
+            "type": "hospital"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.4,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "busStation": {
+            "name": "Kalyan Nagar BMTC Depot",
+            "distanceKm": 3.1,
+            "lat": 13.0265644,
+            "lon": 77.6383427,
+            "osmUrl": "https://www.openstreetmap.org/way/687173199",
+            "type": "bus"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Cooke Town currently offers a stable real estate market with apartment prices averaging around ₹12,963 per sq ft [1]. The locality is supported by established infrastructure, including proximity to major IT corridors and the Central Business District, with future connectivity bolstered by ongoing metro expansion and road improvement projects [2][3]. While it remains a sought-after heritage neighborhood, buyers should be aware of localized construction activity and infrastructure maintenance work currently affecting some road networks [4]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "a83a299d-40e0-4944-8af8-002b6e1ae492",
+      "title": "Residential land / Plot in Jeevanhalli, Pulikeshi Nagar",
+      "locality": "Jeevanhalli, Pulikeshi Nagar",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//residential-land-plot-for-sale-in-jeevanhalli-bangalore-central-325-sqyd-spid-A91352510",
+        "externalId": "91352510",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "FRONTLINE HOMES",
+        "imageUrl": "https://imagecdn.99acres.com/media1/38232/13/764653990T-1779556238783.jpg",
+        "landmark": "",
+        "postedDate": "23rd Jul, 2026",
+        "scrapedAt": "2026-07-31T06:34:15.634Z",
+        "geocodeFailed": true,
+        "marketIntel": "The real estate market in Pulikeshi Nagar is currently thriving, with property prices demonstrating steady appreciation and a diverse range of residential options from affordable homes to luxury villas [1]. Connectivity is a key strength of the area, supported by multiple local bus stops, proximity to the Bengaluru East and Banaswadi railway stations, and access to metro stations like Pottery Town and Cantonment [2][3]. While the area benefits from established infrastructure and a good living environment, it continues to see new residential and commercial developments that maintain strong investment potential for prospective buyers [1]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "sourceUrl-fallback"
+    },
+    {
+      "id": "6db7a511-1d09-420b-8593-e6fd5112e65f",
+      "title": "Residential land / Plot in Cooke Town, Bangalore",
+      "locality": "Cooke Town, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//residential-land-plot-for-sale-in-cooke-town-bangalore-central-289-sqyd-spid-G93009744",
+        "externalId": "93009744",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Liva Properties",
+        "imageUrl": "https://imagecdn.99acres.com/media1/40220/9/804409867T-1785248127903.jpg",
+        "landmark": "",
+        "postedDate": "26th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:34:17.022Z",
+        "coordinates": {
+          "lat": 13.0021998,
+          "lon": 77.6251814
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:34:11.473Z",
+          "trainStation": {
+            "name": "Banaswadi",
+            "distanceKm": 0.5,
+            "lat": 13.0058357,
+            "lon": 77.6281321,
+            "osmUrl": "https://www.openstreetmap.org/node/443807288",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Government Maternity Home",
+            "distanceKm": 0.7,
+            "lat": 12.9983402,
+            "lon": 77.6200927,
+            "osmUrl": "https://www.openstreetmap.org/node/4577045761",
+            "type": "hospital"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.4,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "busStation": {
+            "name": "Kalyan Nagar BMTC Depot",
+            "distanceKm": 3.1,
+            "lat": 13.0265644,
+            "lon": 77.6383427,
+            "osmUrl": "https://www.openstreetmap.org/way/687173199",
+            "type": "bus"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Property prices in Cooke Town have stabilized, with recent multi-storey apartment rates averaging approximately ₹12,963 per sq ft as of mid-2026. The area remains a highly sought-after, premium heritage locality, seeing continued demand for both luxury boutique developments and the redevelopment of older independent homes. Connectivity is a key strength, supported by established access to the Central Business District, major road networks like the Outer Ring Road, and ongoing metro expansion projects that aim to further improve transit links across Bangalore [1][2][3][4]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "11843e85-96c4-404c-a6a7-9dda33927e58",
+      "title": "3 BHK Flat in Richmond Town, Bangalore",
+      "locality": "Richmond Town, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-richmond-town-bangalore-central-2226-sqft-spid-U91922092",
+        "externalId": "91922092",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Ahmed Realty",
+        "imageUrl": "https://imagecdn.99acres.com/media1/38877/6/777546976T-1781514055759.jpg",
+        "landmark": "",
+        "postedDate": "17th Jun, 2026",
+        "scrapedAt": "2026-07-31T06:34:18.014Z",
+        "coordinates": {
+          "lat": 12.963555,
+          "lon": 77.6015856
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:34:06.223Z",
+          "trainStation": {
+            "name": "Mahatma Gandhi Road",
+            "distanceKm": 1.4,
+            "lat": 12.9755264,
+            "lon": 77.6067902,
+            "osmUrl": "https://www.openstreetmap.org/node/6400857554",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Gleneagles Global Hospitals",
+            "distanceKm": 0.3,
+            "lat": 12.9654497,
+            "lon": 77.5999044,
+            "osmUrl": "https://www.openstreetmap.org/node/7576958106",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Neelasandra",
+            "distanceKm": 1.5,
+            "lat": 12.9576398,
+            "lon": 77.6141529,
+            "osmUrl": "https://www.openstreetmap.org/way/401993921",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.5,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Richmond Town maintains a competitive real estate market with average prices near ₹19,759 per sq ft, showing a positive long-term appreciation trend despite some quarterly fluctuations [1]. Future connectivity is set to improve significantly with the upcoming Namma Metro Phase 3A line, which will link the area to Sarjapur and Hebbal, augmenting existing access via the Purple and Green metro lines and major arterial roads like Hosur and Residency Road [2][3][4]. While the locality offers premium residential living, buyers should note that peak-hour traffic congestion and limited parking in older developments remain common challenges [3][5]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "f8ac4e67-9d3b-49fa-86cb-127e46042fad",
+      "title": "2 BHK Flat in Seshadripuram, Bangalore Central",
+      "locality": "Seshadripuram, Bangalore Central",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-seshadripuram-bangalore-central-1150-sqft-spid-Q92069880",
+        "externalId": "92069880",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "Bhaskar Pai",
+        "companyName": "Bhaskar Pai",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39163/19/783279642T-1782386131891.jpg",
+        "landmark": "",
+        "postedDate": "25th Jun, 2026",
+        "scrapedAt": "2026-07-31T06:34:19.777Z",
+        "coordinates": {
+          "lat": 12.9946631,
+          "lon": 77.5747183
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:34:20.057Z",
+          "stale": true
+        },
+        "marketIntel": "Seshadripuram is experiencing consistent price appreciation, with average property rates currently around 15,935 per square foot as of March 2026. The area remains a high-demand central hub for families and professionals due to its established infrastructure and proximity to major business districts. Connectivity is excellent, provided by the nearby Mantri Square Sampige Road metro station, KSR Bengaluru City Junction, and multiple major arterial roads, with future value further supported by planned metro network expansions and smart city infrastructure upgrades."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "sourceUrl-fallback"
+    },
+    {
+      "id": "85b8160e-bba9-4a59-87bd-233f2e40a11c",
+      "title": "3 BHK Flat in Vasanth nagar, Bangalore",
+      "locality": "Vasanth nagar, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-prestige-kenilworth-vasanth-nagar-bangalore-central-3200-sqft-spid-Q90549232",
+        "externalId": "90549232",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "CIRCLED PROPTECH LLP",
+        "imageUrl": "https://imagecdn.99acres.com/media1/37420/14/748414500T-1776963773062.jpg",
+        "landmark": "",
+        "postedDate": "10th Jun, 2026",
+        "scrapedAt": "2026-07-31T06:35:58.504Z",
+        "coordinates": {
+          "lat": 12.9921738,
+          "lon": 77.591459
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:35:59.153Z",
+          "trainStation": {
+            "name": "Bangalore Cantonment",
+            "distanceKm": 0.7,
+            "lat": 12.9936865,
+            "lon": 77.5980003,
+            "osmUrl": "https://www.openstreetmap.org/node/246397026",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Al-Ameen Hospital",
+            "distanceKm": 0.4,
+            "lat": 12.9898869,
+            "lon": 77.5942601,
+            "osmUrl": "https://www.openstreetmap.org/way/512626192",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Shivajinagar Bus Station",
+            "distanceKm": 1.6,
+            "lat": 12.9832087,
+            "lon": 77.6030764,
+            "osmUrl": "https://www.openstreetmap.org/way/208748260",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "Jakkur Aerodrome",
+            "distanceKm": 9.6,
+            "lat": 13.0779276,
+            "lon": 77.5976091,
+            "osmUrl": "https://www.openstreetmap.org/way/36988989",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Vasanth Nagar’s real estate market is robust, with average property prices typically ranging between ₹18,000 and ₹29,400 per square foot, depending on the development's profile. Future connectivity is set to improve through the upcoming Parijaata Suburban Railway line, while planned road extensions near Mekhri Circle aim to alleviate local traffic congestion. The area remains well-connected via the Purple Line metro stations and multiple arterial roads, maintaining steady demand from high-income professionals and investors due to its central location and proximity to major business hubs."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "53abf74c-9aec-4ff6-aad5-f45a8b39d655",
+      "title": "3 Bedroom House in Shanthala Nagar, Ashok Nagar",
+      "locality": "Shanthala Nagar, Ashok Nagar",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-independent-house-villa-for-sale-in-casa-lavelle-shanthala-nagar-bangalore-central-2300-sqft-r2-spid-P88679142",
+        "externalId": "88679142",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Infimax Advisors Pvt Ltd ",
+        "imageUrl": "https://imagecdn.99acres.com/media1/38269/17/765397404T-1779705172421.jpg",
+        "landmark": "",
+        "postedDate": "22nd Jul, 2026",
+        "scrapedAt": "2026-07-31T06:36:43.259Z",
+        "coordinates": {
+          "lat": 12.9756383,
+          "lon": 77.6040599
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:36:43.922Z",
+          "trainStation": {
+            "name": "Mahatma Gandhi Road",
+            "distanceKm": 0.3,
+            "lat": 12.9755264,
+            "lon": 77.6067902,
+            "osmUrl": "https://www.openstreetmap.org/node/6400857554",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Mallya Audikesh Diagnostics Center",
+            "distanceKm": 0.7,
+            "lat": 12.9815051,
+            "lon": 77.6011944,
+            "osmUrl": "https://www.openstreetmap.org/node/1005544881",
+            "type": "hospital"
+          },
+          "busStation": {
+            "name": "Shivajinagar Bus Station",
+            "distanceKm": 0.8,
+            "lat": 12.9832087,
+            "lon": 77.6030764,
+            "osmUrl": "https://www.openstreetmap.org/way/208748260",
+            "type": "bus"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.6,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Property values in Shanthala Nagar and Ashok Nagar are experiencing steady upward growth, with average rates currently ranging between approximately ₹23,000 and ₹27,000 per square foot. The area benefits from strong connectivity via the Purple Line metro stations at MG Road and Cubbon Park, along with extensive BMTC bus networks and arterial roads like Residency and Kasturba Road. While the locality is already well-established with robust social infrastructure, it continues to attract demand due to its prime central location and proximity to major business districts."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "sourceUrl-fallback"
+    },
+    {
+      "id": "16c36c86-87b3-42ff-8d96-5bf53acc94e0",
+      "title": "3 BHK Flat in Richards Park, Richards Town, Bangalore",
+      "locality": "Richards Park, Richards Town, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-richards-park-bangalore-central-2000-sqft-spid-H91666072",
+        "externalId": "91666072",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Anugraha",
+        "imageUrl": "https://imagecdn.99acres.com/media1/38956/18/779138378T-1781759302210.jpg",
+        "landmark": "",
+        "postedDate": "Yesterday",
+        "scrapedAt": "2026-07-31T06:36:48.219Z",
+        "coordinates": {
+          "lat": 13.0040986,
+          "lon": 77.6169727
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:36:48.959Z",
+          "trainStation": {
+            "name": "Bengaluru East",
+            "distanceKm": 0.4,
+            "lat": 13.0011462,
+            "lon": 77.6183453,
+            "osmUrl": "https://www.openstreetmap.org/node/253454039",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Mediscope Hospital Private Limited",
+            "distanceKm": 0.5,
+            "lat": 12.9994472,
+            "lon": 77.6162584,
+            "osmUrl": "https://www.openstreetmap.org/node/6944231454",
+            "type": "hospital"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 8.2,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "busStation": {
+            "name": "Shivajinagar Bus Station",
+            "distanceKm": 2.8,
+            "lat": 12.9832087,
+            "lon": 77.6030764,
+            "osmUrl": "https://www.openstreetmap.org/way/208748260",
+            "type": "bus"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Richards Town currently displays a stable real estate market with average prices ranging from approximately ₹12,350 to ₹16,606 per square foot, following a period of recent price correction. Connectivity is a key highlight, supported by its central location, proximity to the Bangalore East Railway Station, and accessibility to major thoroughfares like Tannery Road and the Outer Ring Road. Future prospects are bolstered by planned metro extensions, which are expected to further improve transit times to business hubs like Whitefield and the airport, reinforcing the area's status as a premium, well-connected residential destination. [1][2][3][4]"
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "2d4db0af-6c6d-4340-bcfd-2eeed75e501d",
+      "title": "3 BHK Flat in Cooke Town, Bangalore",
+      "locality": "Cooke Town, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-prestige-woodland-park-cooke-town-bangalore-central-1942-sqft-spid-F92338960",
+        "externalId": "92338960",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Abdul Badi",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39346/19/786939996T-1782984450689.jpg",
+        "landmark": "",
+        "postedDate": "04th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:36:58.178Z",
+        "coordinates": {
+          "lat": 13.0021998,
+          "lon": 77.6251814
+        },
+        "nearbyPlaces": {
+          "fetchedAt": "2026-07-31T06:34:11.473Z",
+          "trainStation": {
+            "name": "Banaswadi",
+            "distanceKm": 0.5,
+            "lat": 13.0058357,
+            "lon": 77.6281321,
+            "osmUrl": "https://www.openstreetmap.org/node/443807288",
+            "type": "train"
+          },
+          "hospital": {
+            "name": "Government Maternity Home",
+            "distanceKm": 0.7,
+            "lat": 12.9983402,
+            "lon": 77.6200927,
+            "osmUrl": "https://www.openstreetmap.org/node/4577045761",
+            "type": "hospital"
+          },
+          "airport": {
+            "name": "HAL Airport",
+            "distanceKm": 7.4,
+            "lat": 12.9514789,
+            "lon": 77.6693458,
+            "osmUrl": "https://www.openstreetmap.org/way/30333120",
+            "type": "airport"
+          },
+          "busStation": {
+            "name": "Kalyan Nagar BMTC Depot",
+            "distanceKm": 3.1,
+            "lat": 13.0265644,
+            "lon": 77.6383427,
+            "osmUrl": "https://www.openstreetmap.org/way/687173199",
+            "type": "bus"
+          },
+          "source": "https://overpass-api.de/api/interpreter"
+        },
+        "marketIntel": "Cooke Town’s property market is currently stable, with average asking prices for multi-storey apartments hovering around ₹12,963 per sq ft as of mid-2026. Connectivity is a key advantage, supported by access to the New Airport Road, Outer Ring Road, and nearby metro stations like Halasuru, with future growth bolstered by ongoing metro line extensions and broader road expansion projects. While the area offers high-end heritage and luxury living, residents should note that recent infrastructure work, such as utility upgrades, has occasionally impacted local traffic and road conditions."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "e15eed68-6c5c-41ff-bd63-3c8a3076a8b7",
+      "title": "3 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "locality": "Pulikeshi Nagar, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-amigo-victory-pulikeshi-nagar-bangalore-central-2226-sqft-spid-P92287932",
+        "externalId": "92287932",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "MYFRA PRIVATE LIMITED",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39720/18/794418137T-1784019625659.jpg",
+        "landmark": "",
+        "postedDate": "17th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:37:00.030Z",
+        "geocodeFailed": true,
+        "marketIntel": "Pulikeshi Nagar is experiencing robust real estate growth, with average asking prices rising to approximately ₹16,950 per sq ft as of March 2026. The area benefits from ongoing infrastructure initiatives under the Bangalore Smart City plan and maintains strong connectivity via local bus services, proximity to the Purple Line metro at MG Road, and major corridors like the Outer Ring Road. While the market for luxury residential projects remains active, buyers should note that asking prices in this central, well-connected locality are currently higher than government-registered rates."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    },
+    {
+      "id": "e95f019f-9e92-4f40-bff6-c2f384765f4e",
+      "title": "3 BHK Flat in Doddamavalli, Mission Road, Bangalore",
+      "locality": "Doddamavalli, Mission Road, Bangalore",
+      "priorMetadata": {
+        "sourceUrl": "https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-prestige-botanique-doddamavalli-bangalore-central-2473-sqft-spid-M92696548",
+        "externalId": "92696548",
+        "source": "99acres-Apify",
+        "scraper": "99acres-apify",
+        "ownerName": "",
+        "companyName": "Deekshith K V",
+        "imageUrl": "https://imagecdn.99acres.com/media1/39985/13/799713805T-1784717369835.jpg",
+        "landmark": "",
+        "postedDate": "15th Jul, 2026",
+        "scrapedAt": "2026-07-31T06:37:01.014Z",
+        "geocodeFailed": true,
+        "marketIntel": "Doddamavalli and Mission Road feature a diverse real estate market ranging from affordable housing to ultra-luxury projects, with recent trends showing mixed performance including some price depreciation in certain segments [1][2][3][4]. The area is supported by established infrastructure and excellent public transport connectivity, including local bus services and proximity to major railway stations like KSR Bengaluru City [1][5][6]. While specific infrastructure projects are not detailed, the locality continues to grow as a residential hub prized for its central location and proximity to landmarks like Lalbagh Botanical Garden [1][4][7]."
+      },
+      "derivedCity": "Bangalore",
+      "rule": "comma-match"
+    }
+  ]
+}
