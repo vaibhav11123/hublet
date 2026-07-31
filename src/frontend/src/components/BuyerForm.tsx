@@ -120,6 +120,70 @@ const BuyerForm = ({ buyerId, onPreferencesUpdated }: BuyerFormProps) => {
                     />
                 </div>
 
+                {/* Structured Preferences */}
+                <div className="m3-surface-container" style={{ marginBottom: 20, border: '1px solid var(--md-sys-color-outline-variant)' }}>
+                    <h3 className="md-title-small" style={{ marginBottom: 8, color: 'var(--md-sys-color-on-surface)' }}>
+                        Structured Preferences
+                    </h3>
+                    <p className="md-body-small" style={{ color: 'var(--md-sys-color-on-surface-variant)', marginBottom: 8 }}>
+                        Optional — fill these in directly, alongside or instead of the natural-language search above.
+                    </p>
+
+                    <div className="m3-form-row">
+                        <div className="m3-input-group">
+                            <label className="m3-input-label">Min Budget (₹)</label>
+                            <input
+                                type="number" min="0"
+                                name="minBudget"
+                                value={formData.minBudget}
+                                onChange={handleChange}
+                                placeholder="e.g., 4000000"
+                                className="m3-input"
+                            />
+                        </div>
+                        <div className="m3-input-group">
+                            <label className="m3-input-label">Max Budget (₹)</label>
+                            <input
+                                type="number" min="0"
+                                name="maxBudget"
+                                value={formData.maxBudget}
+                                onChange={handleChange}
+                                placeholder="e.g., 8000000"
+                                className="m3-input"
+                            />
+                        </div>
+                    </div>
+
+                    <div className="m3-input-group">
+                        <label className="m3-input-label">BHK</label>
+                        <select
+                            name="bhk"
+                            value={formData.bhk}
+                            onChange={handleChange}
+                            className="m3-input m3-select"
+                        >
+                            <option value="">Any</option>
+                            <option value="1">1 BHK</option>
+                            <option value="2">2 BHK</option>
+                            <option value="3">3 BHK</option>
+                            <option value="4">4 BHK</option>
+                            <option value="5">5+ BHK</option>
+                        </select>
+                    </div>
+
+                    <div className="m3-input-group">
+                        <label className="m3-input-label">Amenities (comma-separated)</label>
+                        <input
+                            type="text"
+                            name="amenities"
+                            value={formData.amenities}
+                            onChange={handleChange}
+                            placeholder="e.g., parking, gym, swimming pool"
+                            className="m3-input"
+                        />
+                    </div>
+                </div>
+
                 {/* Map-based Locality Picker */}
                 <div className="m3-surface-container" style={{ marginBottom: 20, border: '1px solid var(--md-sys-color-outline-variant)' }}>
                     <div className="m3-flex-between" style={{ marginBottom: 12 }}>
