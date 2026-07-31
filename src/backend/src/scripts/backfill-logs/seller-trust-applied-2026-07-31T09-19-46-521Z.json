@@ -1,0 +1,399 @@
+{
+  "apply": true,
+  "updated": 49,
+  "skipped": 0,
+  "rows": [
+    {
+      "id": "70b1923c-cea1-49ad-9c2e-797c76eb7001",
+      "name": "Deekshith Gowda",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 8,
+      "actualNewTrustScore": 61
+    },
+    {
+      "id": "28db2e8e-6fc0-4dba-9d2b-4e9ad6e7b0bc",
+      "name": "MYFRA DISTRIBUTION PRIVATED LIMITED",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 16,
+      "actualNewTrustScore": 66
+    },
+    {
+      "id": "4a6905f3-6a74-48db-88f3-31e3ae4ea22a",
+      "name": "Inbengaluru Properties",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 30,
+      "actualNewTrustScore": 74
+    },
+    {
+      "id": "81c90371-3fbc-489b-a698-97554f68be1b",
+      "name": "Ankush",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 15,
+      "actualNewTrustScore": 65
+    },
+    {
+      "id": "d870d946-0bea-465e-a8b1-2b685dd361e5",
+      "name": "Kevin A",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 26,
+      "actualNewTrustScore": 72
+    },
+    {
+      "id": "4f639495-8f22-4012-9150-b8fa0d45baab",
+      "name": "Bhaskar Pai",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 1,
+      "actualNewTrustScore": 57
+    },
+    {
+      "id": "50264ec3-5293-4b83-920a-45ad9d11a781",
+      "name": "WAQUAR AHMED",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 11,
+      "actualNewTrustScore": 63
+    },
+    {
+      "id": "015413e0-e9fd-4d6e-b292-25b12c862de9",
+      "name": "Hyder Ali",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 23,
+      "actualNewTrustScore": 70
+    },
+    {
+      "id": "e50cb509-7ef1-4e67-8d60-b8a94c8577a2",
+      "name": "FRONTLINE HOMES",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 36,
+      "actualNewTrustScore": 78
+    },
+    {
+      "id": "7718af27-fc98-4de1-b53b-33e89a368243",
+      "name": "Prabbha",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 12,
+      "actualNewTrustScore": 63
+    },
+    {
+      "id": "6f5a9936-3ae2-4670-b71f-76f1b7ecf154",
+      "name": "Naresh",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 19,
+      "actualNewTrustScore": 67
+    },
+    {
+      "id": "015623f3-562f-49db-8f0d-d186fdbb9255",
+      "name": "LIV IN OUT",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 25,
+      "actualNewTrustScore": 71
+    },
+    {
+      "id": "754d6367-ab77-4951-82c6-b12ee9bbddac",
+      "name": "Rahimulla",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 37,
+      "actualNewTrustScore": 78
+    },
+    {
+      "id": "c76cb344-ed6b-416a-8b0c-924c9a02e83b",
+      "name": "Anugraha",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 33,
+      "actualNewTrustScore": 76
+    },
+    {
+      "id": "49354f7d-8594-4738-8a28-054d747fd871",
+      "name": "Unknown",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 8,
+      "actualNewTrustScore": 61
+    },
+    {
+      "id": "a089faaa-eb24-4bcb-bbf9-d68ef195a28f",
+      "name": "AMIT KHANDELWAL",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 29,
+      "actualNewTrustScore": 73
+    },
+    {
+      "id": "6916caac-0163-4999-ac69-429afd2c226d",
+      "name": "SIDDHARTH MITTAL",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 20,
+      "actualNewTrustScore": 68
+    },
+    {
+      "id": "d470aab7-40a8-43b6-b3b3-d97806caf908",
+      "name": "Lucknow Homes",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 24,
+      "actualNewTrustScore": 76
+    },
+    {
+      "id": "b4ae5938-f826-4d24-a944-ee60b2f27289",
+      "name": "Anil Verma (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 5,
+      "actualNewTrustScore": 72
+    },
+    {
+      "id": "0848008d-655b-45ed-bb62-a2ca0a30a32b",
+      "name": "Omaxe Lucknow",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 22,
+      "actualNewTrustScore": 77
+    },
+    {
+      "id": "244205c6-daf9-4ea5-b4b0-408daf091ca0",
+      "name": "Kochi Estates",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 27,
+      "actualNewTrustScore": 66
+    },
+    {
+      "id": "8feab24b-1a3f-419d-a079-de26baf25b8e",
+      "name": "Thomas Varghese (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 1,
+      "actualNewTrustScore": 66
+    },
+    {
+      "id": "74965f46-9faf-49c3-b124-6cff519e2f31",
+      "name": "Confident Group KOC",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 15,
+      "actualNewTrustScore": 66
+    },
+    {
+      "id": "99bada4f-dd3d-4dc1-8a17-86181d2b8ac1",
+      "name": "Pink City Realtors",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 30,
+      "actualNewTrustScore": 84
+    },
+    {
+      "id": "a8cfaeb2-9c72-4c7c-ab7e-8812256c6ef7",
+      "name": "Rajesh Sharma (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 2,
+      "actualNewTrustScore": 55
+    },
+    {
+      "id": "05edd493-e079-48b5-8157-78903b687e83",
+      "name": "Mahima Group JAI",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 25,
+      "actualNewTrustScore": 73
+    },
+    {
+      "id": "cb717c52-3a33-4601-88f9-fde5db1e62dc",
+      "name": "Ahmedabad Property Hub",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 22,
+      "actualNewTrustScore": 69
+    },
+    {
+      "id": "33559f79-f1da-47cf-992a-4f5e5e352eca",
+      "name": "Kiran Patel (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 0,
+      "actualNewTrustScore": 65
+    },
+    {
+      "id": "b2bfe5a8-96fc-4d7d-b6fc-cf028204e1c8",
+      "name": "Adani Realty AMD",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 40,
+      "actualNewTrustScore": 94
+    },
+    {
+      "id": "f6e2cc68-3704-43f4-8022-a8979cea26f1",
+      "name": "Kolkata Realty Partners",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 32,
+      "actualNewTrustScore": 68
+    },
+    {
+      "id": "000879ea-2e76-4c45-944e-274fe4b37c03",
+      "name": "Debashish Ghosh (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 1,
+      "actualNewTrustScore": 55
+    },
+    {
+      "id": "f69b0fba-0b74-498c-b25b-bbea498ffa95",
+      "name": "Merlin Group KOL",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 25,
+      "actualNewTrustScore": 73
+    },
+    {
+      "id": "f2430b71-4e4a-42dd-8f17-d1b221ccd5e3",
+      "name": "Jayesh N Jain",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 21,
+      "actualNewTrustScore": 69
+    },
+    {
+      "id": "c6eadbd2-fc07-4f05-b4e4-4205533de2a5",
+      "name": "Samuel David Kale",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 37,
+      "actualNewTrustScore": 78
+    },
+    {
+      "id": "8695dd2f-9494-4065-8708-64ce25a04e49",
+      "name": "Alliance Realtors CHN",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 8,
+      "actualNewTrustScore": 69
+    },
+    {
+      "id": "3a0148b5-8a7f-4564-84eb-c2111974af68",
+      "name": "Ramesh Iyer (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 6,
+      "actualNewTrustScore": 55
+    },
+    {
+      "id": "2899d130-1781-40a7-a9e0-910968648a03",
+      "name": "Casagrand Group",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 25,
+      "actualNewTrustScore": 76
+    },
+    {
+      "id": "d2a30832-f8e9-4f85-aa77-754c74bd54b1",
+      "name": "Kumar Properties Pune",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 12,
+      "actualNewTrustScore": 64
+    },
+    {
+      "id": "39623960-5f92-40e2-80a5-e55655ff5128",
+      "name": "Amit Shah (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 5,
+      "actualNewTrustScore": 66
+    },
+    {
+      "id": "4c2ae476-ee61-4b35-acb4-019f42ac5392",
+      "name": "Kolte Patil Developers",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 38,
+      "actualNewTrustScore": 80
+    },
+    {
+      "id": "48240fdf-97e2-486d-86db-b94db431a33c",
+      "name": "Hiranandani Agents",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 37,
+      "actualNewTrustScore": 77
+    },
+    {
+      "id": "faf3d20e-e188-4929-803a-c8181188e620",
+      "name": "Sunita Verma (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 4,
+      "actualNewTrustScore": 72
+    },
+    {
+      "id": "30727d5c-ca86-4e76-ae92-a624ba846a3c",
+      "name": "Lodha Group MUM",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 25,
+      "actualNewTrustScore": 83
+    },
+    {
+      "id": "b7ac9555-a4e5-4ab4-bdec-be6d885e0a7f",
+      "name": "Brigade Realty",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 27,
+      "actualNewTrustScore": 80
+    },
+    {
+      "id": "02bcc97e-e625-46f3-bb48-a3d2041006f1",
+      "name": "Anand Murthy (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 1,
+      "actualNewTrustScore": 55
+    },
+    {
+      "id": "340d54e4-b1d8-40f8-b7f6-484cc280d3f8",
+      "name": "Prestige Group BLR",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 15,
+      "actualNewTrustScore": 58
+    },
+    {
+      "id": "9d56a768-1c77-45de-a547-dabd0a615fc4",
+      "name": "Sai Realtors",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 21,
+      "actualNewTrustScore": 69
+    },
+    {
+      "id": "6e029c7d-0177-4774-838e-0af95685a8e3",
+      "name": "Rajesh Kumar (Owner)",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 0,
+      "actualNewTrustScore": 58
+    },
+    {
+      "id": "3ee4d9ca-b0ea-43a6-8828-90aa851f52a3",
+      "name": "Srinivas Builders",
+      "priorCompletedDeals": 0,
+      "priorTrustScore": 0,
+      "proposedCompletedDeals": 28,
+      "actualNewTrustScore": 70
+    }
+  ]
+}
