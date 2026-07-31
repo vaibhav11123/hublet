@@ -48,6 +48,7 @@ export default function LocationPicker({
     const [locations, setLocations] = useState<PickedLocation[]>(initialLocations);
     const [loading, setLoading] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
+    const [error, setError] = useState<string | null>(null);
 
     // Initialize map
     useEffect(() => {
@@ -82,6 +83,7 @@ export default function LocationPicker({
 
     const reverseGeocodeAndAdd = async (lat: number, lon: number, map: L.Map) => {
         setLoading(true);
+        setError(null);
         try {
             // Use our backend reverse-geocode endpoint
             const token = localStorage.getItem('hublet_auth_token');
@@ -102,6 +104,7 @@ export default function LocationPicker({
             handleAddLocation(newLoc, map);
         } catch (err) {
             console.error('Reverse geocode error:', err);
+            setError('Could not resolve that location. Please try again or click elsewhere on the map.');
         } finally {
             setLoading(false);
         }
@@ -174,6 +177,7 @@ export default function LocationPicker({
     const handleSearch = async () => {
         if (!searchQuery.trim()) return;
         setLoading(true);
+        setError(null);
         try {
             const token = localStorage.getItem('hublet_auth_token');
             const res = await fetch(
@@ -182,6 +186,7 @@ export default function LocationPicker({
             );
             if (!res.ok) throw new Error('Search failed');
             const r = await res.json();
+            if (!r.lat || !r.lon) throw new Error('No results found');
             const newLoc: PickedLocation = {
                 name: r.locality || searchQuery,
                 lat: r.lat,
@@ -194,6 +199,7 @@ export default function LocationPicker({
             }
         } catch (err) {
             console.error('Search error:', err);
+            setError(`Could not find "${searchQuery}". Try a different spelling, or pick the location directly on the map.`);
         } finally {
             setLoading(false);
             setSearchQuery('');
@@ -261,6 +267,12 @@ export default function LocationPicker({
             {loading && (
                 <div className="m3-alert m3-alert-warning" style={{ margin: 0, borderRadius: 0 }}>
                     📡 Resolving location...
+                </div>
+            )}
+
+            {!loading && error && (
+                <div className="m3-alert m3-alert-error" style={{ margin: 0, borderRadius: 0 }}>
+                    ⚠️ {error}
                 </div>
             )}
 
