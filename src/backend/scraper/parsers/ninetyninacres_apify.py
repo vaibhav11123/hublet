@@ -19,13 +19,26 @@ APIFY_BASE_URL = "https://api.apify.com/v2"
 ACTOR_ID = "stealth_mode~99acres-property-search-scraper"
 
 # Map city names to 99acres search URLs
+#
+# mumbai and chennai IDs below were corrected after live testing confirmed the
+# previous ones were wrong: city=19 for mumbai actually returned Pune-area
+# listings, and city=10 for chennai actually returned Faridabad-area listings
+# (99acres' numeric city-ID scheme has changed multiple times and is
+# inconsistent across sources). The replacements (mumbai=12, chennai=36) were
+# researched via multiple independent, actively-maintained 99acres scraper
+# integrations that explicitly document "verified ID coverage" for these
+# exact values, then confirmed with a live Apify test run before being
+# committed here: mumbai=12 returned Thane-area listings (Thane is part of
+# the Mumbai Metropolitan Region), and chennai=36 returned
+# Chennai/Sriperumbudur-area listings - both correct, vs. the previous
+# entirely-wrong-city results.
 CITY_URL_MAP = {
-    "mumbai": "https://www.99acres.com/search/property/buy/mumbai?city=19&preference=S&area_unit=1&res_com=R",
+    "mumbai": "https://www.99acres.com/search/property/buy/mumbai?city=12&preference=S&area_unit=1&res_com=R",
     "new-delhi": "https://www.99acres.com/search/property/buy/new-delhi?city=9&preference=S&area_unit=1&res_com=R",
     "delhi": "https://www.99acres.com/search/property/buy/new-delhi?city=9&preference=S&area_unit=1&res_com=R",
     "hyderabad": "https://www.99acres.com/search/property/buy/hyderabad?city=23&preference=S&area_unit=1&res_com=R",
     "bangalore": "https://www.99acres.com/search/property/buy/bangalore?city=21&preference=S&area_unit=1&res_com=R",
-    "chennai": "https://www.99acres.com/search/property/buy/chennai?city=10&preference=S&area_unit=1&res_com=R",
+    "chennai": "https://www.99acres.com/search/property/buy/chennai?city=36&preference=S&area_unit=1&res_com=R",
     "pune": "https://www.99acres.com/search/property/buy/pune?city=17&preference=S&area_unit=1&res_com=R",
 }
 
