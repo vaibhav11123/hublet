@@ -38,6 +38,12 @@ def _coerce(value, target_type, default):
         except (ValueError, TypeError):
             return default
     if target_type == str:
+        if isinstance(value, (dict, list, tuple)):
+            # A parser handed us a structured value where a plain string was
+            # expected (e.g. a truncation wrapper dict). Stringifying it
+            # would leak Python repr garbage into the field, so treat this
+            # as missing data instead.
+            return default
         return str(value) if value else default
     if target_type == list:
         if isinstance(value, list):

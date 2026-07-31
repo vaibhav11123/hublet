@@ -335,7 +335,12 @@ def _map_json_item(item, city):
     else:
         seller_type = 'Agent'
 
-    title = item.get('prop_heading', '') or item.get('name', '') or f"Property in {locality}"
+    title = item.get('prop_heading', '') or item.get('name', '') or ''
+
+    # No usable title or price means this listing has no real data — skip it
+    # rather than inserting a placeholder like "Property in " with price=0.
+    if not title.strip() or price <= 0:
+        return None
 
     return {
         "title": title,
@@ -343,7 +348,7 @@ def _map_json_item(item, city):
         "area": area,
         "locality": locality,
         "city": item.get('city_name', city) or city,
-        "description": item.get('description', '') or f"Property in {locality}",
+        "description": item.get('description', '') or (f"Property in {locality}" if locality else ''),
         "sourceUrl": source_url,
         "externalId": str(item.get('spid', '') or item.get('prop_id', '') or ''),
         "source": "99acres",

@@ -110,12 +110,22 @@ def get_99acres_apify_listings(city, limit=10, token=None, **kwargs):
 
     # Map to our schema
     properties = []
+    skipped = 0
     for item in raw_items:
         try:
             prop = _map_99acres_item(item, city)
+            if prop is None:
+                skipped += 1
+                print(f"[99acres-apify] Skipping listing with no usable title/price: "
+                      f"spid={item.get('spid') or item.get('prop_id')}", file=sys.stderr)
+                continue
             properties.append(prop)
         except Exception:
+            skipped += 1
             continue
+
+    if skipped:
+        print(f"[99acres-apify] Skipped {skipped} malformed listing(s) out of {len(raw_items)}", file=sys.stderr)
 
     return validate_listings(properties)
 
@@ -139,6 +149,20 @@ def _parse_price(val):
             return int(float(s))
     except (ValueError, TypeError):
         return 0
+
+
+def _extract_text_field(value):
+    """
+    Some 99acres Apify fields (e.g. formatted.desc/shortdesc) come back as a
+    dict like {'truncationvalue': 150, 'text': '...'} instead of a plain
+    string. Pull the real string out; never let a dict fall through to
+    schema coercion, which would stringify it into Python-repr garbage.
+    """
+    if isinstance(value, dict):
+        return value.get('text', '') or ''
+    if isinstance(value, str):
+        return value
+    return ''
 
 
 def _map_99acres_item(item, city):
@@ -222,13 +246,13 @@ def _map_99acres_item(item, city):
         if loc_heading and title:
             title = f"{title} in {loc_heading}"
     if not title:
-        title = item.get('prop_heading', '') or f"Property in {locality}"
+        title = item.get('prop_heading', '') or ''
 
     # Description
-    description = item.get('description', '') or ''
+    description = _extract_text_field(item.get('description'))
     if formatted and not description:
-        description = formatted.get('desc', '') or formatted.get('shortdesc', '') or ''
-    if not description:
+        description = _extract_text_field(formatted.get('desc')) or _extract_text_field(formatted.get('shortdesc'))
+    if not description and (locality or city):
         description = f"Property in {locality or city}"
 
     # Amenities
@@ -244,6 +268,12 @@ def _map_99acres_item(item, city):
     res_com = item.get('res_com', '')
     if res_com == 'C':
         prop_type = 'commercial'
+
+    # If we couldn't extract a real title or a real price, this listing has
+    # no usable data — skip it rather than inserting a placeholder like
+    # "Property in " (empty locality) with price=0.
+    if not title.strip() or price <= 0:
+        return None
 
     return {
         "title": title,
