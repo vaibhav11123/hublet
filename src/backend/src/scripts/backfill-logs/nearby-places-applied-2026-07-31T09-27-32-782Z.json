@@ -1,0 +1,23 @@
+{
+  "apply": true,
+  "updated": 3,
+  "synthetic": 0,
+  "skippedNoCoords": 0,
+  "rows": [
+    {
+      "id": "45b1bff7-a77b-4367-b1ba-b9456aa4c8e8",
+      "title": "Srinivas Heights 3BHK Gachibowli",
+      "result": "real"
+    },
+    {
+      "id": "4c1ee621-4b6f-4cb3-afea-900048285e45",
+      "title": "Srinivas Towers 2BHK Kondapur",
+      "result": "real"
+    },
+    {
+      "id": "a57f1f1a-ca1d-4f24-abc6-dcc589776573",
+      "title": "Premium 3BHK Madhapur",
+      "result": "real"
+    }
+  ]
+}

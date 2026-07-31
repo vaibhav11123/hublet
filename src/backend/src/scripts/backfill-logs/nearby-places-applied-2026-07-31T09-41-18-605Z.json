@@ -1,0 +1,268 @@
+{
+  "apply": true,
+  "updated": 46,
+  "synthetic": 0,
+  "skippedNoCoords": 6,
+  "rows": [
+    {
+      "id": "f2dfbf35-b150-4628-9798-25808b457f93",
+      "title": "Spacious 2BHK Kukatpally",
+      "result": "real"
+    },
+    {
+      "id": "27b44ae0-90e5-437e-81fb-f0a7cd19cd4d",
+      "title": "Luxury Villa Jubilee Hills",
+      "result": "real"
+    },
+    {
+      "id": "c6cfead0-9cdb-45be-b597-721b45b2111a",
+      "title": "Prestige Lakeside 2BHK Whitefield",
+      "result": "real"
+    },
+    {
+      "id": "d81a0342-6e26-4714-bf6c-d658bbff3f6e",
+      "title": "Prestige Ozone 3BHK Whitefield",
+      "result": "real"
+    },
+    {
+      "id": "d6f5d6c4-0bf8-476d-8ffa-f48075a8ec74",
+      "title": "Cozy 2BHK HSR Layout",
+      "result": "real"
+    },
+    {
+      "id": "2d17071c-2c79-4086-a17e-b530609430b2",
+      "title": "Modern 3BHK Koramangala",
+      "result": "real"
+    },
+    {
+      "id": "2345ad15-930d-45f0-8784-512210928806",
+      "title": "Budget 2BHK Electronic City",
+      "result": "real"
+    },
+    {
+      "id": "b04f0512-0e95-4b03-acc0-73f7da0359ff",
+      "title": "Lodha Luxuria 2BHK Andheri West",
+      "result": "real"
+    },
+    {
+      "id": "8834ce74-b90c-4152-893a-79032718f996",
+      "title": "Lodha Supremus 3BHK Powai",
+      "result": "real"
+    },
+    {
+      "id": "275b3fa3-bfc3-4c73-a24a-ecb5b5ba07de",
+      "title": "Compact 1BHK Thane West",
+      "result": "real"
+    },
+    {
+      "id": "84954fcf-2d39-4e4f-82cc-e51dc59be199",
+      "title": "Elegant 2BHK Goregaon East",
+      "result": "real"
+    },
+    {
+      "id": "58c75703-1376-4fe8-beeb-a33539a7ed8c",
+      "title": "Premium 3BHK Worli Sea Face",
+      "result": "real"
+    },
+    {
+      "id": "51c67f14-c35e-4f1c-8afc-c62e70643f19",
+      "title": "Life Republic 2BHK Hinjewadi",
+      "result": "real"
+    },
+    {
+      "id": "0970544a-b5d2-434a-aae4-3d0f740dbfe2",
+      "title": "Ivy Estate 3BHK Wagholi",
+      "result": "real"
+    },
+    {
+      "id": "f59d98b7-45e4-475d-b3e7-33f9b8e8e9bb",
+      "title": "Sunny 2BHK Kharadi",
+      "result": "real"
+    },
+    {
+      "id": "05e4542f-1ecd-4092-a0bb-d6a87a9781fd",
+      "title": "Modern 3BHK Baner",
+      "result": "real"
+    },
+    {
+      "id": "d59a0bf8-ad28-4eb6-ab34-0a2652ec01ac",
+      "title": "Budget 2BHK Hadapsar",
+      "result": "real"
+    },
+    {
+      "id": "26b66436-62c4-4573-8537-75530539a97b",
+      "title": "Casagrand First City 3BHK OMR",
+      "result": "real"
+    },
+    {
+      "id": "c9b4b115-86fa-472e-a9ca-6879e7903b9d",
+      "title": "Casagrand Aristo 2BHK OMR",
+      "result": "real"
+    },
+    {
+      "id": "d8743d56-856f-418f-af9e-9d6a52d483b2",
+      "title": "Charming 2BHK Velachery",
+      "result": "real"
+    },
+    {
+      "id": "a1e1ce2d-91e1-4434-80f8-dc3a4d4e315d",
+      "title": "Spacious 2BHK Anna Nagar",
+      "result": "real"
+    },
+    {
+      "id": "43766794-5329-44a6-ac9d-892df319afc0",
+      "title": "Premium 3BHK Adyar",
+      "result": "real"
+    },
+    {
+      "id": "ab3d88fc-d5e0-40df-b22b-d2d5a491926c",
+      "title": "Merlin Rise 2BHK Salt Lake",
+      "result": "real"
+    },
+    {
+      "id": "75d74286-5f73-4283-9d16-9b020f60c623",
+      "title": "Merlin Greens 3BHK New Town",
+      "result": "real"
+    },
+    {
+      "id": "85258a6f-217b-474a-840a-2954ce96afb6",
+      "title": "Charming 2BHK Ballygunge",
+      "result": "real"
+    },
+    {
+      "id": "10a769e3-690b-42e3-961e-8ea3b129d578",
+      "title": "Elegant 3BHK Park Street",
+      "result": "real"
+    },
+    {
+      "id": "28636820-f788-405a-a865-b0948e615e21",
+      "title": "Modern 2BHK Rajarhat",
+      "result": "real"
+    },
+    {
+      "id": "a5e8c7b6-962f-4064-8752-33e99474b954",
+      "title": "Adani Shantigram 3BHK Satellite",
+      "result": "real"
+    },
+    {
+      "id": "8f942401-ae8a-4f90-8959-4e655ba9a55b",
+      "title": "Adani Elysium 2BHK SG Highway",
+      "result": "real"
+    },
+    {
+      "id": "de867492-ddac-4f57-9d34-8ca6100e600c",
+      "title": "Spacious 2BHK Vastrapur",
+      "result": "real"
+    },
+    {
+      "id": "d6f0202e-8087-40d8-bc79-bb22aa46a036",
+      "title": "Premium 3BHK Bopal",
+      "result": "real"
+    },
+    {
+      "id": "a40e079e-3bf4-4af9-8f71-fd4efe8cf610",
+      "title": "Modern 2BHK Prahlad Nagar",
+      "result": "real"
+    },
+    {
+      "id": "8db60e30-7cad-467c-b510-d218a58da085",
+      "title": "Mahima Heights 2BHK Vaishali Nagar",
+      "result": "real"
+    },
+    {
+      "id": "0c39b841-2f83-4771-ad45-adc8ae28b312",
+      "title": "Mahima Panorama 3BHK Jagatpura",
+      "result": "real"
+    },
+    {
+      "id": "92968a9b-13c9-4b94-a07b-09a4f4586610",
+      "title": "Cozy 2BHK Malviya Nagar",
+      "result": "real"
+    },
+    {
+      "id": "97cc6c05-886b-4cb3-ad30-f760d1a96aa3",
+      "title": "Heritage 3BHK C-Scheme",
+      "result": "real"
+    },
+    {
+      "id": "7904c655-32c9-42c0-aa7a-f667fa9c0546",
+      "title": "Affordable 2BHK Mansarovar",
+      "result": "real"
+    },
+    {
+      "id": "e6b6df72-e2d7-4bb9-a202-a26048a53cf7",
+      "title": "Confident Sunshine 2BHK Kakkanad",
+      "result": "real"
+    },
+    {
+      "id": "fbddce77-a332-4ae0-84f4-9707171bee42",
+      "title": "Confident Gardenia 3BHK Edappally",
+      "result": "real"
+    },
+    {
+      "id": "c8e0b10b-c41c-44d6-bcb1-5f28a1fb9a17",
+      "title": "Elegant 3BHK Panampilly Nagar",
+      "result": "real"
+    },
+    {
+      "id": "57a83916-fa13-49bf-8b10-c14e99d5e54e",
+      "title": "Waterfront 2BHK Marine Drive",
+      "result": "skipped-no-coords"
+    },
+    {
+      "id": "e45d1761-7e60-4f35-a794-34c67ca7f551",
+      "title": "Compact 2BHK Vyttila",
+      "result": "real"
+    },
+    {
+      "id": "99574e36-a9e4-4819-9edb-7a53e7e66dee",
+      "title": "Omaxe Forest 3BHK Gomti Nagar",
+      "result": "real"
+    },
+    {
+      "id": "a6da5e11-40e2-4ee4-a833-f0805a5ebbdf",
+      "title": "Omaxe Silver 2BHK Vibhuti Khand",
+      "result": "real"
+    },
+    {
+      "id": "c47ee199-ecc6-4934-8990-ec8645f1ce94",
+      "title": "Comfortable 2BHK Indira Nagar",
+      "result": "real"
+    },
+    {
+      "id": "8be1c565-b8f0-4d65-af29-78b7d18237ca",
+      "title": "Heritage 3BHK Hazratganj",
+      "result": "real"
+    },
+    {
+      "id": "899f2f33-6015-4737-8261-e672d1ecbc6f",
+      "title": "Budget 2BHK Alambagh",
+      "result": "real"
+    },
+    {
+      "id": "bc2d9891-8847-4e1c-a274-65f188a27c21",
+      "title": "Residential land / Plot in Shivaji Nagar, MG Road",
+      "result": "skipped-no-coords"
+    },
+    {
+      "id": "445bd2ec-ea93-4940-a05c-dc373f9c22ae",
+      "title": "5 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "result": "skipped-no-coords"
+    },
+    {
+      "id": "a83a299d-40e0-4944-8af8-002b6e1ae492",
+      "title": "Residential land / Plot in Jeevanhalli, Pulikeshi Nagar",
+      "result": "skipped-no-coords"
+    },
+    {
+      "id": "e15eed68-6c5c-41ff-bd63-3c8a3076a8b7",
+      "title": "3 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "result": "skipped-no-coords"
+    },
+    {
+      "id": "e95f019f-9e92-4f40-bff6-c2f384765f4e",
+      "title": "3 BHK Flat in Doddamavalli, Mission Road, Bangalore",
+      "result": "skipped-no-coords"
+    }
+  ]
+}
