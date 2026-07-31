@@ -1,0 +1,51 @@
+{
+  "apply": true,
+  "updated": 6,
+  "real": 0,
+  "synthetic": 6,
+  "unresolved": 0,
+  "rows": [
+    {
+      "id": "57a83916-fa13-49bf-8b10-c14e99d5e54e",
+      "title": "Waterfront 2BHK Marine Drive",
+      "locality": "Marine Drive, Kochi",
+      "city": "Kochi",
+      "result": "synthetic"
+    },
+    {
+      "id": "bc2d9891-8847-4e1c-a274-65f188a27c21",
+      "title": "Residential land / Plot in Shivaji Nagar, MG Road",
+      "locality": "Shivaji Nagar, MG Road",
+      "city": "Bangalore",
+      "result": "synthetic"
+    },
+    {
+      "id": "445bd2ec-ea93-4940-a05c-dc373f9c22ae",
+      "title": "5 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "locality": "Pulikeshi Nagar, Bangalore",
+      "city": "Bangalore",
+      "result": "synthetic"
+    },
+    {
+      "id": "a83a299d-40e0-4944-8af8-002b6e1ae492",
+      "title": "Residential land / Plot in Jeevanhalli, Pulikeshi Nagar",
+      "locality": "Jeevanhalli, Pulikeshi Nagar",
+      "city": "Bangalore",
+      "result": "synthetic"
+    },
+    {
+      "id": "e15eed68-6c5c-41ff-bd63-3c8a3076a8b7",
+      "title": "3 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "locality": "Pulikeshi Nagar, Bangalore",
+      "city": "Bangalore",
+      "result": "synthetic"
+    },
+    {
+      "id": "e95f019f-9e92-4f40-bff6-c2f384765f4e",
+      "title": "3 BHK Flat in Doddamavalli, Mission Road, Bangalore",
+      "locality": "Doddamavalli, Mission Road, Bangalore",
+      "city": "Bangalore",
+      "result": "synthetic"
+    }
+  ]
+}
