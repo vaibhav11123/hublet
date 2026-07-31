@@ -225,12 +225,72 @@ function getSellerIdFromAdminView(sellerId: string, sellers: SellerRow[]): Selle
   return sellers.find((seller) => seller.id === sellerId) || null;
 }
 
+interface KpiTrend {
+  label: string;
+  tone: 'success' | 'warning' | 'info';
+}
+
+// Real last-7-days-vs-prior-7-days trend, replacing what used to be
+// hardcoded literal strings ('12% vs last period', 'Stable', etc.) for
+// every KPI card regardless of actual data.
+function splitByWindow<T extends { createdAt: Date }>(items: T[], now: number): { recent: T[]; prior: T[] } {
+  const oneDayMs = 24 * 60 * 60 * 1000;
+  const sevenDaysAgo = now - 7 * oneDayMs;
+  const fourteenDaysAgo = now - 14 * oneDayMs;
+  const recent: T[] = [];
+  const prior: T[] = [];
+  for (const item of items) {
+    const t = new Date(item.createdAt).getTime();
+    if (t >= sevenDaysAgo && t <= now) recent.push(item);
+    else if (t >= fourteenDaysAgo && t < sevenDaysAgo) prior.push(item);
+  }
+  return { recent, prior };
+}
+
+function computeCountTrend<T extends { createdAt: Date }>(items: T[], now: number): KpiTrend {
+  const { recent, prior } = splitByWindow(items, now);
+  if (prior.length === 0) {
+    return recent.length > 0
+      ? { label: `+${recent.length} new this week`, tone: 'success' }
+      : { label: 'No change vs last week', tone: 'info' };
+  }
+  const pct = round1(((recent.length - prior.length) / prior.length) * 100);
+  if (pct > 0) return { label: `+${pct}% vs last week`, tone: 'success' };
+  if (pct < 0) return { label: `${pct}% vs last week`, tone: 'warning' };
+  return { label: 'No change vs last week', tone: 'info' };
+}
+
+function computePointTrend<T extends { createdAt: Date }>(items: T[], now: number, valueOf: (item: T) => number, unit: string): KpiTrend {
+  const { recent, prior } = splitByWindow(items, now);
+  const recentValues = recent.map(valueOf).filter((v) => Number.isFinite(v));
+  const priorValues = prior.map(valueOf).filter((v) => Number.isFinite(v));
+  if (!recentValues.length || !priorValues.length) {
+    return { label: 'No change vs last week', tone: 'info' };
+  }
+  const diff = round1(average(recentValues) - average(priorValues));
+  if (diff > 0) return { label: `+${diff}${unit} this week`, tone: 'success' };
+  if (diff < 0) return { label: `${diff}${unit} this week`, tone: 'warning' };
+  return { label: 'No change vs last week', tone: 'info' };
+}
+
+function computeRateTrend<T extends { createdAt: Date }>(items: T[], now: number, predicate: (item: T) => boolean): KpiTrend {
+  const { recent, prior } = splitByWindow(items, now);
+  if (!recent.length || !prior.length) return { label: 'No change vs last week', tone: 'info' };
+  const recentRate = (recent.filter(predicate).length / recent.length) * 100;
+  const priorRate = (prior.filter(predicate).length / prior.length) * 100;
+  const diff = round1(recentRate - priorRate);
+  if (diff > 0) return { label: `+${diff}pts this week`, tone: 'success' };
+  if (diff < 0) return { label: `${diff}pts this week`, tone: 'warning' };
+  return { label: 'No change vs last week', tone: 'info' };
+}
+
 export class AnalyticsService {
   static async getAdminOverview(filters: AnalyticsFilters): Promise<AnalyticsResponse<AdminOverviewData>> {
     const { dataset, warnings } = await loadDataset(filters);
 
     const scoreValues = dataset.matches.map((match) => toNumber(match.matchScore)).filter((score) => score > 0);
     const score60 = scoreValues.filter((score) => score >= 60).length;
+    const now = Date.now();
 
     const data: AdminOverviewData = {
       totals: {
@@ -246,6 +306,16 @@ export class AnalyticsService {
         ? round1((dataset.properties.filter((property) => property.isActive).length / dataset.properties.length) * 100)
         : 0,
       leadConversionByStage: getLeadConversion(dataset.leads),
+      trends: {
+        buyers: computeCountTrend(dataset.buyers, now),
+        sellers: computeCountTrend(dataset.sellers, now),
+        matches: computeCountTrend(dataset.matches, now),
+        properties: computeCountTrend(dataset.properties, now),
+        leads: computeCountTrend(dataset.leads, now),
+        avgMatchScore: computePointTrend(dataset.matches, now, (match) => toNumber(match.matchScore), 'pts'),
+        score60PlusRate: computeRateTrend(dataset.matches, now, (match) => toNumber(match.matchScore) >= 60),
+        activeInventoryRate: computeRateTrend(dataset.properties, now, (property) => property.isActive),
+      },
     };
 
     return buildResponse(data, dataset.matches.length, filters, warnings);

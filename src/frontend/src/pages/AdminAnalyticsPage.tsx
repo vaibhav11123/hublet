@@ -157,14 +157,14 @@ export function AdminAnalyticsPage() {
   const minsSinceUpdate = Math.max(0, Math.floor((Date.now() - lastUpdatedAt.getTime()) / 60000));
 
   const kpiCards = [
-    { label: 'TOTAL BUYERS', value: String(overview.data.totals.buyers), trend: '12% vs last period', tone: 'success' },
-    { label: 'TOTAL SELLERS', value: String(overview.data.totals.sellers), trend: 'No change', tone: 'info' },
-    { label: 'TOTAL MATCHES', value: String(overview.data.totals.matches), trend: 'Stable', tone: 'info' },
-    { label: 'AVG MATCH SCORE', value: `${overview.data.avgMatchScore}%`, trend: '4.2pts this week', tone: 'success' },
-    { label: '60+ SCORE RATE', value: `${overview.data.score60PlusRate}%`, trend: 'Needs attention', tone: 'warning' },
-    { label: 'ACTIVE INVENTORY', value: `${overview.data.activeInventoryRate}%`, trend: 'All listed', tone: 'success' },
-    { label: 'TOTAL PROPERTIES', value: String(overview.data.totals.properties), trend: 'No change', tone: 'info' },
-    { label: 'TOTAL LEADS', value: String(overview.data.totals.leads), trend: 'Needs follow-up', tone: 'warning' },
+    { label: 'TOTAL BUYERS', value: String(overview.data.totals.buyers), trend: overview.data.trends.buyers.label, tone: overview.data.trends.buyers.tone },
+    { label: 'TOTAL SELLERS', value: String(overview.data.totals.sellers), trend: overview.data.trends.sellers.label, tone: overview.data.trends.sellers.tone },
+    { label: 'TOTAL MATCHES', value: String(overview.data.totals.matches), trend: overview.data.trends.matches.label, tone: overview.data.trends.matches.tone },
+    { label: 'AVG MATCH SCORE', value: `${overview.data.avgMatchScore}%`, trend: overview.data.trends.avgMatchScore.label, tone: overview.data.trends.avgMatchScore.tone },
+    { label: '60+ SCORE RATE', value: `${overview.data.score60PlusRate}%`, trend: overview.data.trends.score60PlusRate.label, tone: overview.data.trends.score60PlusRate.tone },
+    { label: 'ACTIVE INVENTORY', value: `${overview.data.activeInventoryRate}%`, trend: overview.data.trends.activeInventoryRate.label, tone: overview.data.trends.activeInventoryRate.tone },
+    { label: 'TOTAL PROPERTIES', value: String(overview.data.totals.properties), trend: overview.data.trends.properties.label, tone: overview.data.trends.properties.tone },
+    { label: 'TOTAL LEADS', value: String(overview.data.totals.leads), trend: overview.data.trends.leads.label, tone: overview.data.trends.leads.tone },
   ];
 
   const hasLeadConversionData = pipeline.data.leadConversionByStage.some((row) => row.count > 0 || row.ratio > 0);

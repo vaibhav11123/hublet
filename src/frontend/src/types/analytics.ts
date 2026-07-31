@@ -23,6 +23,11 @@ export interface AnalyticsEnvelope<T> {
   data: T;
 }
 
+export interface KpiTrend {
+  label: string;
+  tone: 'success' | 'warning' | 'info';
+}
+
 export interface AdminOverviewData {
   totals: {
     buyers: number;
@@ -35,6 +40,16 @@ export interface AdminOverviewData {
   score60PlusRate: number;
   activeInventoryRate: number;
   leadConversionByStage: Array<{ stage: string; count: number; ratio: number }>;
+  trends: {
+    buyers: KpiTrend;
+    sellers: KpiTrend;
+    matches: KpiTrend;
+    properties: KpiTrend;
+    leads: KpiTrend;
+    avgMatchScore: KpiTrend;
+    score60PlusRate: KpiTrend;
+    activeInventoryRate: KpiTrend;
+  };
 }
 
 export interface AdminPipelineData {
