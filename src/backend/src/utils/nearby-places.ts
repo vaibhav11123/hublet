@@ -41,6 +41,13 @@ const UA = 'Hublet-RealEstate/1.0 (contact@hublet.demo)';
 const OVERPASS_ENDPOINTS = [
     'https://overpass-api.de/api/interpreter',
     'https://overpass.private.coffee/api/interpreter',
+    // Specific backend nodes of the same official overpass-api.de install,
+    // reachable directly rather than through its load-balanced front door -
+    // useful when the front door itself is busy (confirmed live: the plain
+    // overpass-api.de domain returned 504 "server too busy" while both of
+    // these specific nodes served correct, current results).
+    'https://lz4.overpass-api.de/api/interpreter',
+    'https://z.overpass-api.de/api/interpreter',
 ];
 
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
