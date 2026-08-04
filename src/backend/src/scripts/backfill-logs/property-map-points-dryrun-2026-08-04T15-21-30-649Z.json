@@ -1,0 +1,1026 @@
+{
+  "apply": false,
+  "updated": 85,
+  "rows": [
+    {
+      "table": "property",
+      "id": "57a83916-fa13-49bf-8b10-c14e99d5e54e",
+      "name": "Waterfront 2BHK Marine Drive",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"source\":\"demo-seeder\",\"marketIntel\":\"Marine Drive currently commands a premium average price of approximately ₹13,300 per square foot, reflecting consistent annual appreciation and strong demand for luxury waterfront inventory. The locality is anchored by the upcoming Marine Eco City project, a large-scale mixed-use development that will introduce significant new residential and commercial capacity in phases. Connectivity remains a primary strength, offering central access to Kochi's metro, rail, and road networks, further supported by the city's expanding water metro and the anticipated completion of the Kochi Metro Phase II line connecting the core to eastern employment hubs.\",\"city\":\"Kochi\",\"coordinates\":{\"lat\":9.9312,\"lon\":76.2673,\"synthetic\":true},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:45.094Z\",\"trainStation\":{\"name\":\"Mattancheri\",\"distanceKm\":1,\"lat\":9.9398956,\"lon\":76.2703326,\"osmUrl\":\"https://www.openstreetmap.org/node/6036084320\",\"type\":\"train\"},\"airport\":{\"name\":\"Kochi Naval Airport\",\"distanceKm\":1.9,\"lat\":9.9473013,\"lon\":76.2722649,\"osmUrl\":\"https://www.openstreetmap.org/node/1042092394\",\"type\":\"airport\"},\"hospital\":{\"name\":\"AMJ Hospital\",\"distanceKm\":0.4,\"lat\":9.9294302,\"lon\":76.2702904,\"osmUrl\":\"https://www.openstreetmap.org/node/10734223232\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mattancherry\",\"distanceKm\":3.2,\"lat\":9.9586622,\"lon\":76.2598884,\"osmUrl\":\"https://www.openstreetmap.org/way/1188443547\",\"type\":\"bus\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}",
+          "new": "{\"source\":\"demo-seeder\",\"marketIntel\":\"Marine Drive currently commands a premium average price of approximately ₹13,300 per square foot, reflecting consistent annual appreciation and strong demand for luxury waterfront inventory. The locality is anchored by the upcoming Marine Eco City project, a large-scale mixed-use development that will introduce significant new residential and commercial capacity in phases. Connectivity remains a primary strength, offering central access to Kochi's metro, rail, and road networks, further supported by the city's expanding water metro and the anticipated completion of the Kochi Metro Phase II line connecting the core to eastern employment hubs.\",\"city\":\"Kochi\",\"coordinates\":{\"lat\":9.9784782,\"lon\":76.2757727},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:45.094Z\",\"trainStation\":{\"name\":\"Mattancheri\",\"distanceKm\":1,\"lat\":9.9398956,\"lon\":76.2703326,\"osmUrl\":\"https://www.openstreetmap.org/node/6036084320\",\"type\":\"train\"},\"airport\":{\"name\":\"Kochi Naval Airport\",\"distanceKm\":1.9,\"lat\":9.9473013,\"lon\":76.2722649,\"osmUrl\":\"https://www.openstreetmap.org/node/1042092394\",\"type\":\"airport\"},\"hospital\":{\"name\":\"AMJ Hospital\",\"distanceKm\":0.4,\"lat\":9.9294302,\"lon\":76.2702904,\"osmUrl\":\"https://www.openstreetmap.org/node/10734223232\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mattancherry\",\"distanceKm\":3.2,\"lat\":9.9586622,\"lon\":76.2598884,\"osmUrl\":\"https://www.openstreetmap.org/way/1188443547\",\"type\":\"bus\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "bc2d9891-8847-4e1c-a274-65f188a27c21",
+      "name": "Residential land / Plot in Shivaji Nagar, MG Road",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-aftab-residency-shivaji-nagar-bangalore-central-84-sqyd-spid-Y92829006\",\"externalId\":\"92829006\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Residenture Pvt Ltd.\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39904/13/798093003T-1784520343376.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:33:57.044Z\",\"marketIntel\":\"In Pune, Shivaji Nagar is a premium, high-growth area with property prices currently averaging around ₹17,982 per square foot, showing steady appreciation driven by the upcoming Hinjewadi–Shivaji Nagar Metro (Line 3) and riverfront development [1][2][3]. Shivaji Nagar in Bangalore remains a well-connected central hub near MG Road, offering diverse price ranges and consistent rental demand, though it faces challenges with peak-hour traffic congestion [4][5]. Both areas offer strong investment potential due to their central locations, though buyers should factor in proximity to transit hubs to maximize long-term value [1][4][3][5].\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9716,\"lon\":77.5946,\"synthetic\":true},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-aftab-residency-shivaji-nagar-bangalore-central-84-sqyd-spid-Y92829006\",\"externalId\":\"92829006\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Residenture Pvt Ltd.\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39904/13/798093003T-1784520343376.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:33:57.044Z\",\"marketIntel\":\"In Pune, Shivaji Nagar is a premium, high-growth area with property prices currently averaging around ₹17,982 per square foot, showing steady appreciation driven by the upcoming Hinjewadi–Shivaji Nagar Metro (Line 3) and riverfront development [1][2][3]. Shivaji Nagar in Bangalore remains a well-connected central hub near MG Road, offering diverse price ranges and consistent rental demand, though it faces challenges with peak-hour traffic congestion [4][5]. Both areas offer strong investment potential due to their central locations, though buyers should factor in proximity to transit hubs to maximize long-term value [1][4][3][5].\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9883249,\"lon\":77.6004488},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "445bd2ec-ea93-4940-a05c-dc373f9c22ae",
+      "name": "5 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-apartment-flat-for-sale-in-canopy-cologne-pulikeshi-nagar-bangalore-central-2750-sqft-spid-F91747674\",\"externalId\":\"91747674\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Nesta Realtors\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38691/4/773824304T-1780920051613.jpg\",\"landmark\":\"\",\"postedDate\":\"09th Jun, 2026\",\"scrapedAt\":\"2026-07-31T06:34:03.510Z\",\"marketIntel\":\"Pulikeshi Nagar currently shows a robust upward price trend, with average asking prices reaching approximately ₹16,950 per sq ft as of March 2026. The locality benefits from established connectivity via local trains, bus services, and the nearby Purple Line Metro, further supported by the Bangalore Smart City plan for infrastructure enhancements. While traffic congestion can occur, the area remains a popular choice for its central location, blend of luxury and residential options, and proximity to major business hubs and essential services.\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9716,\"lon\":77.5946,\"synthetic\":true},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-apartment-flat-for-sale-in-canopy-cologne-pulikeshi-nagar-bangalore-central-2750-sqft-spid-F91747674\",\"externalId\":\"91747674\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Nesta Realtors\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38691/4/773824304T-1780920051613.jpg\",\"landmark\":\"\",\"postedDate\":\"09th Jun, 2026\",\"scrapedAt\":\"2026-07-31T06:34:03.510Z\",\"marketIntel\":\"Pulikeshi Nagar currently shows a robust upward price trend, with average asking prices reaching approximately ₹16,950 per sq ft as of March 2026. The locality benefits from established connectivity via local trains, bus services, and the nearby Purple Line Metro, further supported by the Bangalore Smart City plan for infrastructure enhancements. While traffic congestion can occur, the area remains a popular choice for its central location, blend of luxury and residential options, and proximity to major business hubs and essential services.\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9975851,\"lon\":77.6136744},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a83a299d-40e0-4944-8af8-002b6e1ae492",
+      "name": "Residential land / Plot in Jeevanhalli, Pulikeshi Nagar",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-jeevanhalli-bangalore-central-325-sqyd-spid-A91352510\",\"externalId\":\"91352510\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"FRONTLINE HOMES\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38232/13/764653990T-1779556238783.jpg\",\"landmark\":\"\",\"postedDate\":\"23rd Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:34:15.634Z\",\"marketIntel\":\"The real estate market in Pulikeshi Nagar is currently thriving, with property prices demonstrating steady appreciation and a diverse range of residential options from affordable homes to luxury villas [1]. Connectivity is a key strength of the area, supported by multiple local bus stops, proximity to the Bengaluru East and Banaswadi railway stations, and access to metro stations like Pottery Town and Cantonment [2][3]. While the area benefits from established infrastructure and a good living environment, it continues to see new residential and commercial developments that maintain strong investment potential for prospective buyers [1].\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9716,\"lon\":77.5946,\"synthetic\":true},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-jeevanhalli-bangalore-central-325-sqyd-spid-A91352510\",\"externalId\":\"91352510\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"FRONTLINE HOMES\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38232/13/764653990T-1779556238783.jpg\",\"landmark\":\"\",\"postedDate\":\"23rd Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:34:15.634Z\",\"marketIntel\":\"The real estate market in Pulikeshi Nagar is currently thriving, with property prices demonstrating steady appreciation and a diverse range of residential options from affordable homes to luxury villas [1]. Connectivity is a key strength of the area, supported by multiple local bus stops, proximity to the Bengaluru East and Banaswadi railway stations, and access to metro stations like Pottery Town and Cantonment [2][3]. While the area benefits from established infrastructure and a good living environment, it continues to see new residential and commercial developments that maintain strong investment potential for prospective buyers [1].\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9934858,\"lon\":77.6251081},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e15eed68-6c5c-41ff-bd63-3c8a3076a8b7",
+      "name": "3 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-amigo-victory-pulikeshi-nagar-bangalore-central-2226-sqft-spid-P92287932\",\"externalId\":\"92287932\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"MYFRA PRIVATE LIMITED\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39720/18/794418137T-1784019625659.jpg\",\"landmark\":\"\",\"postedDate\":\"17th Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:37:00.030Z\",\"marketIntel\":\"Pulikeshi Nagar is experiencing robust real estate growth, with average asking prices rising to approximately ₹16,950 per sq ft as of March 2026. The area benefits from ongoing infrastructure initiatives under the Bangalore Smart City plan and maintains strong connectivity via local bus services, proximity to the Purple Line metro at MG Road, and major corridors like the Outer Ring Road. While the market for luxury residential projects remains active, buyers should note that asking prices in this central, well-connected locality are currently higher than government-registered rates.\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9716,\"lon\":77.5946,\"synthetic\":true},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-amigo-victory-pulikeshi-nagar-bangalore-central-2226-sqft-spid-P92287932\",\"externalId\":\"92287932\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"MYFRA PRIVATE LIMITED\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39720/18/794418137T-1784019625659.jpg\",\"landmark\":\"\",\"postedDate\":\"17th Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:37:00.030Z\",\"marketIntel\":\"Pulikeshi Nagar is experiencing robust real estate growth, with average asking prices rising to approximately ₹16,950 per sq ft as of March 2026. The area benefits from ongoing infrastructure initiatives under the Bangalore Smart City plan and maintains strong connectivity via local bus services, proximity to the Purple Line metro at MG Road, and major corridors like the Outer Ring Road. While the market for luxury residential projects remains active, buyers should note that asking prices in this central, well-connected locality are currently higher than government-registered rates.\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9975851,\"lon\":77.6136744},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e95f019f-9e92-4f40-bff6-c2f384765f4e",
+      "name": "3 BHK Flat in Doddamavalli, Mission Road, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-prestige-botanique-doddamavalli-bangalore-central-2473-sqft-spid-M92696548\",\"externalId\":\"92696548\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Deekshith K V\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39985/13/799713805T-1784717369835.jpg\",\"landmark\":\"\",\"postedDate\":\"15th Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:37:01.014Z\",\"marketIntel\":\"Doddamavalli and Mission Road feature a diverse real estate market ranging from affordable housing to ultra-luxury projects, with recent trends showing mixed performance including some price depreciation in certain segments [1][2][3][4]. The area is supported by established infrastructure and excellent public transport connectivity, including local bus services and proximity to major railway stations like KSR Bengaluru City [1][5][6]. While specific infrastructure projects are not detailed, the locality continues to grow as a residential hub prized for its central location and proximity to landmarks like Lalbagh Botanical Garden [1][4][7].\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9716,\"lon\":77.5946,\"synthetic\":true},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-prestige-botanique-doddamavalli-bangalore-central-2473-sqft-spid-M92696548\",\"externalId\":\"92696548\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Deekshith K V\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39985/13/799713805T-1784717369835.jpg\",\"landmark\":\"\",\"postedDate\":\"15th Jul, 2026\",\"scrapedAt\":\"2026-07-31T06:37:01.014Z\",\"marketIntel\":\"Doddamavalli and Mission Road feature a diverse real estate market ranging from affordable housing to ultra-luxury projects, with recent trends showing mixed performance including some price depreciation in certain segments [1][2][3][4]. The area is supported by established infrastructure and excellent public transport connectivity, including local bus services and proximity to major railway stations like KSR Bengaluru City [1][5][6]. While specific infrastructure projects are not detailed, the locality continues to grow as a residential hub prized for its central location and proximity to landmarks like Lalbagh Botanical Garden [1][4][7].\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9465339,\"lon\":77.5799954},\"nearbyPlaces\":{\"fetchedAt\":\"2026-07-31T09:45:55.834Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":0.9,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.4,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.6,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e99a1fe4-0da3-47cc-a705-4167b9d491b8",
+      "name": "2 BHK Flat in Naupada, Thane West",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-naupada-mumbai-thane-700-sqft-r1-spid-P87544620\",\"externalId\":\"87544620\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-direct\",\"ownerName\":\"\",\"companyName\":\"Sarthak Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34484/1/689681719T-1766483742015.jpg\",\"landmark\":\"\",\"postedDate\":\"28th Jul, 2026\",\"scrapedAt\":\"2026-07-31T10:03:26.830Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\",\"marketIntel\":\"Naupada is a premium, well-established residential hub with property prices typically ranging between ₹25,000 and ₹34,000 per square foot [1]. While there is no major new infrastructure planned for the locality itself, the area benefits from excellent existing connectivity via the Thane railway station, Eastern Express Highway, and LBS Marg [2][3][4]. The Thane Municipal Corporation has also initiated a ₹350 crore upgrade project to replace aging sewer and stormwater drainage lines to improve local civic conditions [2].\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-naupada-mumbai-thane-700-sqft-r1-spid-P87544620\",\"externalId\":\"87544620\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-direct\",\"ownerName\":\"\",\"companyName\":\"Sarthak Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34484/1/689681719T-1766483742015.jpg\",\"landmark\":\"\",\"postedDate\":\"28th Jul, 2026\",\"scrapedAt\":\"2026-07-31T10:03:26.830Z\",\"city\":\"Mumbai\",\"marketIntel\":\"Naupada is a premium, well-established residential hub with property prices typically ranging between ₹25,000 and ₹34,000 per square foot [1]. While there is no major new infrastructure planned for the locality itself, the area benefits from excellent existing connectivity via the Thane railway station, Eastern Express Highway, and LBS Marg [2][3][4]. The Thane Municipal Corporation has also initiated a ₹350 crore upgrade project to replace aging sewer and stormwater drainage lines to improve local civic conditions [2].\",\"coordinates\":{\"lat\":19.186483,\"lon\":72.9757664},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:09.746Z\",\"trainStation\":{\"name\":\"Thane\",\"distanceKm\":0,\"lat\":19.186483,\"lon\":72.9757664,\"osmUrl\":\"https://www.openstreetmap.org/node/246582717\",\"type\":\"train\"},\"hospital\":{\"name\":\"Dr Bhanushali Hospital\",\"distanceKm\":0.2,\"lat\":19.1882382,\"lon\":72.9761146,\"osmUrl\":\"https://www.openstreetmap.org/node/7041055354\",\"type\":\"hospital\"},\"airport\":{\"name\":\"Chhatrapati Shivaji Maharaj International Airport\",\"distanceKm\":16,\"lat\":19.0901549,\"lon\":72.8629148,\"osmUrl\":\"https://www.openstreetmap.org/way/22826676\",\"type\":\"airport\"},\"busStation\":{\"name\":\"Thane Station (W)\",\"distanceKm\":0.1,\"lat\":19.1869384,\"lon\":72.9756495,\"osmUrl\":\"https://www.openstreetmap.org/way/151866533\",\"type\":\"bus\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d147239b-1b05-4995-a01d-4b23b9c98979",
+      "name": "2 BHK Flat in Waghbil, Thane West",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-vasant-leela-waghbil-mumbai-thane-680-sqft-r1-spid-H90418650\",\"externalId\":\"90418650\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"VM.World realty\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/37226/10/744530496T-1776338207832.jpg\",\"landmark\":\"\",\"postedDate\":\"17th Jun, 2026\",\"scrapedAt\":\"2026-07-31T12:02:08.221Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-vasant-leela-waghbil-mumbai-thane-680-sqft-r1-spid-H90418650\",\"externalId\":\"90418650\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"VM.World realty\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/37226/10/744530496T-1776338207832.jpg\",\"landmark\":\"\",\"postedDate\":\"17th Jun, 2026\",\"scrapedAt\":\"2026-07-31T12:02:08.221Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":19.2704158,\"lon\":72.969082},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:50.677Z\",\"trainStation\":{\"name\":\"Waghbil\",\"distanceKm\":1.3,\"lat\":19.2639208,\"lon\":72.9794268,\"osmUrl\":\"https://www.openstreetmap.org/node/13621005380\",\"type\":\"train\"},\"hospital\":{\"name\":\"Janani Nursing Home & Hospital\",\"distanceKm\":0.2,\"lat\":19.2702597,\"lon\":72.9671765,\"osmUrl\":\"https://www.openstreetmap.org/node/7663684039\",\"type\":\"hospital\"},\"airport\":{\"name\":\"Chhatrapati Shivaji Maharaj International Airport\",\"distanceKm\":22.9,\"lat\":19.0901549,\"lon\":72.8629148,\"osmUrl\":\"https://www.openstreetmap.org/way/22826676\",\"type\":\"airport\"},\"busStation\":{\"name\":\"Pawar Nagar\",\"distanceKm\":4.6,\"lat\":19.2288577,\"lon\":72.9659699,\"osmUrl\":\"https://www.openstreetmap.org/way/912422941\",\"type\":\"bus\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "1c929b4a-a801-43b6-8823-0c5e2da9b2e7",
+      "name": "3 BHK Builder Floor in Shakti Khand 4, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-independent-builder-floor-for-sale-in-shakti-khand-4-ghaziabad-1170-sqft-spid-L93011390\",\"externalId\":\"93011390\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"INVESTORS HOUSE INDIA\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40176/19/803539639T-1785135126853.jpg\",\"landmark\":\"\",\"postedDate\":\"28th Jul, 2026\",\"scrapedAt\":\"2026-07-31T12:04:17.031Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-independent-builder-floor-for-sale-in-shakti-khand-4-ghaziabad-1170-sqft-spid-L93011390\",\"externalId\":\"93011390\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"INVESTORS HOUSE INDIA\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40176/19/803539639T-1785135126853.jpg\",\"landmark\":\"\",\"postedDate\":\"28th Jul, 2026\",\"scrapedAt\":\"2026-07-31T12:04:17.031Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.633824,\"lon\":77.3696585},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:53.916Z\",\"trainStation\":{\"name\":\"Noida Electronic City\",\"distanceKm\":0.8,\"lat\":28.6282627,\"lon\":77.3750033,\"osmUrl\":\"https://www.openstreetmap.org/node/6539894868\",\"type\":\"train\"},\"hospital\":{\"name\":\"Anita's clinic\",\"distanceKm\":0.6,\"lat\":28.6360396,\"lon\":77.3756924,\"osmUrl\":\"https://www.openstreetmap.org/node/7944515382\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mayur Vihar Phase - 3, Bus Stand\",\"distanceKm\":3.8,\"lat\":28.6140388,\"lon\":77.3373832,\"osmUrl\":\"https://www.openstreetmap.org/node/12593961705\",\"type\":\"bus\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":7.9,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "956d3934-2ae2-4efd-85b8-d32a957a7136",
+      "name": "4 BHK Flat in Ahinsa Khand 2, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//4-bhk-bedroom-apartment-flat-for-sale-in-exotica-elegance-ahinsa-khand-2-ghaziabad-2050-sqft-spid-S92975754\",\"externalId\":\"92975754\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Welhome Infra Estate LLP \",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40118/7/802367691T-1784969866273.jpg\",\"landmark\":\"\",\"postedDate\":\"25th Jul, 2026\",\"scrapedAt\":\"2026-07-31T12:31:41.914Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//4-bhk-bedroom-apartment-flat-for-sale-in-exotica-elegance-ahinsa-khand-2-ghaziabad-2050-sqft-spid-S92975754\",\"externalId\":\"92975754\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Welhome Infra Estate LLP \",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40118/7/802367691T-1784969866273.jpg\",\"landmark\":\"\",\"postedDate\":\"25th Jul, 2026\",\"scrapedAt\":\"2026-07-31T12:31:41.914Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.6380466,\"lon\":77.3644168},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:58.393Z\",\"trainStation\":{\"name\":\"Noida Electronic City\",\"distanceKm\":1.5,\"lat\":28.6282627,\"lon\":77.3750033,\"osmUrl\":\"https://www.openstreetmap.org/node/6539894868\",\"type\":\"train\"},\"hospital\":{\"name\":\"Sharp Sight Centre, Indirapuram\",\"distanceKm\":0.4,\"lat\":28.6362843,\"lon\":77.3607058,\"osmUrl\":\"https://www.openstreetmap.org/node/7027783655\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mayur Vihar Phase - 3, Bus Stand\",\"distanceKm\":3.8,\"lat\":28.6140388,\"lon\":77.3373832,\"osmUrl\":\"https://www.openstreetmap.org/node/12593961705\",\"type\":\"bus\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":7.4,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f17bac5b-d7b4-4f94-af04-13fbaeded44b",
+      "name": "2 BHK Flat in Sector 34 Kamothe, Navi Mumbai",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-pratik-gardens-sector-34-kamothe-navi-mumbai-888-sqft-spid-C92812992\",\"externalId\":\"92812992\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Santosh Property\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40064/3/801283333T-1784868487635.jpg\",\"landmark\":\"\",\"postedDate\":\"19th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:01:00.217Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-pratik-gardens-sector-34-kamothe-navi-mumbai-888-sqft-spid-C92812992\",\"externalId\":\"92812992\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Santosh Property\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40064/3/801283333T-1784868487635.jpg\",\"landmark\":\"\",\"postedDate\":\"19th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:01:00.217Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":19.0073498,\"lon\":73.0952827},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:11:02.831Z\",\"airport\":{\"name\":\"Navi Mumbai International Airport\",\"distanceKm\":3.7,\"lat\":18.9913905,\"lon\":73.0646339,\"osmUrl\":\"https://www.openstreetmap.org/way/455547086\",\"type\":\"airport\"},\"trainStation\":{\"name\":\"Khandeshwar\",\"distanceKm\":0,\"lat\":19.0073498,\"lon\":73.0952827,\"osmUrl\":\"https://www.openstreetmap.org/node/1645802025\",\"type\":\"train\"},\"hospital\":{\"name\":\"Care and Cure Hospital\",\"distanceKm\":0.7,\"lat\":19.0130491,\"lon\":73.0967603,\"osmUrl\":\"https://www.openstreetmap.org/node/7663521076\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Asudgaon Bus Depot\",\"distanceKm\":1.5,\"lat\":19.0138931,\"lon\":73.1081492,\"osmUrl\":\"https://www.openstreetmap.org/way/235990734\",\"type\":\"bus\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "843c42dd-8716-4248-a730-fb1274dc8eb2",
+      "name": "1 BHK Flat in Airoli, Navi Mumbai",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//1-bhk-bedroom-apartment-flat-for-sale-in-mahavir-residency-airoli-navi-mumbai-810-sqft-spid-G92842874\",\"externalId\":\"92842874\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"White stone\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40020/0/800400209T-1784787227969.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:01:02.513Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//1-bhk-bedroom-apartment-flat-for-sale-in-mahavir-residency-airoli-navi-mumbai-810-sqft-spid-G92842874\",\"externalId\":\"92842874\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"White stone\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40020/0/800400209T-1784787227969.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:01:02.513Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":19.1585147,\"lon\":72.9994019},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:11:09.751Z\",\"trainStation\":{\"name\":\"Thane\",\"distanceKm\":4,\"lat\":19.186483,\"lon\":72.9757664,\"osmUrl\":\"https://www.openstreetmap.org/node/246582717\",\"type\":\"train\"},\"hospital\":{\"name\":\"Sanjivni Hospital, Thane\",\"distanceKm\":0.2,\"lat\":19.1574092,\"lon\":72.9984902,\"osmUrl\":\"https://www.openstreetmap.org/node/7065820622\",\"type\":\"hospital\"},\"airport\":{\"name\":\"Chhatrapati Shivaji Maharaj International Airport\",\"distanceKm\":16.2,\"lat\":19.0901549,\"lon\":72.8629148,\"osmUrl\":\"https://www.openstreetmap.org/way/22826676\",\"type\":\"airport\"},\"busStation\":{\"name\":\"Airoli Bus Station\",\"distanceKm\":0.2,\"lat\":19.1565695,\"lon\":72.9984633,\"osmUrl\":\"https://www.openstreetmap.org/way/603251681\",\"type\":\"bus\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "31841bc0-5290-437f-a112-e35ef5b9b835",
+      "name": "3 BHK Flat in Ahinsa Khand 2, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-niho-scottish-garden-ahinsa-khand-2-ghaziabad-1769-sqft-spid-R92742808\",\"externalId\":\"92742808\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"STARLIKE INVESTORS\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39797/2/795942467T-1784207509818.jpg\",\"landmark\":\"\",\"postedDate\":\"16th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:02:08.382Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-niho-scottish-garden-ahinsa-khand-2-ghaziabad-1769-sqft-spid-R92742808\",\"externalId\":\"92742808\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"STARLIKE INVESTORS\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39797/2/795942467T-1784207509818.jpg\",\"landmark\":\"\",\"postedDate\":\"16th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:02:08.382Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.6380466,\"lon\":77.3644168},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:58.393Z\",\"trainStation\":{\"name\":\"Noida Electronic City\",\"distanceKm\":1.5,\"lat\":28.6282627,\"lon\":77.3750033,\"osmUrl\":\"https://www.openstreetmap.org/node/6539894868\",\"type\":\"train\"},\"hospital\":{\"name\":\"Sharp Sight Centre, Indirapuram\",\"distanceKm\":0.4,\"lat\":28.6362843,\"lon\":77.3607058,\"osmUrl\":\"https://www.openstreetmap.org/node/7027783655\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mayur Vihar Phase - 3, Bus Stand\",\"distanceKm\":3.8,\"lat\":28.6140388,\"lon\":77.3373832,\"osmUrl\":\"https://www.openstreetmap.org/node/12593961705\",\"type\":\"bus\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":7.4,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "40725e65-e949-4c33-a446-be48a99f4137",
+      "name": "5 Bedroom House in Dasna, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-independent-house-villa-for-sale-in-forest-walk-dasna-ghaziabad-3432-sqft-npspid-I92588828\",\"externalId\":\"92588828\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"SAR Groups\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39617/2/792342404T-1783744902407.jpg\",\"landmark\":\"\",\"postedDate\":\"11th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:02:10.961Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-independent-house-villa-for-sale-in-forest-walk-dasna-ghaziabad-3432-sqft-npspid-I92588828\",\"externalId\":\"92588828\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"SAR Groups\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39617/2/792342404T-1783744902407.jpg\",\"landmark\":\"\",\"postedDate\":\"11th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:02:10.961Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.693684,\"lon\":77.5446152},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:11:45.209Z\",\"hospital\":{\"name\":\"Holy Cross Hospital, Ghaziabad\",\"distanceKm\":1,\"lat\":28.6885725,\"lon\":77.5530255,\"osmUrl\":\"https://www.openstreetmap.org/node/7018620981\",\"type\":\"hospital\"},\"trainStation\":{\"name\":\"Dasna\",\"distanceKm\":0,\"lat\":28.693684,\"lon\":77.5446152,\"osmUrl\":\"https://www.openstreetmap.org/node/7477176629\",\"type\":\"train\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":17.9,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "59c2ab43-c78b-45bf-bb3b-700ffe6b7f61",
+      "name": "6 BHK Flat in Mission Road, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//6-bhk-bedroom-apartment-flat-for-sale-in-mission-road-bangalore-central-9400-sqft-spid-Z92537390\",\"externalId\":\"92537390\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"JLL\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39555/7/791107918T-1783589390641.jpg\",\"landmark\":\"\",\"postedDate\":\"09th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:02:59.461Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//6-bhk-bedroom-apartment-flat-for-sale-in-mission-road-bangalore-central-9400-sqft-spid-Z92537390\",\"externalId\":\"92537390\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"JLL\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39555/7/791107918T-1783589390641.jpg\",\"landmark\":\"\",\"postedDate\":\"09th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:02:59.461Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9634384,\"lon\":77.5961662},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:12:20.690Z\",\"trainStation\":{\"name\":\"Mahatma Gandhi Road\",\"distanceKm\":1.8,\"lat\":12.9755264,\"lon\":77.6067902,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857554\",\"type\":\"train\"},\"hospital\":{\"name\":\"Dr. Rudrappa's Hospital\",\"distanceKm\":0.2,\"lat\":12.9650303,\"lon\":77.5954946,\"osmUrl\":\"https://www.openstreetmap.org/node/7576958120\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"KR Market Bus Terminus\",\"distanceKm\":2,\"lat\":12.9640735,\"lon\":77.577792,\"osmUrl\":\"https://www.openstreetmap.org/way/36885141\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "b47700bf-e5f9-4d6c-8d4c-81510c35b380",
+      "name": "4 Bedroom House in Ashok Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//4-bhk-bedroom-independent-house-villa-for-sale-in-prestige-cedars-ashok-nagar-bangalore-central-3200-sqft-spid-S92632608\",\"externalId\":\"92632608\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"EMPERO ELITE REALITY LLP\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39681/3/793623278T-1783893944936.jpg\",\"landmark\":\"\",\"postedDate\":\"13th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:01.817Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//4-bhk-bedroom-independent-house-villa-for-sale-in-prestige-cedars-ashok-nagar-bangalore-central-3200-sqft-spid-S92632608\",\"externalId\":\"92632608\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"EMPERO ELITE REALITY LLP\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39681/3/793623278T-1783893944936.jpg\",\"landmark\":\"\",\"postedDate\":\"13th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:01.817Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9694359,\"lon\":77.6092319},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:13:10.436Z\",\"trainStation\":{\"name\":\"Mahatma Gandhi Road\",\"distanceKm\":0.7,\"lat\":12.9755264,\"lon\":77.6067902,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857554\",\"type\":\"train\"},\"hospital\":{\"name\":\"Narayana Netralaya\",\"distanceKm\":0.3,\"lat\":12.9671401,\"lon\":77.6094485,\"osmUrl\":\"https://www.openstreetmap.org/node/1454651986\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Neelasandra\",\"distanceKm\":1.4,\"lat\":12.9576398,\"lon\":77.6141529,\"osmUrl\":\"https://www.openstreetmap.org/way/401993921\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":6.8,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "2c9635fe-9ff8-4990-8c3f-a9864c7dc2e4",
+      "name": "Residential land / Plot in Majestic, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-majestic-bangalore-central-5561-sqyd-spid-Y90503050\",\"externalId\":\"90503050\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Kumar\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/37312/15/746255062T-1776626761742.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Apr, 2026\",\"scrapedAt\":\"2026-07-31T18:03:04.738Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-majestic-bangalore-central-5561-sqyd-spid-Y90503050\",\"externalId\":\"90503050\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Kumar\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/37312/15/746255062T-1776626761742.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Apr, 2026\",\"scrapedAt\":\"2026-07-31T18:03:04.738Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9779079,\"lon\":77.5723936},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:13:16.024Z\",\"trainStation\":{\"name\":\"Nadaprabhu Kempegowda Station, Majestic\",\"distanceKm\":0.3,\"lat\":12.9757079,\"lon\":77.5728757,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857558\",\"type\":\"train\"},\"hospital\":{\"name\":\"Ramakrishna Clinic\",\"distanceKm\":0.2,\"lat\":12.978694,\"lon\":77.5744614,\"osmUrl\":\"https://www.openstreetmap.org/way/347175871\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Kempegowda Bus Station\",\"distanceKm\":0,\"lat\":12.9781534,\"lon\":77.572425,\"osmUrl\":\"https://www.openstreetmap.org/way/239832511\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":10.9,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "79068da7-08fa-40b2-b334-2e8cfcbc28f1",
+      "name": "5 Bedroom House in Seshadripuram, Bangalore Central",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-independent-house-villa-for-sale-in-seshadripuram-bangalore-central-2840-sqft-r6-spid-F30087229\",\"externalId\":\"30087229\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Anirudh\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/19437/7/388747158T-1767638786417.jpg\",\"landmark\":\"\",\"postedDate\":\"01st Apr, 2026\",\"scrapedAt\":\"2026-07-31T18:03:06.853Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-independent-house-villa-for-sale-in-seshadripuram-bangalore-central-2840-sqft-r6-spid-F30087229\",\"externalId\":\"30087229\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Anirudh\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/19437/7/388747158T-1767638786417.jpg\",\"landmark\":\"\",\"postedDate\":\"01st Apr, 2026\",\"scrapedAt\":\"2026-07-31T18:03:06.853Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9946631,\"lon\":77.5747183},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:14:44.924Z\",\"trainStation\":{\"name\":\"Mantri Square Sampige Road\",\"distanceKm\":0.6,\"lat\":12.9904629,\"lon\":77.5707293,\"osmUrl\":\"https://www.openstreetmap.org/node/6410706688\",\"type\":\"train\"},\"busStation\":{\"name\":\"SRS Bus Station\",\"distanceKm\":1.6,\"lat\":12.9803795,\"lon\":77.5760204,\"osmUrl\":\"https://www.openstreetmap.org/node/1809771508\",\"type\":\"bus\"},\"hospital\":{\"name\":\"Dr Solankis Eye Hospital\",\"distanceKm\":0.1,\"lat\":12.9951627,\"lon\":77.5738144,\"osmUrl\":\"https://www.openstreetmap.org/node/4445397516\",\"type\":\"hospital\"},\"airport\":{\"name\":\"Jakkur Aerodrome\",\"distanceKm\":9.6,\"lat\":13.0779276,\"lon\":77.5976091,\"osmUrl\":\"https://www.openstreetmap.org/way/36988989\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f1410fcd-adf8-462e-8b51-05a108820c22",
+      "name": "5 BHK Flat in Richmond Town, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-apartment-flat-for-sale-in-sethna-raintree-hall-richmond-town-bangalore-central-3346-sqft-spid-C93089216\",\"externalId\":\"93089216\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Nabanita\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40248/4/804964587T-1785325837655.jpg\",\"landmark\":\"\",\"postedDate\":\"29th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:09.099Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//5-bhk-bedroom-apartment-flat-for-sale-in-sethna-raintree-hall-richmond-town-bangalore-central-3346-sqft-spid-C93089216\",\"externalId\":\"93089216\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Nabanita\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40248/4/804964587T-1785325837655.jpg\",\"landmark\":\"\",\"postedDate\":\"29th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:09.099Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.963555,\"lon\":77.6015856},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:14:49.738Z\",\"trainStation\":{\"name\":\"Mahatma Gandhi Road\",\"distanceKm\":1.4,\"lat\":12.9755264,\"lon\":77.6067902,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857554\",\"type\":\"train\"},\"hospital\":{\"name\":\"Gleneagles Global Hospitals\",\"distanceKm\":0.3,\"lat\":12.9654497,\"lon\":77.5999044,\"osmUrl\":\"https://www.openstreetmap.org/node/7576958106\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Neelasandra\",\"distanceKm\":1.5,\"lat\":12.9576398,\"lon\":77.6141529,\"osmUrl\":\"https://www.openstreetmap.org/way/401993921\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":7.5,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://z.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d08ac0e1-d096-4a88-b5d8-a61a513da855",
+      "name": "2 BHK Flat in Jogupalya, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-abu-apartments-jogupalya-bangalore-central-780-sqft-spid-I92390684\",\"externalId\":\"92390684\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"yasmin shah\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39395/13/787913330T-1783100020752.jpg\",\"landmark\":\"\",\"postedDate\":\"03rd Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:11.172Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-abu-apartments-jogupalya-bangalore-central-780-sqft-spid-I92390684\",\"externalId\":\"92390684\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"yasmin shah\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39395/13/787913330T-1783100020752.jpg\",\"landmark\":\"\",\"postedDate\":\"03rd Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:11.172Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9746882,\"lon\":77.628026},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:15:40.511Z\",\"trainStation\":{\"name\":\"Halasuru\",\"distanceKm\":0.2,\"lat\":12.9764992,\"lon\":77.626686,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857552\",\"type\":\"train\"},\"hospital\":{\"name\":\"Halasuru Referal Hospital\",\"distanceKm\":0.2,\"lat\":12.973692,\"lon\":77.6266773,\"osmUrl\":\"https://www.openstreetmap.org/way/369295552\",\"type\":\"hospital\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":5.2,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"busStation\":{\"name\":\"Domlur Bus Station\",\"distanceKm\":1.8,\"lat\":12.9618019,\"lon\":77.6387296,\"osmUrl\":\"https://www.openstreetmap.org/way/31231545\",\"type\":\"bus\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "9b35e7c8-93f4-4335-8f83-ae28b32befe5",
+      "name": "2 BHK Flat in Sudhama Nagar, Mission Road, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-sudhama-nagar-bangalore-central-1200-sqft-r1-spid-A65966284\",\"externalId\":\"65966284\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Pramod\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/20652/14/413054456T-1767633479081.jpg\",\"landmark\":\"\",\"postedDate\":\"10th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:13.362Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-sudhama-nagar-bangalore-central-1200-sqft-r1-spid-A65966284\",\"externalId\":\"65966284\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Pramod\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/20652/14/413054456T-1767633479081.jpg\",\"landmark\":\"\",\"postedDate\":\"10th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:13.362Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9551545,\"lon\":77.5799947},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:16:22.940Z\",\"trainStation\":{\"name\":\"National College\",\"distanceKm\":0.9,\"lat\":12.9505266,\"lon\":77.5736898,\"osmUrl\":\"https://www.openstreetmap.org/node/6432710299\",\"type\":\"train\"},\"hospital\":{\"name\":\"H Siddiah Referral Hospital\",\"distanceKm\":0.3,\"lat\":12.9569057,\"lon\":77.5824398,\"osmUrl\":\"https://www.openstreetmap.org/node/12541779301\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Kalasipalyam Bus Stand\",\"distanceKm\":0.7,\"lat\":12.9603969,\"lon\":77.5771506,\"osmUrl\":\"https://www.openstreetmap.org/way/37339217\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":9.7,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "02611e8d-68e2-4e6c-b164-dab48de84b07",
+      "name": "2 BHK Serviced Apartment in Sampangi Rama Nagar, Mission Road, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-serviced-apartment-flat-for-sale-in-comfort-shanti-sampangi-rama-nagar-bangalore-central-1200-sqft-spid-J80874903\",\"externalId\":\"80874903\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Pramod\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/28848/16/576976243T-1767487760390.jpg\",\"landmark\":\"\",\"postedDate\":\"30th Jun, 2026\",\"scrapedAt\":\"2026-07-31T18:03:15.540Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-serviced-apartment-flat-for-sale-in-comfort-shanti-sampangi-rama-nagar-bangalore-central-1200-sqft-spid-J80874903\",\"externalId\":\"80874903\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Pramod\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/28848/16/576976243T-1767487760390.jpg\",\"landmark\":\"\",\"postedDate\":\"30th Jun, 2026\",\"scrapedAt\":\"2026-07-31T18:03:15.540Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9693497,\"lon\":77.592661},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:16:26.924Z\",\"trainStation\":{\"name\":\"Dr. B. R. Ambedkar Station, Vidhana Soudha\",\"distanceKm\":1.1,\"lat\":12.9787419,\"lon\":77.5916385,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857556\",\"type\":\"train\"},\"hospital\":{\"name\":\"Vydehi Superspeciality Hospital\",\"distanceKm\":0.3,\"lat\":12.9681553,\"lon\":77.5950421,\"osmUrl\":\"https://www.openstreetmap.org/way/38750705\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"KR Market Bus Terminus\",\"distanceKm\":1.7,\"lat\":12.9640735,\"lon\":77.577792,\"osmUrl\":\"https://www.openstreetmap.org/way/36885141\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":8.5,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://z.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f3c1081a-7cd8-44c1-bcbd-1540b47e7efd",
+      "name": "3 BHK Flat in Frazer Town, Bangalore Central",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-frazertown-bangalore-central-2025-sqft-spid-U93062524\",\"externalId\":\"93062524\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Mujeeb Khan\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40338/3/806763991T-1785500855194.jpg\",\"landmark\":\"\",\"postedDate\":\"28th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:17.856Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-frazertown-bangalore-central-2025-sqft-spid-U93062524\",\"externalId\":\"93062524\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Mujeeb Khan\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40338/3/806763991T-1785500855194.jpg\",\"landmark\":\"\",\"postedDate\":\"28th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:17.856Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9957008,\"lon\":77.6169041},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:17:07.578Z\",\"trainStation\":{\"name\":\"Bengaluru East\",\"distanceKm\":0.6,\"lat\":13.0011462,\"lon\":77.6183453,\"osmUrl\":\"https://www.openstreetmap.org/node/253454039\",\"type\":\"train\"},\"hospital\":{\"name\":\"Aspire Hospital\",\"distanceKm\":0.3,\"lat\":12.9971683,\"lon\":77.6145878,\"osmUrl\":\"https://www.openstreetmap.org/node/11853321328\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":2,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":7.5,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "1ed73e7e-4fc3-4f91-a00a-86d7b66944f4",
+      "name": "Residential land / Plot in Vannarpet Layout, Viveka Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-vannarpet-layout-bangalore-central-408-sqyd-spid-A87145092\",\"externalId\":\"87145092\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Sanjay V\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34138/7/682767573T-1766018354591.jpg\",\"landmark\":\"\",\"postedDate\":\"06th Dec, 2025\",\"scrapedAt\":\"2026-07-31T18:03:20.206Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-vannarpet-layout-bangalore-central-408-sqyd-spid-A87145092\",\"externalId\":\"87145092\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Sanjay V\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34138/7/682767573T-1766018354591.jpg\",\"landmark\":\"\",\"postedDate\":\"06th Dec, 2025\",\"scrapedAt\":\"2026-07-31T18:03:20.206Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9535975,\"lon\":77.6187875},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:18:05.078Z\",\"trainStation\":{\"name\":\"Trinity\",\"distanceKm\":2.2,\"lat\":12.9730218,\"lon\":77.6170205,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857553\",\"type\":\"train\"},\"hospital\":{\"name\":\"Sri Ram Speciality Hospital\",\"distanceKm\":0.3,\"lat\":12.9543777,\"lon\":77.6209764,\"osmUrl\":\"https://www.openstreetmap.org/node/6947674447\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Viveknagar Bus Station\",\"distanceKm\":0.4,\"lat\":12.9543449,\"lon\":77.6226955,\"osmUrl\":\"https://www.openstreetmap.org/way/326201186\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":5.5,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "56032d89-6aa6-46a7-9a08-f391ef74e219",
+      "name": "3 BHK Builder Floor in S.J.P Road Cross, Avenue Road, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-independent-builder-floor-for-sale-in-sjp-road-cross-bangalore-central-750-sqft-r1-spid-Q86634468\",\"externalId\":\"86634468\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Yakoob\",\"companyName\":\"Yakoob\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/33672/7/673447101T-1766452138833.jpg\",\"landmark\":\"\",\"postedDate\":\"Yesterday\",\"scrapedAt\":\"2026-07-31T18:03:22.215Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-independent-builder-floor-for-sale-in-sjp-road-cross-bangalore-central-750-sqft-r1-spid-Q86634468\",\"externalId\":\"86634468\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Yakoob\",\"companyName\":\"Yakoob\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/33672/7/673447101T-1766452138833.jpg\",\"landmark\":\"\",\"postedDate\":\"Yesterday\",\"scrapedAt\":\"2026-07-31T18:03:22.215Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9698305,\"lon\":77.5797105},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:18:41.423Z\",\"trainStation\":{\"name\":\"Chickpete\",\"distanceKm\":0.6,\"lat\":12.9668974,\"lon\":77.5745566,\"osmUrl\":\"https://www.openstreetmap.org/node/6432710301\",\"type\":\"train\"},\"hospital\":{\"name\":\"Amar Hospital\",\"distanceKm\":0.2,\"lat\":12.9711822,\"lon\":77.5781228,\"osmUrl\":\"https://www.openstreetmap.org/node/6938775840\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"KR Market Bus Terminus\",\"distanceKm\":0.7,\"lat\":12.9640735,\"lon\":77.577792,\"osmUrl\":\"https://www.openstreetmap.org/way/36885141\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":9.9,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "b1fa66e5-6a98-4250-89a4-753529dcf078",
+      "name": "Residential land / Plot in Kasthuriba Nagar, Azad Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-kasthuriba-nagar-bangalore-central-267-sqyd-spid-C88081960\",\"externalId\":\"88081960\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"NAGARAJU H T\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34985/10/699710699T-1768565186678.jpg\",\"landmark\":\"\",\"postedDate\":\"16th Jan, 2026\",\"scrapedAt\":\"2026-07-31T18:03:24.269Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-kasthuriba-nagar-bangalore-central-267-sqyd-spid-C88081960\",\"externalId\":\"88081960\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"NAGARAJU H T\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34985/10/699710699T-1768565186678.jpg\",\"landmark\":\"\",\"postedDate\":\"16th Jan, 2026\",\"scrapedAt\":\"2026-07-31T18:03:24.269Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9932927,\"lon\":77.654499},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:18:44.403Z\",\"trainStation\":{\"name\":\"Baiyappanahalli\",\"distanceKm\":0.4,\"lat\":12.9907594,\"lon\":77.6523612,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857549\",\"type\":\"train\"},\"hospital\":{\"name\":\"ESI Hospital\",\"distanceKm\":0.3,\"lat\":12.9952564,\"lon\":77.6527138,\"osmUrl\":\"https://www.openstreetmap.org/way/328758432\",\"type\":\"hospital\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":4.9,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"busStation\":{\"name\":\"C V Raman Nagar Bus Stand\",\"distanceKm\":1.3,\"lat\":12.9856425,\"lon\":77.6640815,\"osmUrl\":\"https://www.openstreetmap.org/way/420436334\",\"type\":\"bus\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "615eeac2-8c67-412d-bb7e-7d5369475685",
+      "name": "Residential land / Plot in Chennai, Bangalore Central",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-bangalore-central-239-sqyd-spid-S92847642\",\"externalId\":\"92847642\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Prakash\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39925/11/798511281T-1784553296577.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:26.845Z\",\"geocodeFailed\":true,\"city\":\"Chennai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-bangalore-central-239-sqyd-spid-S92847642\",\"externalId\":\"92847642\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Prakash\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39925/11/798511281T-1784553296577.jpg\",\"landmark\":\"\",\"postedDate\":\"20th Jul, 2026\",\"scrapedAt\":\"2026-07-31T18:03:26.845Z\",\"city\":\"Chennai\",\"coordinates\":{\"lat\":12.9730088,\"lon\":77.5804711},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:18:48.071Z\",\"trainStation\":{\"name\":\"Sir M. Visvesvaraya Stn., Central College\",\"distanceKm\":0.4,\"lat\":12.9745197,\"lon\":77.58422,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857557\",\"type\":\"train\"},\"hospital\":{\"name\":\"Amar Hospital\",\"distanceKm\":0.3,\"lat\":12.9711822,\"lon\":77.5781228,\"osmUrl\":\"https://www.openstreetmap.org/node/6938775840\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"KSRTC Bus Terminal 1\",\"distanceKm\":0.8,\"lat\":12.976757,\"lon\":77.5739308,\"osmUrl\":\"https://www.openstreetmap.org/way/372031014\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":9.9,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://z.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e863d972-335e-44ba-83d6-25a4ba326b1e",
+      "name": "2 BHK Flat in halls road, Bangalore Central",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-bangalore-central-1400-sqft-spid-H87966746\",\"externalId\":\"87966746\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Misbah\",\"companyName\":\"Misbah\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34867/3/697343331T-1768062109074.jpg\",\"landmark\":\"\",\"postedDate\":\"10th Jan, 2026\",\"scrapedAt\":\"2026-07-31T18:03:29.280Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-bangalore-central-1400-sqft-spid-H87966746\",\"externalId\":\"87966746\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Misbah\",\"companyName\":\"Misbah\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/34867/3/697343331T-1768062109074.jpg\",\"landmark\":\"\",\"postedDate\":\"10th Jan, 2026\",\"scrapedAt\":\"2026-07-31T18:03:29.280Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":13.0051563,\"lon\":77.6144409},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:19:35.839Z\",\"trainStation\":{\"name\":\"Bengaluru East\",\"distanceKm\":0.6,\"lat\":13.0011462,\"lon\":77.6183453,\"osmUrl\":\"https://www.openstreetmap.org/node/253454039\",\"type\":\"train\"},\"hospital\":{\"name\":\"United Medical lab\",\"distanceKm\":0.5,\"lat\":13.0007683,\"lon\":77.6132902,\"osmUrl\":\"https://www.openstreetmap.org/node/2533566686\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":2.7,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"Jakkur Aerodrome\",\"distanceKm\":8.3,\"lat\":13.0779276,\"lon\":77.5976091,\"osmUrl\":\"https://www.openstreetmap.org/way/36988989\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "cda89465-a051-4ff6-9b53-ec51b9e39c53",
+      "name": "2 Bedroom House in Shamanna Gowda Layout, Jogupalya, Bangalore",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-independent-house-villa-for-sale-in-shamanna-gowda-layout-bangalore-central-1400-sqft-spid-K91459478\",\"externalId\":\"91459478\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Deva\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38359/3/767183300T-1779955528348.jpg\",\"landmark\":\"\",\"postedDate\":\"28th May, 2026\",\"scrapedAt\":\"2026-07-31T18:03:31.806Z\",\"geocodeFailed\":true,\"city\":\"Bangalore\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-independent-house-villa-for-sale-in-shamanna-gowda-layout-bangalore-central-1400-sqft-spid-K91459478\",\"externalId\":\"91459478\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"Deva\",\"companyName\":\"\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38359/3/767183300T-1779955528348.jpg\",\"landmark\":\"\",\"postedDate\":\"28th May, 2026\",\"scrapedAt\":\"2026-07-31T18:03:31.806Z\",\"city\":\"Bangalore\",\"coordinates\":{\"lat\":12.9823891,\"lon\":77.6191669},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:19:39.540Z\",\"trainStation\":{\"name\":\"Halasuru\",\"distanceKm\":1,\"lat\":12.9764992,\"lon\":77.626686,\"osmUrl\":\"https://www.openstreetmap.org/node/6400857552\",\"type\":\"train\"},\"hospital\":{\"name\":\"Lakeside Medical Centre and Hospital\",\"distanceKm\":0.6,\"lat\":12.9878631,\"lon\":77.6177434,\"osmUrl\":\"https://www.openstreetmap.org/node/5862574185\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Shivajinagar Bus Station\",\"distanceKm\":1.7,\"lat\":12.9832087,\"lon\":77.6030764,\"osmUrl\":\"https://www.openstreetmap.org/way/208748260\",\"type\":\"bus\"},\"airport\":{\"name\":\"HAL Airport\",\"distanceKm\":6.4,\"lat\":12.9514789,\"lon\":77.6693458,\"osmUrl\":\"https://www.openstreetmap.org/way/30333120\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "ba926f33-e13d-4d7a-9d77-e9252a30c325",
+      "name": "2 BHK Flat in Panch Pakhadi, Thane West",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-panch-pakhadi-mumbai-thane-1250-sqft-r1-spid-Z88102604\",\"externalId\":\"88102604\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Sarthak Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/35003/6/700066311T-1768570555748.jpg\",\"landmark\":\"\",\"postedDate\":\"03rd Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:00:59.020Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-panch-pakhadi-mumbai-thane-1250-sqft-r1-spid-Z88102604\",\"externalId\":\"88102604\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Sarthak Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/35003/6/700066311T-1768570555748.jpg\",\"landmark\":\"\",\"postedDate\":\"03rd Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:00:59.020Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":19.2568987,\"lon\":73.1328761},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:19:45.853Z\",\"trainStation\":{\"name\":\"Kalyan Junction\",\"distanceKm\":2.4,\"lat\":19.2358216,\"lon\":73.1308101,\"osmUrl\":\"https://www.openstreetmap.org/node/4548442653\",\"type\":\"train\"},\"busStation\":{\"name\":\"Kalyan\",\"distanceKm\":2.3,\"lat\":19.2363883,\"lon\":73.1303624,\"osmUrl\":\"https://www.openstreetmap.org/node/630755945\",\"type\":\"bus\"},\"airport\":{\"name\":\"Navi Mumbai International Airport\",\"distanceKm\":30.4,\"lat\":18.9913905,\"lon\":73.0646339,\"osmUrl\":\"https://www.openstreetmap.org/way/455547086\",\"type\":\"airport\"},\"hospital\":{\"name\":\"Shwaas Multispeciality Hospital\",\"distanceKm\":0.4,\"lat\":19.2569013,\"lon\":73.1367387,\"osmUrl\":\"https://www.openstreetmap.org/node/8817554417\",\"type\":\"hospital\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d6696bc6-06bf-4d91-a408-aa4af03208ca",
+      "name": "4 BHK Flat in Aditya World City, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//4-bhk-bedroom-apartment-flat-for-sale-in-au-the-sunflower-aditya-world-city-ghaziabad-3800-sqft-spid-R92025814\",\"externalId\":\"92025814\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"RELIABLE HOMES AND VENTURES\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38993/4/779864512T-1781855209907.jpg\",\"landmark\":\"\",\"postedDate\":\"12th Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:01:47.004Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//4-bhk-bedroom-apartment-flat-for-sale-in-au-the-sunflower-aditya-world-city-ghaziabad-3800-sqft-spid-R92025814\",\"externalId\":\"92025814\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"RELIABLE HOMES AND VENTURES\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38993/4/779864512T-1781855209907.jpg\",\"landmark\":\"\",\"postedDate\":\"12th Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:01:47.004Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.6496701,\"lon\":77.339575},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:19:50.111Z\",\"trainStation\":{\"name\":\"Vaishali\",\"distanceKm\":0,\"lat\":28.6496701,\"lon\":77.339575,\"osmUrl\":\"https://www.openstreetmap.org/node/10314380322\",\"type\":\"train\"},\"hospital\":{\"name\":\"Dr Fateh Singh Hospital\",\"distanceKm\":0.3,\"lat\":28.6471512,\"lon\":77.3412971,\"osmUrl\":\"https://www.openstreetmap.org/node/7009263589\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Kaushambi Bus Stand\",\"distanceKm\":2.1,\"lat\":28.6464711,\"lon\":77.3184508,\"osmUrl\":\"https://www.openstreetmap.org/way/196483129\",\"type\":\"bus\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":6.4,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "7270008d-d567-4736-9f58-f8b89d5db498",
+      "name": "Residential land / Plot in Chirle, Navi Mumbai",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-chirle-navi-mumbai-2178-sqyd-r2-spid-W86504682\",\"externalId\":\"86504682\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Crescera Group\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/33556/15/671135629T-1766539473139.jpg\",\"landmark\":\"\",\"postedDate\":\"08th Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:30:42.405Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//residential-land-plot-for-sale-in-chirle-navi-mumbai-2178-sqyd-r2-spid-W86504682\",\"externalId\":\"86504682\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Crescera Group\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/33556/15/671135629T-1766539473139.jpg\",\"landmark\":\"\",\"postedDate\":\"08th Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:30:42.405Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":18.9262648,\"lon\":73.0302632},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:20:34.141Z\",\"airport\":{\"name\":\"Navi Mumbai International Airport\",\"distanceKm\":8.1,\"lat\":18.9913905,\"lon\":73.0646339,\"osmUrl\":\"https://www.openstreetmap.org/way/455547086\",\"type\":\"airport\"},\"busStation\":{\"name\":\"Wavel Bus Station\",\"distanceKm\":3.4,\"lat\":18.9565615,\"lon\":73.0371832,\"osmUrl\":\"https://www.openstreetmap.org/node/4646460401\",\"type\":\"bus\"},\"hospital\":{\"name\":\"Jijamata Hospital, Raigarh\",\"distanceKm\":1.1,\"lat\":18.9272475,\"lon\":73.0201028,\"osmUrl\":\"https://www.openstreetmap.org/node/7054887652\",\"type\":\"hospital\"},\"trainStation\":{\"name\":\"Ranjanpada\",\"distanceKm\":2.4,\"lat\":18.9092584,\"lon\":73.0158486,\"osmUrl\":\"https://www.openstreetmap.org/node/7555912829\",\"type\":\"train\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "1a839500-b8ba-4231-bdd5-0b848743656e",
+      "name": "3 BHK Flat in Naupada, Thane West",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-naupada-mumbai-thane-1350-sqft-spid-W92183426\",\"externalId\":\"92183426\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Arnav Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39220/15/784415126T-1782556684471.jpg\",\"landmark\":\"\",\"postedDate\":\"30th Jun, 2026\",\"scrapedAt\":\"2026-08-01T00:30:44.196Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-naupada-mumbai-thane-1350-sqft-spid-W92183426\",\"externalId\":\"92183426\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Arnav Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39220/15/784415126T-1782556684471.jpg\",\"landmark\":\"\",\"postedDate\":\"30th Jun, 2026\",\"scrapedAt\":\"2026-08-01T00:30:44.196Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":19.186483,\"lon\":72.9757664},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:09.746Z\",\"trainStation\":{\"name\":\"Thane\",\"distanceKm\":0,\"lat\":19.186483,\"lon\":72.9757664,\"osmUrl\":\"https://www.openstreetmap.org/node/246582717\",\"type\":\"train\"},\"hospital\":{\"name\":\"Dr Bhanushali Hospital\",\"distanceKm\":0.2,\"lat\":19.1882382,\"lon\":72.9761146,\"osmUrl\":\"https://www.openstreetmap.org/node/7041055354\",\"type\":\"hospital\"},\"airport\":{\"name\":\"Chhatrapati Shivaji Maharaj International Airport\",\"distanceKm\":16,\"lat\":19.0901549,\"lon\":72.8629148,\"osmUrl\":\"https://www.openstreetmap.org/way/22826676\",\"type\":\"airport\"},\"busStation\":{\"name\":\"Thane Station (W)\",\"distanceKm\":0.1,\"lat\":19.1869384,\"lon\":72.9756495,\"osmUrl\":\"https://www.openstreetmap.org/way/151866533\",\"type\":\"bus\"},\"source\":\"https://lz4.overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "8286ea50-a7c3-4173-8bb5-0b0f18a8df8c",
+      "name": "3 BHK Flat in Nyay Khand 2, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-amrapali-village-nyay-khand-2-ghaziabad-1700-sqft-spid-H93010214\",\"externalId\":\"93010214\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"9 Property Wala\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40163/7/803267611T-1785075692779.jpg\",\"landmark\":\"\",\"postedDate\":\"26th Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:31:14.695Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//3-bhk-bedroom-apartment-flat-for-sale-in-amrapali-village-nyay-khand-2-ghaziabad-1700-sqft-spid-H93010214\",\"externalId\":\"93010214\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"9 Property Wala\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/40163/7/803267611T-1785075692779.jpg\",\"landmark\":\"\",\"postedDate\":\"26th Jul, 2026\",\"scrapedAt\":\"2026-08-01T00:31:14.695Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.6373636,\"lon\":77.3615746},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:20:37.312Z\",\"trainStation\":{\"name\":\"Noida Electronic City\",\"distanceKm\":1.7,\"lat\":28.6282627,\"lon\":77.3750033,\"osmUrl\":\"https://www.openstreetmap.org/node/6539894868\",\"type\":\"train\"},\"hospital\":{\"name\":\"Sharp Sight Centre, Indirapuram\",\"distanceKm\":0.1,\"lat\":28.6362843,\"lon\":77.3607058,\"osmUrl\":\"https://www.openstreetmap.org/node/7027783655\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mayur Vihar Phase - 3, Bus Stand\",\"distanceKm\":3.5,\"lat\":28.6140388,\"lon\":77.3373832,\"osmUrl\":\"https://www.openstreetmap.org/node/12593961705\",\"type\":\"bus\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":7.4,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "b424777b-94d7-42f6-a4aa-18e8dcb7d0f1",
+      "name": "2 BHK Flat in Vasant Vihar, Thane West",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-lok-upvan-phase-2-vasant-vihar-mumbai-thane-700-sqft-spid-F91749558\",\"externalId\":\"91749558\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Ideal Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38694/13/773893212T-1780928101033.jpg\",\"landmark\":\"\",\"postedDate\":\"09th Jun, 2026\",\"scrapedAt\":\"2026-08-01T18:01:00.170Z\",\"geocodeFailed\":true,\"city\":\"Mumbai\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-apartment-flat-for-sale-in-lok-upvan-phase-2-vasant-vihar-mumbai-thane-700-sqft-spid-F91749558\",\"externalId\":\"91749558\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"Ideal Properties\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/38694/13/773893212T-1780928101033.jpg\",\"landmark\":\"\",\"postedDate\":\"09th Jun, 2026\",\"scrapedAt\":\"2026-08-01T18:01:00.170Z\",\"city\":\"Mumbai\",\"coordinates\":{\"lat\":19.2568987,\"lon\":73.1328761},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:19:45.853Z\",\"trainStation\":{\"name\":\"Kalyan Junction\",\"distanceKm\":2.4,\"lat\":19.2358216,\"lon\":73.1308101,\"osmUrl\":\"https://www.openstreetmap.org/node/4548442653\",\"type\":\"train\"},\"busStation\":{\"name\":\"Kalyan\",\"distanceKm\":2.3,\"lat\":19.2363883,\"lon\":73.1303624,\"osmUrl\":\"https://www.openstreetmap.org/node/630755945\",\"type\":\"bus\"},\"airport\":{\"name\":\"Navi Mumbai International Airport\",\"distanceKm\":30.4,\"lat\":18.9913905,\"lon\":73.0646339,\"osmUrl\":\"https://www.openstreetmap.org/way/455547086\",\"type\":\"airport\"},\"hospital\":{\"name\":\"Shwaas Multispeciality Hospital\",\"distanceKm\":0.4,\"lat\":19.2569013,\"lon\":73.1367387,\"osmUrl\":\"https://www.openstreetmap.org/node/8817554417\",\"type\":\"hospital\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "6a04e609-b5ec-4f1d-9a11-7b671652ce4d",
+      "name": "2 BHK Builder Floor in Shakti Khand 3, Ghaziabad",
+      "changes": [
+        {
+          "field": "metadata",
+          "prior": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-independent-builder-floor-for-sale-in-shakti-khand-3-ghaziabad-890-sqft-spid-Y92257874\",\"externalId\":\"92257874\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"INVESTORS HOUSE INDIA\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39314/16/786296398T-1782894062361.jpg\",\"landmark\":\"\",\"postedDate\":\"02nd Jul, 2026\",\"scrapedAt\":\"2026-08-01T18:01:54.042Z\",\"geocodeFailed\":true,\"city\":\"Ghaziabad\"}",
+          "new": "{\"sourceUrl\":\"https://www.99acres.com//2-bhk-bedroom-independent-builder-floor-for-sale-in-shakti-khand-3-ghaziabad-890-sqft-spid-Y92257874\",\"externalId\":\"92257874\",\"source\":\"99acres-Apify\",\"scraper\":\"99acres-apify\",\"ownerName\":\"\",\"companyName\":\"INVESTORS HOUSE INDIA\",\"imageUrl\":\"https://imagecdn.99acres.com/media1/39314/16/786296398T-1782894062361.jpg\",\"landmark\":\"\",\"postedDate\":\"02nd Jul, 2026\",\"scrapedAt\":\"2026-08-01T18:01:54.042Z\",\"city\":\"Ghaziabad\",\"coordinates\":{\"lat\":28.633824,\"lon\":77.3696585},\"nearbyPlaces\":{\"fetchedAt\":\"2026-08-04T15:10:53.916Z\",\"trainStation\":{\"name\":\"Noida Electronic City\",\"distanceKm\":0.8,\"lat\":28.6282627,\"lon\":77.3750033,\"osmUrl\":\"https://www.openstreetmap.org/node/6539894868\",\"type\":\"train\"},\"hospital\":{\"name\":\"Anita's clinic\",\"distanceKm\":0.6,\"lat\":28.6360396,\"lon\":77.3756924,\"osmUrl\":\"https://www.openstreetmap.org/node/7944515382\",\"type\":\"hospital\"},\"busStation\":{\"name\":\"Mayur Vihar Phase - 3, Bus Stand\",\"distanceKm\":3.8,\"lat\":28.6140388,\"lon\":77.3373832,\"osmUrl\":\"https://www.openstreetmap.org/node/12593961705\",\"type\":\"bus\"},\"airport\":{\"name\":\"Hindon Airport\",\"distanceKm\":7.9,\"lat\":28.704336,\"lon\":77.3616691,\"osmUrl\":\"https://www.openstreetmap.org/way/265984430\",\"type\":\"airport\"},\"source\":\"https://overpass-api.de/api/interpreter\"}}"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "45b1bff7-a77b-4367-b1ba-b9456aa4c8e8",
+      "name": "Srinivas Heights 3BHK Gachibowli",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jawaharlal Nehru Institute of Banking and Finance, ISB Road, Ward 106 Serilingampally, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500032, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "4c1ee621-4b6f-4cb3-afea-900048285e45",
+      "name": "Srinivas Towers 2BHK Kondapur",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "palapitta cycle room, Masjid Banda Road, Sriram Nagar, Kothaguda, Ward 104 Kondapur, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500084, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a57f1f1a-ca1d-4f24-abc6-dcc589776573",
+      "name": "Premium 3BHK Madhapur",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "60 Feet road, Ayyappa Society Colony, HITEC City, Ward 107 Madhapur, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500081, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f2dfbf35-b150-4628-9798-25808b457f93",
+      "name": "Spacious 2BHK Kukatpally",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "48, Street Number 4, AS Raju Nagar, Kukatpally, Ward 122 Vivekananda Nagar Colony, Greater Hyderabad Municipal Corporation West Zone, Hyderabad, Kukatpally mandal, Medchal–Malkajgiri, Telangana, 500072, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "27b44ae0-90e5-437e-81fb-f0a7cd19cd4d",
+      "name": "Luxury Villa Jubilee Hills",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Road no. 10, Jubilee Hills, Ward 95 Jubilee Hills, Greater Hyderabad Municipal Corporation Central Zone, Hyderabad, Shaikpet mandal, Hyderabad, Telangana, 500033, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "c6cfead0-9cdb-45be-b597-721b45b2111a",
+      "name": "Prestige Lakeside 2BHK Whitefield",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Sai Sadan, No. 625, 1st A Main Road, Sai Layout, Whitefield, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560066, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d81a0342-6e26-4714-bf6c-d658bbff3f6e",
+      "name": "Prestige Ozone 3BHK Whitefield",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Shanthi Avenue, Sai Layout, Whitefield, Bengaluru East City Corporation, Bengaluru, Bangalore East, Bengaluru Urban, Karnataka, 560066, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d6f5d6c4-0bf8-476d-8ffa-f48075a8ec74",
+      "name": "Cozy 2BHK HSR Layout",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "1090/A, 18th Cross Road, MCHS Colony, Sector 3, HSR Layout, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560102, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "2d17071c-2c79-4086-a17e-b530609430b2",
+      "name": "Modern 3BHK Koramangala",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Koramangala 6th Block, Koramangala, Sri Lakshmi Devi Ward, Bengaluru South City Corporation, Bengaluru, Bangalore South, Bengaluru Urban, Karnataka, 560095, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "2345ad15-930d-45f0-8784-512210928806",
+      "name": "Budget 2BHK Electronic City",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Hosur Road, Electronics City Phase 2 (West), Veerasandra, Anekal, Bengaluru Urban, Karnataka, 560100, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "b04f0512-0e95-4b03-acc0-73f7da0359ff",
+      "name": "Lodha Luxuria 2BHK Andheri West",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Shastri Nagar, Jogeshwari West, K/W Ward, Mumbai Zone 3, Mumbai, Mumbai Suburban District, Maharashtra, 402205, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "8834ce74-b90c-4152-893a-79032718f996",
+      "name": "Lodha Supremus 3BHK Powai",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "China Valley, Orchard Avenue, Hiranandani Gardens, Powai, S Ward, Mumbai Zone 6, Mumbai, Mumbai Suburban District, Maharashtra, 400076, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "275b3fa3-bfc3-4c73-a24a-ecb5b5ba07de",
+      "name": "Compact 1BHK Thane West",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Healing Hands Clinic - Thane West, Cosmos Jewels, 3rd floor, near Dmart, opp. Muchhala College, Ghodbunder Service Road, Anand Nagar, Mumbai, Thane Subdistrict, Thane, Maharashtra, 400615, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "84954fcf-2d39-4e4f-82cc-e51dc59be199",
+      "name": "Elegant 2BHK Goregaon East",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jawahar Nagar, Goregaon East, P/S Ward, Mumbai Zone 4, Mumbai, Mumbai Suburban District, Maharashtra, 400062, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "58c75703-1376-4fe8-beeb-a33539a7ed8c",
+      "name": "Premium 3BHK Worli Sea Face",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Worli Koliwada, Worli, G/S Ward, Mumbai Zone 2, Mumbai City District, Maharashtra, 400030, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "51c67f14-c35e-4f1c-8afc-c62e70643f19",
+      "name": "Life Republic 2BHK Hinjewadi",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Panchratna Chowk Road, Sakhare Vasti, Hinjawadi, Mhalunge, Mulshi Subdistrict, Pune District, Maharashtra, 411057, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "0970544a-b5d2-434a-aae4-3d0f740dbfe2",
+      "name": "Ivy Estate 3BHK Wagholi",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jade Residency, Wagholi, Pune City Subdistrict, Pune District, Maharashtra, 412207, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f59d98b7-45e4-475d-b3e7-33f9b8e8e9bb",
+      "name": "Sunny 2BHK Kharadi",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Shree Hospital, Rakshak Nagar Gold Road, Kharadi, Pune, Pune City Subdistrict, Pune District, Maharashtra, 411014, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "05e4542f-1ecd-4092-a0bb-d6a87a9781fd",
+      "name": "Modern 3BHK Baner",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Baner Gaon, Baner, Pune, Pune City Subdistrict, Pune District, Maharashtra, 411001, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d59a0bf8-ad28-4eb6-ab34-0a2652ec01ac",
+      "name": "Budget 2BHK Hadapsar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Magarpatta Rear Approach Road, Mundhwa, Pune, Pune City Subdistrict, Pune District, Maharashtra, 411001, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "26b66436-62c4-4573-8537-75530539a97b",
+      "name": "Casagrand First City 3BHK OMR",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Ramappa Road, CMWSSB Division 184, Ward 184, Zone 14 Perungudi, Chennai, Sholinganallur, Chennai, Tamil Nadu, 600096, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "c9b4b115-86fa-472e-a9ca-6879e7903b9d",
+      "name": "Casagrand Aristo 2BHK OMR",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Swaram Hospital and Speciality Clinic, Kalaingar Karunanidhi Salai, CMWSSB Division 197, Ward 197, Zone 15 Sholinganallur, Chennai, Chengalpattu, Chennai, Tamil Nadu, 600097, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d8743d56-856f-418f-af9e-9d6a52d483b2",
+      "name": "Charming 2BHK Velachery",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Pillaiyar Koil Street, CMWSSB Division 178, Ward 178, Zone 13 Adyar, Chennai, Tamil Nadu, 600042, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a1e1ce2d-91e1-4434-80f8-dc3a4d4e315d",
+      "name": "Spacious 2BHK Anna Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "7th Street, CMWSSB Division 101, Ward 101, Zone 8 Anna Nagar, Chennai, Tamil Nadu, 600102, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "43766794-5329-44a6-ac9d-892df319afc0",
+      "name": "Premium 3BHK Adyar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "53/26, Gandhi Nagar 1st Main Road, CMWSSB Division 175, Ward 175, Zone 13 Adyar, Chennai, Tamil Nadu, 600020, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "ab3d88fc-d5e0-40df-b22b-d2d5a491926c",
+      "name": "Merlin Rise 2BHK Salt Lake",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Bose Institute Unified Academic Campus, EN-80, Street Number 13, DN Block, Sector V, Kolkata, Kolkata Metropolitan Area, Rajarhat, North 24 Parganas, West Bengal, 700091, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "75d74286-5f73-4283-9d16-9b020f60c623",
+      "name": "Merlin Greens 3BHK New Town",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Action Area I, New Town, Kolkata Metropolitan Area, Rajarhat, North 24 Parganas, West Bengal, 700160, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "85258a6f-217b-474a-840a-2954ce96afb6",
+      "name": "Charming 2BHK Ballygunge",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Ballygunge, Kolkata, Kolkata Metropolitan Area, Kolkata, West Bengal, 700019, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "10a769e3-690b-42e3-961e-8ea3b129d578",
+      "name": "Elegant 3BHK Park Street",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Park Street, Park Street Flyover, Dharmatala, Kolkata, Kolkata Metropolitan Area, Kolkata, West Bengal, 700087, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "28636820-f788-405a-a865-b0948e615e21",
+      "name": "Modern 2BHK Rajarhat",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Street Number 622, Action Area II, New Town, Kolkata Metropolitan Area, Rajarhat, North 24 Parganas, West Bengal, 700161, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a5e8c7b6-962f-4064-8752-33e99474b954",
+      "name": "Adani Shantigram 3BHK Satellite",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Ramdevnagar road, Ramdev nagar, Vejalpur Taluka, Ahmedabad, Gujarat, 380015, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "8f942401-ae8a-4f90-8959-4e655ba9a55b",
+      "name": "Adani Elysium 2BHK SG Highway",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Thaltej, Ghatlodiya Taluka, Ahmedabad, Gujarat, 380059, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "de867492-ddac-4f57-9d34-8ca6100e600c",
+      "name": "Spacious 2BHK Vastrapur",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Vastrapur, Vejalpur Taluka, Ahmedabad, Gujarat, 380054, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d6f0202e-8087-40d8-bc79-bb22aa46a036",
+      "name": "Premium 3BHK Bopal",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Ghuma, Sanand Taluka, Ahmedabad, Gujarat, 380058, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a40e079e-3bf4-4af9-8f71-fd4efe8cf610",
+      "name": "Modern 2BHK Prahlad Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Prahladnagar, Sarkhej, Vejalpur Taluka, Ahmedabad, Gujarat, 380051, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "8db60e30-7cad-467c-b510-d218a58da085",
+      "name": "Mahima Heights 2BHK Vaishali Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jagdamba colony, Block A, Vaishali Nagar, Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "0c39b841-2f83-4771-ad45-adc8ae28b312",
+      "name": "Mahima Panorama 3BHK Jagatpura",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jagatpura, Jaipur Municipal Corporation, Sanganer Tehsil, Jaipur, Rajasthan, 303902, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "92968a9b-13c9-4b94-a07b-09a4f4586610",
+      "name": "Cozy 2BHK Malviya Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jaipur Municipal Corporation, Sanganer Tehsil, Jaipur, Rajasthan, 302018, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "97cc6c05-886b-4cb3-ad30-f760d1a96aa3",
+      "name": "Heritage 3BHK C-Scheme",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Murlipura Scheme, Vidyadhar Nagar, Jaipur, Jaipur Municipal Corporation, Jaipur Tehsil, Jaipur, Rajasthan, 302001, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "7904c655-32c9-42c0-aa7a-f667fa9c0546",
+      "name": "Affordable 2BHK Mansarovar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Jaipur Municipal Corporation, Sanganer Tehsil, Jaipur, Rajasthan, 302020, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e6b6df72-e2d7-4bb9-a202-a26048a53cf7",
+      "name": "Confident Sunshine 2BHK Kakkanad",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Collectorate Road, Kakkanad, Ernakulam, Kanayannur, Ernakulam, Kerala, 682030, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "fbddce77-a332-4ae0-84f4-9707171bee42",
+      "name": "Confident Gardenia 3BHK Edappally",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Salem - Kochi - Kanyakumari Highway, Sahrudaya Nagar, Edapally, Kalamassery, Kanayannur, Ernakulam, Kerala, 682024, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "c8e0b10b-c41c-44d6-bcb1-5f28a1fb9a17",
+      "name": "Elegant 3BHK Panampilly Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "She Veda, Kannanthodath Lane, Ernakulam South, Kochi, Kanayannur, Ernakulam, Kerala, 680016, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e45d1761-7e60-4f35-a794-34c67ca7f551",
+      "name": "Compact 2BHK Vyttila",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Vytilla Shiva Temple, Ettumanoor - Ernakulam Road, Vyttila, Ernakulam, Kanayannur, Ernakulam, Kerala, 682019, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "99574e36-a9e4-4819-9edb-7a53e7e66dee",
+      "name": "Omaxe Forest 3BHK Gomti Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Viram Khand, Gomti Nagar, Lucknow, Uttar Pradesh, 226010, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a6da5e11-40e2-4ee4-a833-f0805a5ebbdf",
+      "name": "Omaxe Silver 2BHK Vibhuti Khand",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Vivek Khand, Gomti Nagar, Lucknow, Uttar Pradesh, 226010, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "c47ee199-ecc6-4934-8990-ec8645f1ce94",
+      "name": "Comfortable 2BHK Indira Nagar",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Block A, Mahanagar Colony, Lucknow, Uttar Pradesh, 226006, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "8be1c565-b8f0-4d65-af29-78b7d18237ca",
+      "name": "Heritage 3BHK Hazratganj",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Hazratganj, Lucknow, Uttar Pradesh, 226027, India"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "899f2f33-6015-4737-8261-e672d1ecbc6f",
+      "name": "Budget 2BHK Alambagh",
+      "changes": [
+        {
+          "field": "address",
+          "prior": null,
+          "new": "Alambagh, Lucknow, Uttar Pradesh, 226005, India"
+        }
+      ]
+    }
+  ]
+}

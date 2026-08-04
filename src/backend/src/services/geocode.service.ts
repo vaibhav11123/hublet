@@ -67,4 +67,41 @@ export class GeocodeService {
             return null;
         }
     }
+
+    /**
+     * Reverse-geocode a coordinate into OSM's own formatted address string.
+     * Used to fill Property.address honestly from a real point we already
+     * have - never invents a street number/name, only returns what OSM
+     * itself reports for that location.
+     */
+    static async reverseGeocode(lat: number, lon: number): Promise<string | null> {
+        try {
+            const now = Date.now();
+            const timeSinceLast = now - lastRequestTime;
+            if (timeSinceLast < 1000) {
+                await delay(1000 - timeSinceLast);
+            }
+            lastRequestTime = Date.now();
+
+            const url = `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json`;
+
+            const response = await fetch(url, {
+                headers: {
+                    'User-Agent': 'HubletBackend/1.0 (hublet@iiit.ac.in)',
+                    'Accept-Language': 'en'
+                }
+            });
+
+            if (!response.ok) {
+                console.error(`Reverse geocoding error for (${lat}, ${lon}): API returned ${response.status} ${response.statusText}`);
+                return null;
+            }
+
+            const data = await response.json() as any;
+            return data?.display_name || null;
+        } catch (error) {
+            console.error(`Reverse geocoding exception for (${lat}, ${lon}):`, error);
+            return null;
+        }
+    }
 }

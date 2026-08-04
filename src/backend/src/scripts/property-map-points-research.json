@@ -1,0 +1,42 @@
+[
+  {"id": "843c42dd-8716-4248-a730-fb1274dc8eb2", "lat": 19.1585147, "lon": 72.9994019, "tier": 1, "query": "Airoli, Navi Mumbai, India"},
+  {"id": "40725e65-e949-4c33-a446-be48a99f4137", "lat": 28.693684, "lon": 77.5446152, "tier": 1, "query": "Dasna, Ghaziabad, India"},
+  {"id": "59c2ab43-c78b-45bf-bb3b-700ffe6b7f61", "lat": 12.9634384, "lon": 77.5961662, "tier": 1, "query": "Mission Road, Bangalore, India"},
+  {"id": "b47700bf-e5f9-4d6c-8d4c-81510c35b380", "lat": 12.9694359, "lon": 77.6092319, "tier": 1, "query": "Ashok Nagar, Bangalore, India"},
+  {"id": "2c9635fe-9ff8-4990-8c3f-a9864c7dc2e4", "lat": 12.9779079, "lon": 77.5723936, "tier": 1, "query": "Majestic, Bangalore, India"},
+  {"id": "79068da7-08fa-40b2-b334-2e8cfcbc28f1", "lat": 12.9946631, "lon": 77.5747183, "tier": 1, "query": "Seshadripuram, Bangalore Central, India"},
+  {"id": "f1410fcd-adf8-462e-8b51-05a108820c22", "lat": 12.963555, "lon": 77.6015856, "tier": 1, "query": "Richmond Town, Bangalore, India"},
+  {"id": "d08ac0e1-d096-4a88-b5d8-a61a513da855", "lat": 12.9746882, "lon": 77.628026, "tier": 1, "query": "Jogupalya, Bangalore, India"},
+  {"id": "f3c1081a-7cd8-44c1-bcbd-1540b47e7efd", "lat": 12.9957008, "lon": 77.6169041, "tier": 1, "query": "Frazer Town, Bangalore Central, India"},
+
+  {"id": "e99a1fe4-0da3-47cc-a705-4167b9d491b8", "lat": 19.186483, "lon": 72.9757664, "tier": 2, "query": "Thane Railway Station, Thane West, Thane, Maharashtra, India"},
+  {"id": "1a839500-b8ba-4231-bdd5-0b848743656e", "lat": 19.186483, "lon": 72.9757664, "tier": 2, "query": "Thane Railway Station, Thane West, Thane, Maharashtra, India"},
+  {"id": "d147239b-1b05-4995-a01d-4b23b9c98979", "lat": 19.2704158, "lon": 72.969082, "tier": 2, "query": "Kasarvadavali, Thane, Maharashtra, India"},
+  {"id": "ba926f33-e13d-4d7a-9d77-e9252a30c325", "lat": 19.2568987, "lon": 73.1328761, "tier": 2, "query": "Thane West, Thane, Maharashtra, India"},
+  {"id": "b424777b-94d7-42f6-a4aa-18e8dcb7d0f1", "lat": 19.2568987, "lon": 73.1328761, "tier": 2, "query": "Thane West, Thane, Maharashtra, India"},
+
+  {"id": "1c929b4a-a801-43b6-8823-0c5e2da9b2e7", "lat": 28.633824, "lon": 77.3696585, "tier": 2, "query": "Shipra Mall, Ghaziabad, Uttar Pradesh, India"},
+  {"id": "6a04e609-b5ec-4f1d-9a11-7b671652ce4d", "lat": 28.633824, "lon": 77.3696585, "tier": 2, "query": "Shipra Mall, Ghaziabad, Uttar Pradesh, India"},
+  {"id": "956d3934-2ae2-4efd-85b8-d32a957a7136", "lat": 28.6380466, "lon": 77.3644168, "tier": 2, "query": "Indirapuram, Ghaziabad, Uttar Pradesh, India"},
+  {"id": "31841bc0-5290-437f-a112-e35ef5b9b835", "lat": 28.6380466, "lon": 77.3644168, "tier": 2, "query": "Indirapuram, Ghaziabad, Uttar Pradesh, India"},
+  {"id": "8286ea50-a7c3-4173-8bb5-0b0f18a8df8c", "lat": 28.6373636, "lon": 77.3615746, "tier": 2, "query": "Aditya Mega City, Indirapuram, Ghaziabad, Uttar Pradesh, India"},
+  {"id": "d6696bc6-06bf-4d91-a408-aa4af03208ca", "lat": 28.6496701, "lon": 77.339575, "tier": 2, "query": "Vaishali, Ghaziabad, Uttar Pradesh, India"},
+
+  {"id": "f17bac5b-d7b4-4f94-af04-13fbaeded44b", "lat": 19.0073498, "lon": 73.0952827, "tier": 2, "query": "Khandeshwar Railway Station, Navi Mumbai, Maharashtra, India"},
+  {"id": "7270008d-d567-4736-9f58-f8b89d5db498", "lat": 18.9262648, "lon": 73.0302632, "tier": 2, "query": "Chirle, Uran, Raigad, Maharashtra, India"},
+  {"id": "57a83916-fa13-49bf-8b10-c14e99d5e54e", "lat": 9.9784782, "lon": 76.2757727, "tier": 2, "query": "Marine Drive Kochi"},
+
+  {"id": "9b35e7c8-93f4-4335-8f83-ae28b32befe5", "lat": 12.9551545, "lon": 77.5799947, "tier": 2, "query": "Minerva Circle, Bangalore, Karnataka, India"},
+  {"id": "02611e8d-68e2-4e6c-b164-dab48de84b07", "lat": 12.9693497, "lon": 77.592661, "tier": 2, "query": "Sree Kanteerava Stadium, Bangalore, Karnataka, India"},
+  {"id": "1ed73e7e-4fc3-4f91-a00a-86d7b66944f4", "lat": 12.9535975, "lon": 77.6187875, "tier": 2, "query": "Infant Jesus Church, Bangalore, Karnataka, India"},
+  {"id": "56032d89-6aa6-46a7-9a08-f391ef74e219", "lat": 12.9698305, "lon": 77.5797105, "tier": 2, "query": "Avenue Road, Bangalore, Karnataka, India"},
+  {"id": "b1fa66e5-6a98-4250-89a4-753529dcf078", "lat": 12.9932927, "lon": 77.654499, "tier": 2, "query": "Satellite Bus Stand, Bangalore, India"},
+  {"id": "615eeac2-8c67-412d-bb7e-7d5369475685", "lat": 12.9730088, "lon": 77.5804711, "tier": 2, "query": "Bangalore Central, Karnataka, India"},
+  {"id": "e863d972-335e-44ba-83d6-25a4ba326b1e", "lat": 13.0051563, "lon": 77.6144409, "tier": 2, "query": "Hall Road, Richards Town, Bangalore, Karnataka, India"},
+  {"id": "cda89465-a051-4ff6-9b53-ec51b9e39c53", "lat": 12.9823891, "lon": 77.6191669, "tier": 2, "query": "Ulsoor Lake, Bangalore, Karnataka, India"},
+  {"id": "bc2d9891-8847-4e1c-a274-65f188a27c21", "lat": 12.9883249, "lon": 77.6004488, "tier": 2, "query": "Shivaji Nagar, Bangalore, Karnataka, India"},
+  {"id": "445bd2ec-ea93-4940-a05c-dc373f9c22ae", "lat": 12.9975851, "lon": 77.6136744, "tier": 2, "query": "Frazer Town, Bangalore, Karnataka, India"},
+  {"id": "a83a299d-40e0-4944-8af8-002b6e1ae492", "lat": 12.9934858, "lon": 77.6251081, "tier": 2, "query": "Cox Town, Bangalore, Karnataka, India"},
+  {"id": "e15eed68-6c5c-41ff-bd63-3c8a3076a8b7", "lat": 12.9975851, "lon": 77.6136744, "tier": 2, "query": "Frazer Town, Bangalore, Karnataka, India"},
+  {"id": "e95f019f-9e92-4f40-bff6-c2f384765f4e", "lat": 12.9465339, "lon": 77.5799954, "tier": 2, "query": "Lalbagh, Bangalore, Karnataka, India"}
+]
