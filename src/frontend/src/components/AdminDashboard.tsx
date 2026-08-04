@@ -104,6 +104,7 @@ export const AdminDashboard = ({
     const [logs, setLogs] = useState<WorkflowEvent[]>([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
+    const [summaryCounts, setSummaryCounts] = useState<{ buyers: number; sellers: number; properties: number; leads: number; matches: number; logs: number } | null>(null);
 
     const [manualCity, setManualCity] = useState('');
     const [manualScraper, setManualScraper] = useState('');
@@ -156,6 +157,28 @@ export const AdminDashboard = ({
     };
 
     useEffect(() => { fetchData(); if (activeTab === 'manual-scrape') fetchScrapers(); }, [activeTab]);
+
+    // Summary Stats widget renders on every tab, so its counts are fetched once on
+    // mount here - independent of which tab is active - rather than reused from the
+    // per-tab arrays above, which are only populated lazily as each tab is visited.
+    useEffect(() => { fetchSummaryCounts(); }, []);
+
+    const fetchSummaryCounts = async () => {
+        try {
+            const [b, s, p, l, m, e] = await Promise.all([
+                axios.get(`${API_BASE_URL}/buyers`),
+                axios.get(`${API_BASE_URL}/sellers`),
+                axios.get(`${API_BASE_URL}/properties`),
+                axios.get(`${API_BASE_URL}/leads`),
+                axios.get(`${API_BASE_URL}/matches`),
+                axios.get(`${API_BASE_URL}/workflow-events`),
+            ]);
+            setSummaryCounts({
+                buyers: b.data.length, sellers: s.data.length, properties: p.data.length,
+                leads: l.data.length, matches: m.data.length, logs: e.data.length,
+            });
+        } catch { /* Summary Stats widget just shows nothing until this succeeds - non-critical */ }
+    };
 
     const fetchScrapers = async () => { try { const res = await axios.get(`${API_BASE_URL}/admin/scrapers`); if (res.data.success && Array.isArray(res.data.scrapers)) setAvailableScrapers(res.data.scrapers.map((s: any) => s.name || s)); } catch (e: any) { setError(e.message); } };
 
@@ -712,19 +735,19 @@ export const AdminDashboard = ({
 
                     </div>{/* close m3-fade-in */}
 
-                    {/* Summary Stats */}
+                    {/* Summary Stats - real totals fetched once on mount via fetchSummaryCounts, independent of activeTab */}
                     <div className="m3-surface-container" style={{ marginTop: 30, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: 16, textAlign: 'center' }}>
                         {[
-                            { label: 'Buyers', count: buyers.length, color: 'var(--md-sys-color-primary)' },
-                            { label: 'Sellers', count: sellers.length, color: 'var(--md-sys-color-tertiary)' },
-                            { label: 'Properties', count: properties.length, color: 'var(--md-sys-color-warning)' },
-                            { label: 'Leads', count: leads.length, color: 'var(--md-sys-color-secondary)' },
-                            { label: 'Matches', count: matches.length, color: 'var(--md-sys-color-error)' },
-                            { label: 'Event Logs', count: logs.length, color: 'var(--md-sys-color-outline)' },
+                            { label: 'Buyers', count: summaryCounts?.buyers, color: 'var(--md-sys-color-primary)' },
+                            { label: 'Sellers', count: summaryCounts?.sellers, color: 'var(--md-sys-color-tertiary)' },
+                            { label: 'Properties', count: summaryCounts?.properties, color: 'var(--md-sys-color-warning)' },
+                            { label: 'Leads', count: summaryCounts?.leads, color: 'var(--md-sys-color-secondary)' },
+                            { label: 'Matches', count: summaryCounts?.matches, color: 'var(--md-sys-color-error)' },
+                            { label: 'Event Logs', count: summaryCounts?.logs, color: 'var(--md-sys-color-outline)' },
                         ].map(s => (
                             <div key={s.label}>
                                 <h3 className="md-label-medium m3-text-secondary" style={{ marginBottom: 10 }}>{s.label}</h3>
-                                <p className="md-display-small" style={{ color: s.color }}>{s.count}</p>
+                                <p className="md-display-small" style={{ color: s.color }}>{s.count ?? '—'}</p>
                             </div>
                         ))}
                     </div>
