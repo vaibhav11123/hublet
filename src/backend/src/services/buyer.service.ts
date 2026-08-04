@@ -133,7 +133,7 @@ export class BuyerService {
 
         const buyers = await prisma.buyer.findMany({
             where,
-            take: filters?.limit || 100,
+            take: filters?.limit || 1000,
             orderBy: { createdAt: 'desc' },
         });
 

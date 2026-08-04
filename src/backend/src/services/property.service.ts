@@ -210,7 +210,7 @@ export class PropertyService {
             include: {
                 seller: true,
             },
-            take: filters?.limit || 100,
+            take: filters?.limit || 1000,
             orderBy: { createdAt: 'desc' },
         });
 
