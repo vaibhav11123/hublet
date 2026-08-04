@@ -1,0 +1,2322 @@
+{
+  "apply": true,
+  "updated": 193,
+  "rows": [
+    {
+      "table": "buyer",
+      "id": "0a4ac015-1711-4ebe-aa46-2682db91e271",
+      "name": "Mumbai Investor 1",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor1@gmail.com",
+          "new": "neha_pillai55@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "70b0bba1-9025-4b16-a335-7ae6d67cc0d8",
+      "name": "Mumbai Investor 2",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor2@yahoo.com",
+          "new": "pooja.rao@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "280aa2b1-85bb-43f6-b4a1-e38f86f5c0d4",
+      "name": "Mumbai Investor 3",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor3@gmail.com",
+          "new": "rajeshrao56@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ecd75723-2262-4478-b064-8f6839539b53",
+      "name": "Mumbai Investor 4",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor4@yahoo.com",
+          "new": "divya.verma35@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "f5a8f794-d7c5-4663-9fc9-e8d2bd0a582b",
+      "name": "Mumbai Investor 5",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor5@gmail.com",
+          "new": "shalinichopra34@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "dddad1f0-f557-4088-9fd1-ff1c15c28f19",
+      "name": "Mumbai Investor 6",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor6@gmail.com",
+          "new": "nikhil.menon@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "04a017b8-0a2c-4a7b-a1e0-64154df1dbe5",
+      "name": "Mumbai Investor 7",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor7@gmail.com",
+          "new": "kpandey1998@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "77ce8e45-ce17-4e55-a6fb-254507604588",
+      "name": "Mumbai Investor 8",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor8@gmail.com",
+          "new": "shalini.kapoor60@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "63a789fc-8bc5-4ebd-b3d7-e831f1fc3dde",
+      "name": "Mumbai Investor 9",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor9@yahoo.com",
+          "new": "nikhil.kapoor@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "6636b303-b4c0-4d99-913d-768a1988e2da",
+      "name": "Mumbai Investor 10",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mumbai.investor10@rediffmail.com",
+          "new": "deepika.menon@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e4707909-15c8-4cd2-96f4-011c4f1181b4",
+      "name": "Hyderabad Investor 1",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor1@gmail.com",
+          "new": "rohitiyer37@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "213e5da2-edd7-4cf2-a599-00e4dc4aec49",
+      "name": "Hyderabad Investor 2",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor2@gmail.com",
+          "new": "karan.iyer@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "b98d14eb-ecba-41e8-9d93-6c39ee1e5f06",
+      "name": "Hyderabad Investor 3",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor3@gmail.com",
+          "new": "meena.menon2001@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "57c3e1be-fa2a-48fe-82d7-70ec029a98ee",
+      "name": "Hyderabad Investor 4",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor4@gmail.com",
+          "new": "ritu.rao@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "0b84bfad-e1f6-41cc-ade8-0a9b184fd57b",
+      "name": "Hyderabad Investor 5",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor5@gmail.com",
+          "new": "ritusharma1996@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e919f8b1-1b6d-4dd3-8be5-87f078597839",
+      "name": "Hyderabad Investor 6",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor6@gmail.com",
+          "new": "skapoor75@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "58becb9d-671c-4d6f-ae32-fab227f4d77d",
+      "name": "Hyderabad Investor 7",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor7@yahoo.com",
+          "new": "meenapillai1999@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "f465ea5f-bbeb-4813-aabc-f6432e91ec0b",
+      "name": "Hyderabad Investor 8",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor8@yahoo.com",
+          "new": "vikram.iyer81@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "a792ef50-f26c-421f-8082-cb87e318bfb0",
+      "name": "Hyderabad Investor 9",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor9@gmail.com",
+          "new": "rajesh2003@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "aa7a9168-e377-45aa-b442-1256b10b736f",
+      "name": "Hyderabad Investor 10",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyderabad.investor10@gmail.com",
+          "new": "karan.iyer1985@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "72337a16-5395-4688-8176-853bf2c4266d",
+      "name": "Delhi Investor 1",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor1@gmail.com",
+          "new": "deepika.malhotra34@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "53f78744-9870-4565-b375-675396fe3b1a",
+      "name": "Delhi Investor 2",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor2@gmail.com",
+          "new": "anjali_shetty@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "5b9c8586-61b7-4ca1-a7e5-49339aba484b",
+      "name": "Delhi Investor 3",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor3@gmail.com",
+          "new": "amit.pillai1986@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "2d4d1ae7-cbbb-47f5-b363-f0155ed3821a",
+      "name": "Delhi Investor 4",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor4@gmail.com",
+          "new": "gauravgupta1980@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ef974009-fb91-458a-8361-67a5a5449196",
+      "name": "Delhi Investor 5",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor5@yahoo.com",
+          "new": "rohit.sharma71@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "93e8e135-1a41-4942-a09c-3306f0494a82",
+      "name": "Delhi Investor 6",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor6@outlook.com",
+          "new": "shalini86@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "2bfea81f-4c82-4e44-b598-ba402c6189f9",
+      "name": "Delhi Investor 7",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor7@gmail.com",
+          "new": "divya.sharma21@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "a69ba2bf-ce60-4661-85b8-1306efccc30e",
+      "name": "Delhi Investor 8",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor8@gmail.com",
+          "new": "priya.bhat@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "2ebd39ec-25b8-42d3-9af7-ec84cc039a69",
+      "name": "Delhi Investor 9",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor9@gmail.com",
+          "new": "vivek.agarwal1992@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e0f16257-1ec5-430a-980d-29e40b3595fb",
+      "name": "Delhi Investor 10",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "delhi.investor10@yahoo.com",
+          "new": "rohitreddy2002@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "deeac2ad-488d-4474-9be3-e24825922196",
+      "name": "Arjun Reddy",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "arjun.hyd@gmail.com",
+          "new": "arjunreddy2003@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e1192e8d-949d-4cb0-80b8-43b8286ced68",
+      "name": "Priya Sharma",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "priya.hyd@gmail.com",
+          "new": "priya.sharma@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "6af666f4-2328-45aa-9800-9dda66a3d1cd",
+      "name": "Vikram Rao",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "vikram.hyd@gmail.com",
+          "new": "vrao90@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "85a1abbb-2755-47ee-b4fd-f7bcdf8d0331",
+      "name": "Deepa Nair",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "deepa.hyd@gmail.com",
+          "new": "deepa.nair@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "104fbd4e-1d4c-4319-b9ad-24e8c8783acd",
+      "name": "Ravi Teja",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ravi.hyd@gmail.com",
+          "new": "ravi.teja1997@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "bcea7673-de29-404b-8488-af924fcf14bb",
+      "name": "Ananya Reddy",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ananya.hyd@gmail.com",
+          "new": "ananya.reddy52@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "cbff8e65-6aea-4076-915e-b4e438fd157a",
+      "name": "Sai Krishna",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sai.hyd@gmail.com",
+          "new": "sai.krishna1998@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e4d58b14-95ea-4230-90e4-b941dd8993d3",
+      "name": "Kavya Reddy",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kavya.hyd@gmail.com",
+          "new": "kavya.reddy58@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "77db92a2-ad1c-4bd0-a135-c95e6fe9eb90",
+      "name": "Sneha Iyer",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sneha.blr@gmail.com",
+          "new": "sneha.iyer37@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "117fd88d-59a9-43fd-8987-57d5e42c05ef",
+      "name": "Divya Hegde",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "divya.blr@gmail.com",
+          "new": "dhegde48@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "556a78e3-55db-46f2-a78a-7b13e61e8690",
+      "name": "Prasad KV",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "prasad.blr@gmail.com",
+          "new": "pkv71@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "aba24d6d-231c-4ca8-b50b-86284a998220",
+      "name": "Amrita Das",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "amrita.blr@gmail.com",
+          "new": "amrita.das67@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "dde1701e-54d2-48a8-8db2-4c42d39a71cd",
+      "name": "Nikhil Gowda",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "nikhil.blr@gmail.com",
+          "new": "nikhilgowda2001@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ed2f98f6-cd9b-40cc-9652-c08e1f9c47a2",
+      "name": "Meghana Rao",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "meghana.blr@gmail.com",
+          "new": "meghana.rao98@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "d4dd7423-7bd0-4f09-9ec4-4d34954ec9f3",
+      "name": "Ajay Kumar BLR",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ajay.blr@gmail.com",
+          "new": "ajay.kumar@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "101e90f0-38d0-46ae-b1e0-c6c85b64047f",
+      "name": "Aditya Patil",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "aditya.mum@gmail.com",
+          "new": "aditya.patil1996@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "63988f0a-4e98-4c21-be53-39d7de4b5216",
+      "name": "Meera Shah",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "meera.mum@gmail.com",
+          "new": "meera_shah1993@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "d90ad65b-81b9-4573-9043-aab8168afde4",
+      "name": "Rohan Deshmukh",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rohan.mum@gmail.com",
+          "new": "rohan.deshmukh24@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "99cec570-0b6d-4ec2-b95d-ac7bf791110f",
+      "name": "Pooja Mehta",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "pooja.mum@gmail.com",
+          "new": "pooja.mehta1998@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "cc11fc46-39e3-4e66-9b35-81e59712d291",
+      "name": "Sameer Khan",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sameer.mum@gmail.com",
+          "new": "sameerkhan59@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ac430139-54a1-49af-bb64-8c3dd80dcf04",
+      "name": "Tanvi Desai",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "tanvi.mum@gmail.com",
+          "new": "tanvi_desai32@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ce54faf7-69ca-4eec-9025-00e66b804fa6",
+      "name": "Varun Joshi MUM",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "varun.mum@gmail.com",
+          "new": "varun.joshi32@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "c09f33ce-3f30-4648-b000-11edb709e93d",
+      "name": "Swati Kulkarni MUM",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "swati.mum@gmail.com",
+          "new": "swati.kulkarni1981@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "4afdeefc-88e6-41d3-ab7e-d81c5a50c740",
+      "name": "Anjali Kulkarni",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anjali.pun@gmail.com",
+          "new": "anjalikulkarni1999@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "0dd87214-590a-409c-91ad-a258d5a832a6",
+      "name": "Siddharth Joshi",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "siddharth.pun@gmail.com",
+          "new": "siddharth.joshi41@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "dc7f4675-0f0a-4500-b60d-56ea093debaa",
+      "name": "Nisha Pawar",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "nisha.pun@gmail.com",
+          "new": "nisha.pawar@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "3268a5f4-3549-4f7b-83dc-14e93ec75da4",
+      "name": "Omkar Deshpande",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "omkar.pun@gmail.com",
+          "new": "omkardeshpande82@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "b55954ee-9676-4d54-a70f-e748030896c6",
+      "name": "Rashmi Patil",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rashmi.pun@gmail.com",
+          "new": "rashmi.patil82@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "2e24538f-575f-46ac-896a-edabb5411271",
+      "name": "Tejas More",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "tejas.pun@gmail.com",
+          "new": "tejas.more@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "4082bb31-9843-4c30-9e1b-a466bb60d32c",
+      "name": "Pooja Gaikwad",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "pooja.pun@gmail.com",
+          "new": "poojagaikwad1981@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "486c8db1-4651-4db4-8561-53326ddd7dba",
+      "name": "Akash Jadhav",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "akash.pun@gmail.com",
+          "new": "akash.jadhav69@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "cc1c3f7f-6f15-420d-a0b2-f3773a31c3a4",
+      "name": "Karthik Rajan",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "karthik.chn@gmail.com",
+          "new": "karthik.rajan@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "43baa9d7-e319-446e-9b3b-58679fcac6e7",
+      "name": "Lakshmi Venkat",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "lakshmi.chn@gmail.com",
+          "new": "lakshmi.venkat73@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ee90b7b0-f6f0-4c20-b326-6796028cc4e4",
+      "name": "Suresh Kumar",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "suresh.chn@gmail.com",
+          "new": "suresh.kumar@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "4276b363-75cc-46c8-b132-6192885a07dd",
+      "name": "Priya Sundaram",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "priya.chn@gmail.com",
+          "new": "psundaram22@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "284cab93-cf42-44a4-a8b9-b970bc37e78c",
+      "name": "Ganesh Raman",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ganesh.chn@gmail.com",
+          "new": "graman1987@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "6ffab10c-7109-4a17-b746-afd39d125bab",
+      "name": "Divya Krishnan",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "divya.chn@gmail.com",
+          "new": "divyakrishnan2004@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "2ec4472e-1adb-4178-87bf-7a05c97226f5",
+      "name": "Arun Prasad",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "arun.chn@gmail.com",
+          "new": "arun.prasad2001@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "3eb8ac48-02bd-4092-a5ac-fe34da6c3adf",
+      "name": "Shalini Iyer",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "shalini.chn@gmail.com",
+          "new": "shalini1999@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "4a5b51bb-c555-42ad-946d-0ad2459da2bb",
+      "name": "Sourav Banerjee",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sourav.kol@gmail.com",
+          "new": "souravbanerjee71@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "b7d2b5c5-2d13-4ae0-a2d8-da669de785f1",
+      "name": "Riya Chatterjee",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "riya.kol@gmail.com",
+          "new": "riya_chatterjee@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "2af97970-a915-4f64-9a2d-823b3b041a9d",
+      "name": "Abhishek Das",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "abhishek.kol@gmail.com",
+          "new": "abhishek.das@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "a498dc76-24d9-4440-ab62-3fdfc396f323",
+      "name": "Sudipa Mukherjee",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sudipa.kol@gmail.com",
+          "new": "sudipamukherjee69@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "c90cc8b8-552a-4706-a33d-8db6ae05d447",
+      "name": "Arindam Sen",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "arindam.kol@gmail.com",
+          "new": "arindam.sen1994@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "b5d055cf-5312-42f8-b2e8-5b9cf4cd7927",
+      "name": "Piyali Roy",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "piyali.kol@gmail.com",
+          "new": "piyali.roy@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ad39910a-dfe4-42ce-ab28-d44c0c069bb1",
+      "name": "Debjit Chakraborty",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "debjit.kol@gmail.com",
+          "new": "debjit95@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "4048ea6b-426c-4f24-9d79-8f31cb306381",
+      "name": "Moumita Ghosh",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "moumita.kol@gmail.com",
+          "new": "mghosh66@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "4d07ed00-5cef-4fa0-905f-1af4a19fe330",
+      "name": "Nikunj Shah",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "nikunj.amd@gmail.com",
+          "new": "nikunj.shah90@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "0130fbb9-a111-4905-a652-385e5cfadeef",
+      "name": "Foram Trivedi",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "foram.amd@gmail.com",
+          "new": "foram.trivedi1986@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "229a40cd-0634-43f7-b59e-4580e1926a51",
+      "name": "Jignesh Patel",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "jignesh.amd@gmail.com",
+          "new": "jignesh.patel1987@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e9286117-dbc5-4bf9-b53d-95d38f6af625",
+      "name": "Payal Desai",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "payal.amd@gmail.com",
+          "new": "payal.desai1985@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "9c33940f-9a62-411e-aeba-3516a6200102",
+      "name": "Mitul Joshi",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mitul.amd@gmail.com",
+          "new": "mjoshi65@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "9bf8159d-47ae-4554-b160-183a1046443b",
+      "name": "Hardik Mehta",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hardik.amd@gmail.com",
+          "new": "hmehta53@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "1913f85f-211f-41f5-8552-63e7b6306a0a",
+      "name": "Bhavna Shah",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "bhavna.amd@gmail.com",
+          "new": "bhavna.shah@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "6182aac3-9313-4b3c-aa1e-341150e369ce",
+      "name": "Ketan Solanki",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ketan.amd@gmail.com",
+          "new": "ksolanki2000@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "24e81f33-49cb-47ac-9932-3c5dbde6d3dc",
+      "name": "Rohit Agarwal",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rohit.jai@gmail.com",
+          "new": "ragarwal2000@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "3fdc26b1-f9b1-49f7-a885-58209d6f5be2",
+      "name": "Neha Gupta",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "neha.jai@gmail.com",
+          "new": "neha.gupta1982@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "bffcbf89-4c3f-400d-b10a-ce4842f8845e",
+      "name": "Manish Sharma",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "manish.jai@gmail.com",
+          "new": "manish.sharma73@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "655679ca-88e2-4073-b5da-4ed4c9065080",
+      "name": "Sunita Rathore",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sunita.jai@gmail.com",
+          "new": "sunita.rathore@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "863529e4-1f47-4ab0-be46-e9217ea544e2",
+      "name": "Vikas Choudhary",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "vikas.jai@gmail.com",
+          "new": "vikaschoudhary51@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "b4f24fc9-c85c-4f0d-a942-e3fcc6cb62bf",
+      "name": "Pooja Sharma JAI",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "pooja.jai@gmail.com",
+          "new": "pooja74@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "944a4523-6f5c-477e-96f8-56fdd96b43d6",
+      "name": "Anil Jain",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anil.jai@gmail.com",
+          "new": "anil59@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "191be4df-bd8a-4269-8584-4011c0191758",
+      "name": "Kavita Meena",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kavita.jai@gmail.com",
+          "new": "kavitameena1991@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "590540ea-6d5d-404b-8f02-a98dd5e6751b",
+      "name": "Anoop Nair",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anoop.koc@gmail.com",
+          "new": "anoop.nair@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "f27720bf-baa2-41d4-86e9-259d09bd0499",
+      "name": "Sreelakshmi Menon",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sreelakshmi.koc@gmail.com",
+          "new": "sreelakshmi.menon@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "e42f8d0e-8224-4e20-923e-3c9062bf1d77",
+      "name": "Jose Thomas",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "jose.koc@gmail.com",
+          "new": "jthomas58@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "d97cfb1d-1c21-451d-9165-9467a1808070",
+      "name": "Anjali Pillai",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anjali.koc@gmail.com",
+          "new": "apillai39@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "ff2d92c8-1aa9-4292-a1b4-605e475745c2",
+      "name": "Bibin Varghese",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "bibin.koc@gmail.com",
+          "new": "bibin.varghese@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "1da96225-bfa7-4970-9cd6-4d4d301d209f",
+      "name": "Divya Krishnan KOC",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "divyak.koc@gmail.com",
+          "new": "dkrishnan67@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "a4954c2e-d730-4be2-b709-cc698e4a9ca0",
+      "name": "Renjith Kumar",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "renjith.koc@gmail.com",
+          "new": "renjithkumar87@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "8f40d76c-a1c1-4770-8a8e-5c5ce5825a52",
+      "name": "Athira Suresh",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "athira.koc@gmail.com",
+          "new": "athira.suresh2004@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "33022370-949a-4070-9007-f0f7ad5014d8",
+      "name": "Abhinav Srivastava",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "abhinav.lko@gmail.com",
+          "new": "abhinavsrivastava1992@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "791e93e8-3957-440a-98c6-b8c2726d8973",
+      "name": "Shreya Tiwari",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "shreya.lko@gmail.com",
+          "new": "shreya.tiwari48@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "fe937e97-57f9-46f5-9280-1d8189d1a523",
+      "name": "Rahul Mishra",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rahul.lko@gmail.com",
+          "new": "rahulmishra85@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "0f5fafaf-8fa0-4eb9-b1db-38258ce64c13",
+      "name": "Anjali Verma LKO",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anjali.lko@gmail.com",
+          "new": "anjali.verma@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "24882977-4f3e-4c0f-a2c4-f86c6a6d6772",
+      "name": "Sanjay Pandey",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sanjay.lko@gmail.com",
+          "new": "sanjay_pandey66@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "41c77f0d-f075-4464-b2f7-7c49c90249a8",
+      "name": "Priyanka Dubey",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "priyanka.lko@gmail.com",
+          "new": "priyanka.dubey35@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "7b0703de-e8cf-444e-a852-f3038d868df9",
+      "name": "Ashish Tripathi",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ashish.lko@gmail.com",
+          "new": "ashish.tripathi2003@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "buyer",
+      "id": "a2e9df68-60f8-4588-816e-329e87d75668",
+      "name": "Neelam Singh",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "neelam.lko@gmail.com",
+          "new": "neelamsingh1991@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "3ee4d9ca-b0ea-43a6-8828-90aa851f52a3",
+      "name": "Srinivas Builders",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "srinivas.hyd@gmail.com",
+          "new": "srinivas2003@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6e029c7d-0177-4774-838e-0af95685a8e3",
+      "name": "Rajesh Kumar (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rajesh.hyd@gmail.com",
+          "new": "rkumar1985@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "9d56a768-1c77-45de-a547-dabd0a615fc4",
+      "name": "Sai Realtors",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sai.hyd@gmail.com",
+          "new": "sairealtors1986@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "340d54e4-b1d8-40f8-b7f6-484cc280d3f8",
+      "name": "Prestige Group BLR",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "prestige.blr@gmail.com",
+          "new": "prestige.group@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "02bcc97e-e625-46f3-bb48-a3d2041006f1",
+      "name": "Anand Murthy (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anand.blr@gmail.com",
+          "new": "anand.murthy@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "b7ac9555-a4e5-4ab4-bdec-be6d885e0a7f",
+      "name": "Brigade Realty",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "brigade.blr@gmail.com",
+          "new": "brigade_realty1987@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "30727d5c-ca86-4e76-ae92-a624ba846a3c",
+      "name": "Lodha Group MUM",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "lodha.mum@gmail.com",
+          "new": "lodhagroup1987@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "faf3d20e-e188-4929-803a-c8181188e620",
+      "name": "Sunita Verma (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sunita.mum@gmail.com",
+          "new": "sunita.verma2001@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "48240fdf-97e2-486d-86db-b94db431a33c",
+      "name": "Hiranandani Agents",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hiranandani.mum@gmail.com",
+          "new": "hagents23@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "4c2ae476-ee61-4b35-acb4-019f42ac5392",
+      "name": "Kolte Patil Developers",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kolte.pun@gmail.com",
+          "new": "kolte18@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "39623960-5f92-40e2-80a5-e55655ff5128",
+      "name": "Amit Shah (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "amit.pun@gmail.com",
+          "new": "amit.shah95@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "d2a30832-f8e9-4f85-aa77-754c74bd54b1",
+      "name": "Kumar Properties Pune",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kumar.pun@gmail.com",
+          "new": "kumarproperties47@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "2899d130-1781-40a7-a9e0-910968648a03",
+      "name": "Casagrand Group",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "casagrand.chn@gmail.com",
+          "new": "casagrand.group2005@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "3a0148b5-8a7f-4564-84eb-c2111974af68",
+      "name": "Ramesh Iyer (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ramesh.chn@gmail.com",
+          "new": "rameshiyer1983@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "8695dd2f-9494-4065-8708-64ce25a04e49",
+      "name": "Alliance Realtors CHN",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "alliance.chn@gmail.com",
+          "new": "alliance.realtors69@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "c6eadbd2-fc07-4f05-b4e4-4205533de2a5",
+      "name": "Samuel David Kale",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "samuel.david@gmail.com",
+          "new": "samuel.david2004@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f2430b71-4e4a-42dd-8f17-d1b221ccd5e3",
+      "name": "Jayesh N Jain",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "jayesh.n@gmail.com",
+          "new": "jn43@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f69b0fba-0b74-498c-b25b-bbea498ffa95",
+      "name": "Merlin Group KOL",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "merlin.kol@gmail.com",
+          "new": "merlingroup1986@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "000879ea-2e76-4c45-944e-274fe4b37c03",
+      "name": "Debashish Ghosh (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "debashish.kol@gmail.com",
+          "new": "debashish72@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f6e2cc68-3704-43f4-8022-a8979cea26f1",
+      "name": "Kolkata Realty Partners",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kolkatarealty.kol@gmail.com",
+          "new": "kolkata.realty86@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "33559f79-f1da-47cf-992a-4f5e5e352eca",
+      "name": "Kiran Patel (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kiran.amd@gmail.com",
+          "new": "kpatel35@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "cb717c52-3a33-4601-88f9-fde5db1e62dc",
+      "name": "Ahmedabad Property Hub",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "aphub.amd@gmail.com",
+          "new": "ahmedabadproperty57@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "05edd493-e079-48b5-8157-78903b687e83",
+      "name": "Mahima Group JAI",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mahima.jai@gmail.com",
+          "new": "mahima.group@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "a8cfaeb2-9c72-4c7c-ab7e-8812256c6ef7",
+      "name": "Rajesh Sharma (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rajesh.jai@gmail.com",
+          "new": "rajesh.sharma@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "99bada4f-dd3d-4dc1-8a17-86181d2b8ac1",
+      "name": "Pink City Realtors",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "pinkcity.jai@gmail.com",
+          "new": "pink_city@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "74965f46-9faf-49c3-b124-6cff519e2f31",
+      "name": "Confident Group KOC",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "confident.koc@gmail.com",
+          "new": "confident_group1999@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "8feab24b-1a3f-419d-a079-de26baf25b8e",
+      "name": "Thomas Varghese (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "thomas.koc@gmail.com",
+          "new": "thomas.varghese84@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "244205c6-daf9-4ea5-b4b0-408daf091ca0",
+      "name": "Kochi Estates",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kochiestates.koc@gmail.com",
+          "new": "kochi.estates1981@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "0848008d-655b-45ed-bb62-a2ca0a30a32b",
+      "name": "Omaxe Lucknow",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "omaxe.lko@gmail.com",
+          "new": "omaxe_lucknow@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "b4ae5938-f826-4d24-a944-ee60b2f27289",
+      "name": "Anil Verma (Owner)",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anil.lko@gmail.com",
+          "new": "averma82@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "d470aab7-40a8-43b6-b3b3-d97806caf908",
+      "name": "Lucknow Homes",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "lucknowhomes.lko@gmail.com",
+          "new": "lhomes73@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6916caac-0163-4999-ac69-429afd2c226d",
+      "name": "SIDDHARTH MITTAL",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "siddharth.mittal@gmail.com",
+          "new": "siddharth.mittal42@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "a089faaa-eb24-4bcb-bbf9-d68ef195a28f",
+      "name": "AMIT KHANDELWAL",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "amit.khandelwal@outlook.com",
+          "new": "amit_khandelwal@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "49354f7d-8594-4738-8a28-054d747fd871",
+      "name": "Unknown",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "unknown@gmail.com",
+          "new": "unknown55@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "c76cb344-ed6b-416a-8b0c-924c9a02e83b",
+      "name": "Anugraha",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anugraha@gmail.com",
+          "new": "anugraha71@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "754d6367-ab77-4951-82c6-b12ee9bbddac",
+      "name": "Rahimulla",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rahimulla@gmail.com",
+          "new": "rahimulla98@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "015623f3-562f-49db-8f0d-d186fdbb9255",
+      "name": "LIV IN OUT",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "liv.in@gmail.com",
+          "new": "liv25@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6f5a9936-3ae2-4670-b71f-76f1b7ecf154",
+      "name": "Naresh",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "naresh@gmail.com",
+          "new": "naresh1994@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "7718af27-fc98-4de1-b53b-33e89a368243",
+      "name": "Prabbha",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "prabbha@outlook.com",
+          "new": "prabbha43@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "e50cb509-7ef1-4e67-8d60-b8a94c8577a2",
+      "name": "FRONTLINE HOMES",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "frontline.homes@outlook.com",
+          "new": "frontline92@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "015413e0-e9fd-4d6e-b292-25b12c862de9",
+      "name": "Hyder Ali",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "hyder.ali@gmail.com",
+          "new": "hyder.ali511@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "50264ec3-5293-4b83-920a-45ad9d11a781",
+      "name": "WAQUAR AHMED",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "waquar.ahmed@gmail.com",
+          "new": "wahmed72@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "4f639495-8f22-4012-9150-b8fa0d45baab",
+      "name": "Bhaskar Pai",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "bhaskar.pai@gmail.com",
+          "new": "bhaskar.pai801@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "d870d946-0bea-465e-a8b1-2b685dd361e5",
+      "name": "Kevin A",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kevin.a@gmail.com",
+          "new": "kevin.a@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "81c90371-3fbc-489b-a698-97554f68be1b",
+      "name": "Ankush",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ankush@gmail.com",
+          "new": "ankush2002@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "4a6905f3-6a74-48db-88f3-31e3ae4ea22a",
+      "name": "Inbengaluru Properties",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "inbengaluru.properties@gmail.com",
+          "new": "inbengaluru.properties63@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "28db2e8e-6fc0-4dba-9d2b-4e9ad6e7b0bc",
+      "name": "MYFRA DISTRIBUTION PRIVATED LIMITED",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "myfra.distribution@gmail.com",
+          "new": "mdistribution861@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "70b1923c-cea1-49ad-9c2e-797c76eb7001",
+      "name": "Deekshith Gowda",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "deekshith.gowda@yahoo.com",
+          "new": "deekshith.gowda@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f37c45fb-6407-48b4-a31c-da47ac99381a",
+      "name": "Mr.UMESH",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mr.umesh@gmail.com",
+          "new": "mumesh1981@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6b3b193e-e7e8-4cdd-8d52-c81c32c25dab",
+      "name": "SACHIN VASANT DESALE",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sachin.vasant@outlook.com",
+          "new": "sachin.vasant1996@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "2edf1e5b-87d7-44d8-8ad8-fd22466f8fae",
+      "name": "MITESH ADVIRKAR",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mitesh.advirkar@yahoo.com",
+          "new": "mitesh.advirkar40@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "ffba6e4a-a60b-4538-a429-6c0f536289a6",
+      "name": "VM.World realty",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "vm.world@gmail.com",
+          "new": "vworld31@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "b8f8c9b2-5b00-48aa-b990-7ebfc5d13e75",
+      "name": "Rahul Kumar",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rahul.kumar@yahoo.com",
+          "new": "rkumar52@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "823c7cf3-a14c-4ce3-8c48-36355a28ac88",
+      "name": "Alok",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "alok@yahoo.com",
+          "new": "alok20@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "7894d9ac-1e9d-4bdf-8f86-ca24f799a9dc",
+      "name": "PAWAN PRAMOD CHANDIRAMANI",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "pawan.pramod@gmail.com",
+          "new": "pawan.pramod89@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "5c129035-8b55-4f10-ac7b-0d51b5d5939c",
+      "name": "Welhome Infra Estate LLP",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "welhome.infra@gmail.com",
+          "new": "welhome.infra30@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "9240e6db-acf3-40c7-9524-664bb7ca8d5a",
+      "name": "Kanish Arora",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kanish.arora@yahoo.com",
+          "new": "kanish.arora@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "7aa35269-96ac-462b-91ca-cc1b0e0d290b",
+      "name": "Santosh Property",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "santosh.property@outlook.com",
+          "new": "sproperty87@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f7f0f080-7da8-4211-a5aa-25a4067c88b8",
+      "name": "Krishna ",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "krishna@gmail.com",
+          "new": "krishna1986@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "ed5d2fe5-8491-4238-931b-57e01646d5cb",
+      "name": "SAR GROUPS",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sar.groups@rediffmail.com",
+          "new": "sar_groups@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6ae0deb4-8cef-4a2c-be25-248736bcc017",
+      "name": "Arun Balaji",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "arun.balaji@gmail.com",
+          "new": "arun_balaji221@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6d5dc22a-d316-470e-ab52-02e631f2ed0a",
+      "name": "Ram Empero",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "ram.empero@gmail.com",
+          "new": "ram50@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "604c1d0f-fd44-4955-ad22-59fb0d0d472f",
+      "name": "Kumar",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kumar@gmail.com",
+          "new": "kumar1994@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "a64545e9-ee7a-4404-b48a-a5f1cc66ee7f",
+      "name": "Anirudh",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "anirudh@gmail.com",
+          "new": "anirudh76@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "141ec1fe-3c58-46c1-a5fa-022c542e26d5",
+      "name": "Nabanita",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "nabanita@gmail.com",
+          "new": "nabanita70@rediffmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "7086ac85-2dfe-4997-a197-0e938644d517",
+      "name": "yasmin shah",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "yasmin.shah@yahoo.com",
+          "new": "yasmin.shah49@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "a31248ff-2635-46d8-b556-64ae552fb29f",
+      "name": "Pramod",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "pramod@rediffmail.com",
+          "new": "pramod81@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "83280185-10dc-4c1e-9453-220fe7d0bb56",
+      "name": "Mujeeb Khan",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "mujeeb.khan@gmail.com",
+          "new": "mkhan1986@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "62363f23-791d-4097-9f5d-c374250fe990",
+      "name": "Sanjay V",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "sanjay.v@gmail.com",
+          "new": "sv58@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "266a1902-e7dc-4eec-a077-65f1a5aa7065",
+      "name": "Yakoob",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "yakoob@gmail.com",
+          "new": "yakoob1986@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "d678d942-e9af-48e4-92f8-ca029a789d35",
+      "name": "NAGARAJU H T",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "nagaraju.h@outlook.com",
+          "new": "nagarajuh90@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "87903a05-d7e8-4f95-a77d-94ba3b7a0cc6",
+      "name": "Prakash",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "prakash@yahoo.com",
+          "new": "prakash52@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "32ca2d9d-bc51-4d7f-b440-469289bd85fc",
+      "name": "Misbah",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "misbah@gmail.com",
+          "new": "misbah99@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "261af1b6-1eb3-4348-91e6-ee719e2b3e50",
+      "name": "Deva",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "deva@rediffmail.com",
+          "new": "deva21@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "4191dfb2-c8fd-41da-a160-fa338adcb223",
+      "name": "Arham Real Estate Consultants",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "arham.real@gmail.com",
+          "new": "arhamreal19981@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6e76ce75-0897-4f61-89a6-6df8914c70d2",
+      "name": "Agarwal Homez",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "agarwal.homez@gmail.com",
+          "new": "agarwalhomez97@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f4895690-be36-40c1-a618-13b93987e6b7",
+      "name": "STELLAR PROPERTY ",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "stellar.property@gmail.com",
+          "new": "stellarproperty27@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "9b90e835-69c8-4437-95c6-f4b8d796828e",
+      "name": "Girish Mehta",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "girish.mehta@gmail.com",
+          "new": "gmehta44@yahoo.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "a2241d65-e33b-4944-adb8-8137e4b129ba",
+      "name": "Rahul",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "rahul@gmail.com",
+          "new": "rahul1980@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "12a64a20-2e09-45e9-8229-8620779ed34a",
+      "name": "Arnav Properties",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "arnav.properties@gmail.com",
+          "new": "arnavproperties34@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "c8b66447-cef3-4a7e-b47b-8c898d015313",
+      "name": "Nine Property Wala Sonu Malhotra",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "nine.property@gmail.com",
+          "new": "nine.property@outlook.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "3a426864-83d8-47e0-a14d-aefc84477057",
+      "name": "Investors Vision",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "investors.vision@gmail.com",
+          "new": "ivision2005@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "5e6e8028-d6d2-466f-9b95-61eddf279155",
+      "name": "VICTOR SAVIO DSOUZA",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "victor.savio@gmail.com",
+          "new": "vsavio191@gmail.com"
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "7dfcc7e5-c06e-4283-942a-6052fe49865f",
+      "name": "Kalpesh Patel",
+      "changes": [
+        {
+          "field": "email",
+          "prior": "kalpesh.patel@outlook.com",
+          "new": "kalpesh_patel@gmail.com"
+        }
+      ]
+    }
+  ]
+}
