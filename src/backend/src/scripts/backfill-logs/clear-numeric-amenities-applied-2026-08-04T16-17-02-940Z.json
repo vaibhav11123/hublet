@@ -1,0 +1,630 @@
+{
+  "apply": true,
+  "updated": 52,
+  "rows": [
+    {
+      "table": "property",
+      "id": "5738c97b-76d0-4a95-97cf-863dd010a798",
+      "name": "4 BHK Flat in Akurdi, Pune",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"53\",\"17\",\"2\",\"20\",\"50\",\"9\",\"36\",\"1\",\"19\",\"6\",\"23\",\"24\",\"3\",\"12\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "82a31967-9586-4f8e-bb8e-483448b2460d",
+      "name": "3 BHK Flat in Ahinsa Khand 1, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\",\"5\",\"2\",\"50\",\"39\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "0986b756-d53a-42f9-8b1f-055039a58976",
+      "name": "2 BHK Flat in Sector 1 Vaishali, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\",\"52\",\"2\",\"50\",\"29\",\"101\",\"102\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "9ead5df2-e178-4c58-ac7e-4b040e0fa276",
+      "name": "3 BHK Flat in Infantry Road, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"2\",\"18\",\"50\",\"44\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "bc2d9891-8847-4e1c-a274-65f188a27c21",
+      "name": "Residential land / Plot in Shivaji Nagar, MG Road",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"82\",\"83\",\"84\",\"85\",\"18\",\"24\",\"26\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "ec743b08-d941-4a86-804b-d87bc52eab9b",
+      "name": "3 BHK Flat in Frazer Town, Bangalore Central",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"5\",\"2\",\"17\",\"50\",\"9\",\"36\",\"47\",\"40\",\"41\",\"42\",\"25\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "445bd2ec-ea93-4940-a05c-dc373f9c22ae",
+      "name": "5 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"2\",\"52\",\"50\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "cba9fdfc-1d4f-4ee0-bfcf-96af3de01f6f",
+      "name": "3 BHK Flat in Cooke Town, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"5\",\"2\",\"17\",\"50\",\"9\",\"36\",\"44\",\"41\",\"42\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "a83a299d-40e0-4944-8af8-002b6e1ae492",
+      "name": "Residential land / Plot in Jeevanhalli, Pulikeshi Nagar",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"18\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "11843e85-96c4-404c-a6a7-9dda33927e58",
+      "name": "3 BHK Flat in Richmond Town, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"17\",\"2\",\"18\",\"20\",\"52\",\"50\",\"9\",\"19\",\"44\",\"23\",\"45\",\"24\",\"47\",\"39\",\"40\",\"41\",\"42\",\"43\",\"25\",\"26\",\"31\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f8ac4e67-9d3b-49fa-86cb-127e46042fad",
+      "name": "2 BHK Flat in Seshadripuram, Bangalore Central",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"17\",\"2\",\"5\",\"50\",\"44\",\"24\",\"47\",\"39\",\"40\",\"30\",\"41\",\"42\",\"33\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "85b8160e-bba9-4a59-87bd-233f2e40a11c",
+      "name": "3 BHK Flat in Vasanth nagar, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"50\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "53abf74c-9aec-4ff6-aad5-f45a8b39d655",
+      "name": "3 Bedroom House in Shanthala Nagar, Ashok Nagar",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"52\",\"18\",\"2\",\"50\",\"9\",\"24\",\"40\",\"41\",\"43\",\"26\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "16c36c86-87b3-42ff-8d96-5bf53acc94e0",
+      "name": "3 BHK Flat in Richards Park, Richards Town, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"49\",\"2\",\"17\",\"5\",\"20\",\"50\",\"51\",\"19\",\"44\",\"23\",\"24\",\"47\",\"39\",\"40\",\"41\",\"42\",\"25\",\"26\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "2d4db0af-6c6d-4340-bcfd-2eeed75e501d",
+      "name": "3 BHK Flat in Cooke Town, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\",\"52\",\"2\",\"50\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e15eed68-6c5c-41ff-bd63-3c8a3076a8b7",
+      "name": "3 BHK Flat in Pulikeshi Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"10\",\"2\",\"50\",\"44\",\"45\",\"39\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e95f019f-9e92-4f40-bff6-c2f384765f4e",
+      "name": "3 BHK Flat in Doddamavalli, Mission Road, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"49\",\"18\",\"10\",\"2\",\"50\",\"46\",\"39\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e3383dce-d081-4e38-850b-9944659aafef",
+      "name": "2 BHK Flat in Malad East, Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"18\",\"2\",\"50\",\"44\",\"29\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e99a1fe4-0da3-47cc-a705-4167b9d491b8",
+      "name": "2 BHK Flat in Naupada, Thane West",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"18\",\"2\",\"52\",\"50\",\"6\",\"29\",\"40\",\"33\",\"26\",\"101\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e2c66c85-fcf9-4f46-8b65-2ebc73c80baf",
+      "name": "2 BHK Flat in Dadar West, Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"2\",\"50\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d147239b-1b05-4995-a01d-4b23b9c98979",
+      "name": "2 BHK Flat in Waghbil, Thane West",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"17\",\"2\",\"20\",\"18\",\"52\",\"51\",\"19\",\"6\",\"23\",\"24\",\"101\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "38690c7a-02e3-4d3d-a83b-3d7caa361c75",
+      "name": "4 BHK Builder Floor in Niti Khand 1, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"50\",\"18\",\"52\",\"5\",\"9\",\"19\",\"44\",\"45\",\"29\",\"39\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "1c929b4a-a801-43b6-8823-0c5e2da9b2e7",
+      "name": "3 BHK Builder Floor in Shakti Khand 4, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"50\",\"18\",\"52\",\"5\",\"9\",\"19\",\"44\",\"45\",\"29\",\"39\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "6caead93-ae34-4fe1-b426-8268c01577e0",
+      "name": "3 BHK Flat in Lokhandwala Andheri West, Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\",\"52\",\"2\",\"50\",\"101\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "00c262bc-d92b-49db-8e16-2d7f28357e39",
+      "name": "2 BHK Flat in Tilak nagar, Chembur",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"17\",\"2\",\"20\",\"50\",\"9\",\"36\",\"19\",\"23\",\"24\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "956d3934-2ae2-4efd-85b8-d32a957a7136",
+      "name": "4 BHK Flat in Ahinsa Khand 2, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"2\",\"5\",\"50\",\"44\",\"45\",\"46\",\"29\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "1b5e5a11-93d5-46e2-ae6d-a6b7e4191aeb",
+      "name": "3 BHK Builder Floor in Gyan Khand 1, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"50\",\"51\",\"18\",\"52\",\"5\",\"2\",\"19\",\"44\",\"45\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f17bac5b-d7b4-4f94-af04-13fbaeded44b",
+      "name": "2 BHK Flat in Sector 34 Kamothe, Navi Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"49\",\"5\",\"10\",\"2\",\"50\",\"44\",\"45\",\"46\",\"39\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "843c42dd-8716-4248-a730-fb1274dc8eb2",
+      "name": "1 BHK Flat in Airoli, Navi Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"2\",\"51\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "31841bc0-5290-437f-a112-e35ef5b9b835",
+      "name": "3 BHK Flat in Ahinsa Khand 2, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\",\"2\",\"5\",\"10\",\"50\",\"44\",\"45\",\"39\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "40725e65-e949-4c33-a446-be48a99f4137",
+      "name": "5 Bedroom House in Dasna, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"9\",\"6\",\"4\",\"3\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "59c2ab43-c78b-45bf-bb3b-700ffe6b7f61",
+      "name": "6 BHK Flat in Mission Road, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"53\",\"49\",\"2\",\"10\",\"32\",\"17\",\"18\",\"5\",\"20\",\"50\",\"9\",\"36\",\"1\",\"19\",\"6\",\"29\",\"44\",\"23\",\"24\",\"46\",\"47\",\"28\",\"30\",\"40\",\"41\",\"42\",\"43\",\"3\",\"12\",\"25\",\"26\",\"31\",\"33\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "b47700bf-e5f9-4d6c-8d4c-81510c35b380",
+      "name": "4 Bedroom House in Ashok Nagar, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"53\",\"18\",\"2\",\"50\",\"52\",\"1\",\"9\",\"19\",\"6\",\"23\",\"24\",\"3\",\"12\",\"25\",\"26\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "79068da7-08fa-40b2-b334-2e8cfcbc28f1",
+      "name": "5 Bedroom House in Seshadripuram, Bangalore Central",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"51\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f1410fcd-adf8-462e-8b51-05a108820c22",
+      "name": "5 BHK Flat in Richmond Town, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"51\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d08ac0e1-d096-4a88-b5d8-a61a513da855",
+      "name": "2 BHK Flat in Jogupalya, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"50\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "f3c1081a-7cd8-44c1-bcbd-1540b47e7efd",
+      "name": "3 BHK Flat in Frazer Town, Bangalore Central",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"50\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "56032d89-6aa6-46a7-9a08-f391ef74e219",
+      "name": "3 BHK Builder Floor in S.J.P Road Cross, Avenue Road, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "e863d972-335e-44ba-83d6-25a4ba326b1e",
+      "name": "2 BHK Flat in halls road, Bangalore Central",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"17\",\"18\",\"52\",\"50\",\"23\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "cda89465-a051-4ff6-9b53-ec51b9e39c53",
+      "name": "2 Bedroom House in Shamanna Gowda Layout, Jogupalya, Bangalore",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"18\",\"50\",\"24\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "7d834c7d-96f4-4858-ae40-39656b7c7475",
+      "name": "2 BHK Flat in Dadar West, Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"5\",\"2\",\"17\",\"52\",\"50\",\"9\",\"19\",\"29\",\"24\",\"40\",\"41\",\"43\",\"26\",\"101\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "48907df5-fce8-4243-8e3c-38ecafeb0d5b",
+      "name": "3 BHK Flat in Siddharth Vihar, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"4\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "83ca4b32-9a29-4b01-b0c1-151b0e9fb79d",
+      "name": "4 BHK Flat in Sector 15 Belapur, Navi Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"49\",\"5\",\"50\",\"44\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "ba926f33-e13d-4d7a-9d77-e9252a30c325",
+      "name": "2 BHK Flat in Panch Pakhadi, Thane West",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"52\",\"2\",\"50\",\"6\",\"29\",\"40\",\"33\",\"26\",\"101\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "d6696bc6-06bf-4d91-a408-aa4af03208ca",
+      "name": "4 BHK Flat in Aditya World City, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"49\",\"18\",\"5\",\"10\",\"2\",\"50\",\"44\",\"45\",\"46\",\"29\",\"103\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "7270008d-d567-4736-9f58-f8b89d5db498",
+      "name": "Residential land / Plot in Chirle, Navi Mumbai",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"18\",\"23\",\"24\",\"26\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "1a839500-b8ba-4231-bdd5-0b848743656e",
+      "name": "3 BHK Flat in Naupada, Thane West",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"18\",\"2\",\"5\",\"20\",\"50\",\"9\",\"19\",\"6\",\"29\",\"23\",\"47\",\"40\",\"26\",\"102\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "8286ea50-a7c3-4173-8bb5-0b0f18a8df8c",
+      "name": "3 BHK Flat in Nyay Khand 2, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"5\",\"2\",\"50\",\"44\",\"39\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "0f35810c-b12f-4272-8e47-39ad49280930",
+      "name": "4 BHK Builder Floor in Indirapuram, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"50\",\"51\",\"52\",\"5\",\"17\",\"19\",\"36\",\"44\",\"45\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "68136a1c-1748-4865-8269-0a2d6f6c81ba",
+      "name": "2 BHK Flat in Balkum, Thane",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"53\",\"2\",\"50\",\"9\",\"36\",\"1\",\"19\",\"29\",\"3\",\"12\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "b424777b-94d7-42f6-a4aa-18e8dcb7d0f1",
+      "name": "2 BHK Flat in Vasant Vihar, Thane West",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"21\",\"5\",\"2\",\"17\",\"20\",\"19\",\"6\",\"23\",\"24\"]",
+          "new": "[]"
+        }
+      ]
+    },
+    {
+      "table": "property",
+      "id": "6a04e609-b5ec-4f1d-9a11-7b671652ce4d",
+      "name": "2 BHK Builder Floor in Shakti Khand 3, Ghaziabad",
+      "changes": [
+        {
+          "field": "amenities",
+          "prior": "[\"50\",\"18\",\"52\",\"5\",\"9\",\"44\",\"45\",\"29\"]",
+          "new": "[]"
+        }
+      ]
+    }
+  ]
+}
