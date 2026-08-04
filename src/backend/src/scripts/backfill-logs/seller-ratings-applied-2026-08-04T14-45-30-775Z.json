@@ -1,0 +1,330 @@
+{
+  "apply": true,
+  "updated": 19,
+  "excludedNewSellers": 36,
+  "rows": [
+    {
+      "table": "seller",
+      "id": "c6eadbd2-fc07-4f05-b4e4-4205533de2a5",
+      "name": "Samuel David Kale",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 3.967620542174868
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 22
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "f2430b71-4e4a-42dd-8f17-d1b221ccd5e3",
+      "name": "Jayesh N Jain",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.713072916685415
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 9
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6916caac-0163-4999-ac69-429afd2c226d",
+      "name": "SIDDHARTH MITTAL",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.698896374659075
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 7
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "a089faaa-eb24-4bcb-bbf9-d68ef195a28f",
+      "name": "AMIT KHANDELWAL",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 3.9131153976486854
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 11
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "49354f7d-8594-4738-8a28-054d747fd871",
+      "name": "Unknown",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.545003574483964
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 4
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "c76cb344-ed6b-416a-8b0c-924c9a02e83b",
+      "name": "Anugraha",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.793326774533384
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 13
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "754d6367-ab77-4951-82c6-b12ee9bbddac",
+      "name": "Rahimulla",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 3.714210793654197
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 12
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "015623f3-562f-49db-8f0d-d186fdbb9255",
+      "name": "LIV IN OUT",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.125273606108891
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 13
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "6f5a9936-3ae2-4670-b71f-76f1b7ecf154",
+      "name": "Naresh",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.612763479250061
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 7
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "7718af27-fc98-4de1-b53b-33e89a368243",
+      "name": "Prabbha",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.2940662695033796
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 7
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "e50cb509-7ef1-4e67-8d60-b8a94c8577a2",
+      "name": "FRONTLINE HOMES",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 3.8274614875033057
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 14
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "015413e0-e9fd-4d6e-b292-25b12c862de9",
+      "name": "Hyder Ali",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 3.887135235856286
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 11
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "50264ec3-5293-4b83-920a-45ad9d11a781",
+      "name": "WAQUAR AHMED",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.194827769983071
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 4
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "4f639495-8f22-4012-9150-b8fa0d45baab",
+      "name": "Bhaskar Pai",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.252935001638476
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 1
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "d870d946-0bea-465e-a8b1-2b685dd361e5",
+      "name": "Kevin A",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.833662491794693
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 8
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "81c90371-3fbc-489b-a698-97554f68be1b",
+      "name": "Ankush",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.32782453672438
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 8
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "4a6905f3-6a74-48db-88f3-31e3ae4ea22a",
+      "name": "Inbengaluru Properties",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.433751106905181
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 18
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "28db2e8e-6fc0-4dba-9d2b-4e9ad6e7b0bc",
+      "name": "MYFRA DISTRIBUTION PRIVATED LIMITED",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 3.81536186441822
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 6
+        }
+      ]
+    },
+    {
+      "table": "seller",
+      "id": "70b1923c-cea1-49ad-9c2e-797c76eb7001",
+      "name": "Deekshith Gowda",
+      "changes": [
+        {
+          "field": "rating",
+          "prior": 4,
+          "new": 4.814720251307984
+        },
+        {
+          "field": "ratingCount",
+          "prior": 0,
+          "new": 4
+        }
+      ]
+    }
+  ]
+}
