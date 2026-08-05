@@ -3,7 +3,7 @@ name: "Demo Keep-Alive Ping"
 # Render's free tier spins the backend down after 15 minutes idle, causing a
 # slow cold-start (10s+) on the first request of a demo. This pings /health
 # every 10 minutes to keep it warm, but only during the actual demo window
-# (Fri 2026-07-31 00:00 IST through Sun 2026-08-02 23:59:59 IST) - outside
+# (Wed 2026-08-05 00:00 IST through Thu 2026-08-06 23:59:59 IST) - outside
 # that window the job is a harmless no-op, so this workflow file doesn't need
 # to be remembered and deleted the moment the demo ends. Safe to delete
 # entirely once the demo window has passed.
@@ -21,10 +21,10 @@ jobs:
         run: |
           set -euo pipefail
           NOW=$(date -u +%s)
-          # 2026-07-31T00:00:00 IST -> 2026-07-30T18:30:00Z
-          WINDOW_START=$(date -u -d "2026-07-30T18:30:00Z" +%s)
-          # 2026-08-02T23:59:59 IST -> 2026-08-02T18:29:59Z
-          WINDOW_END=$(date -u -d "2026-08-02T18:29:59Z" +%s)
+          # 2026-08-05T00:00:00 IST -> 2026-08-04T18:30:00Z
+          WINDOW_START=$(date -u -d "2026-08-04T18:30:00Z" +%s)
+          # 2026-08-06T23:59:59 IST -> 2026-08-06T18:29:59Z
+          WINDOW_END=$(date -u -d "2026-08-06T18:29:59Z" +%s)
 
           if [ "$NOW" -lt "$WINDOW_START" ] || [ "$NOW" -gt "$WINDOW_END" ]; then
             echo "Outside demo window ($(date -u -d "@$WINDOW_START"Z) to $(date -u -d "@$WINDOW_END"Z) UTC) - skipping ping."
